@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Display customizable markers upon progress bars for videojs players.">
+   <title>Videojs-markers</title>
+   
+   <link href="/static/lib/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/static/doc/general.css" rel="stylesheet">
+   <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
+   <link href="static/lib/videojs-markers/videojs.markers.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="/static/lib/rainbow/themes/github.css">
+
+   
+   <!--[if lt IE 9]><script src="/components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
+ 
+</script>
+</head>
+
+<body cz-shortcut-listen="true">
+   <a href="https://github.com/spchuang/videojs-markers" id="github" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+   <div id="navbar" class="navbar navbar-static-top">
+      <div class="container">
+         <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <a href="/" class="navbar-brand">Videojs-markers</a>
+         <div class="collapse navbar-collapse">
+            <ul class="navbar-nav nav">
+               <li class="active">
+                  <a href="/">Getting started</a>
+               </li>
+               <li>
+                  <a href="https://github.com/spchuang/videojs-markers/releases" target="_blank">Download</a>
+               </li>
+               <li>
+                  <a href="/api">API Documentation</a>
+               </li>
+               <li>
+                  <a href="https://github.com/spchuang/videojs-markers/issues" target="_blank">Bug reports</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <header id="home">
+      <div class="jumbotron masthead">
+      <h1>Videojs-markers</h1>
+      <p class="lead">
+         The easiest way to show ad breaks, breakpoints, and bookmarks on your videojs player.
+      </p>
+      <p>
+         <button type="button" id="demo" class="btn btn-default btn-lg" data-demo="">
+         <span class="glyphicon glyphicon-play"></span>
+         See a demo
+         </button>
+      </p>
+      <ul class="social">
+         <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=spchuang&amp;repo=videojs-markers&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
+         </li>
+         <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=spchuang&amp;repo=videojs-markers&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
+         </li>
+      </ul>
+      </div>
+   </header>
+   
+<section id="demo">
+   <div class="container">
+      <div class="page-header">
+         <h2>Demo <small>let's see it in action!</small></h2>
+      </div>
+      <h3>Basic</h3>
+      <p>Add breakpoints on the video progress bar, hover-over tooltips and break overlays.</p>
+      <video id="basic-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
+         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+      </video>
+      <div class="accordion">
+         <div class="accordion-group">
+            <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_example_markup">
+                  Show code
+               </a>
+            </div>
+            <div id="accordion_example_markup" class="accordion-body collapse">
+               <div class="accordion-inner highlight">
+                  <pre><code data-language="html">&lt;video id="demo" controls preload="none" class="video-js vjs-default-skin"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"&gt;
+&lt;/video&gt;
+
+&lt;script&gt;
+var player = videojs('demo');
+player.markers({
+   markers: [
+      {time: 9.5, text: "this"},
+      {time: 16,  text: "is"},
+      {time: 23.6,text: "so"},
+      {time: 28,  text: "cool"}
+   ]
+});
+&lt;/script&gt;</code></pre>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <h3>Customize markers</h3>
+      <p>Fully customize the styles and text for your markers, tooltip and overlays.</p>
+      <video id="customize-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
+         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+      </video>
+      
+      <h3>Dynamic video</h3>
+      <p>Dynamically add or remove markers on the fly.</p>
+      <video id="dynamic-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
+         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+      </video>
+      
+   </div>
+   
+
+</section>
+   
+<section id="usage">
+  <div class="container">
+    <div class="page-header">
+      <h2>The How-to <small>It's simple!</small></h2>
+    </div>
+    <h3>Add the dependencies</h3>
+    <p>Include <code>jquery.min.js</code>, <code>video-js.css</code> and <code>video.js</code>:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"bootstrap.min.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"bootstrap-tour.min.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
+...
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bootstrap.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bootstrap-tour.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
+    
+    
+   
+    <h3>Setup your tour:</h3>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// Instance the tour</span>
+<span class="kd">var</span> <span class="nx">tour</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Tour</span><span class="p">(</span>
+  <span class="nx">steps</span><span class="o">:</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="nx">element</span><span class="o">:</span> <span class="s2">"#my-element"</span><span class="p">,</span>
+    <span class="nx">title</span><span class="o">:</span> <span class="s2">"Title of my step"</span><span class="p">,</span>
+    <span class="nx">content</span><span class="o">:</span> <span class="s2">"Content of my step"</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nx">element</span><span class="o">:</span> <span class="s2">"#my-other-element"</span><span class="p">,</span>
+    <span class="nx">title</span><span class="o">:</span> <span class="s2">"Title of my step"</span><span class="p">,</span>
+    <span class="nx">content</span><span class="o">:</span> <span class="s2">"Content of my step"</span>
+  <span class="p">}</span>
+<span class="p">]);</span>
+
+<span class="c1">// Initialize the tour</span>
+<span class="nx">tour</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span>
+
+<span class="c1">// Start the tour</span>
+<span class="nx">tour</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span></code></pre></div>
+    <p>Do you want to do more? <a href="api">Read the full documentation.</a></p>
+  </div>
+</section>
+
+   <script src="/static/lib/jquery.js"></script>
+   <script src="/static/lib/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+   <script src="http://vjs.zencdn.net/4.3/video.js"></script>
+   <script src='/static/lib/videojs-markers/videojs-markers.min.js'></script>
+   <script src="/static/lib/rainbow/rainbow-custom.min.js"></script>
+   <script>
+   // initialize video.js
+   var basicDemoPlayer = videojs('basic-demo');
+
+   //load the marker plugin
+   basicDemoPlayer.markers({
+      markers: [
+         {
+            time: 9.5,
+            text: "this"
+         },
+         {
+            time: 16,
+            text: "is"
+         },
+         {
+            time: 23.6,
+            text: "so"
+         },
+         {
+            time: 28,
+            text: "cool"
+         }
+      ]
+   });
+</script>
+   
+</body>
+</html>

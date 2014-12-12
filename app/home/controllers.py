@@ -7,6 +7,11 @@ home = Blueprint('home', __name__)
 @home.route('/health_check')
 def healthy():
    return jsonify(status='good')
+   
+@home.route('/videojs-markers')
+def videojs_markers():
+   return render_template('videojs-markers.html');
+
 
 @home.route('/')
 def index():
