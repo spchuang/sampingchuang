@@ -10,7 +10,9 @@ DEFAULT_BLUEPRINTS = [
 ]
 
 def create_app():
-   app = Flask(__name__, static_folder='')
+   app = Flask(__name__)
+   
+
    
    #load config
    app.config.from_object(Config)
