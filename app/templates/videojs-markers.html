@@ -16,7 +16,6 @@
 
    
    <!--[if lt IE 9]><script src="/components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
- 
 </script>
 </head>
 
@@ -29,17 +28,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
          </button>
-         <a href="/" class="navbar-brand">Videojs-markers</a>
+         <a href="/videojs-markers" class="navbar-brand">Videojs-markers</a>
          <div class="collapse navbar-collapse">
             <ul class="navbar-nav nav">
-               <li class="active">
-                  <a href="/">Getting started</a>
-               </li>
                <li>
                   <a href="https://github.com/spchuang/videojs-markers/releases" target="_blank">Download</a>
-               </li>
-               <li>
-                  <a href="/api">API Documentation</a>
                </li>
                <li>
                   <a href="https://github.com/spchuang/videojs-markers/issues" target="_blank">Bug reports</a>
@@ -79,7 +72,7 @@
       </div>
       <h3>Basic</h3>
       <p>Add breakpoints on the video progress bar, hover-over tooltips and break overlays.</p>
-      <video id="basic-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
+      <video id="basic-demo" controls class="video-js vjs-default-skin" width="640" height="264">
          <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
          <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
       </video>
@@ -92,7 +85,7 @@
             </div>
             <div id="accordion_example_markup" class="accordion-body collapse">
                <div class="accordion-inner highlight">
-                  <pre><code data-language="html">&lt;video id="demo" controls preload="none" class="video-js vjs-default-skin"&gt;
+                  <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
    &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
    &lt;source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"&gt;
 &lt;/video&gt;
@@ -139,38 +132,174 @@ player.markers({
     </div>
     <h3>Add the dependencies</h3>
     <p>Include <code>jquery.min.js</code>, <code>video-js.css</code> and <code>video.js</code>:</p>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"bootstrap.min.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"bootstrap-tour.min.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
+
+   <div class="accordion-inner highlight">
+      <pre><code data-language="html">&lt;link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet"&gt;
+&lt;link href="src/to/videojs.markers.css" rel="stylesheet"&gt;
 ...
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bootstrap.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bootstrap-tour.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
-    
-    
+&lt;script src="http://code.jquery.com/jquery-2.0.3.min.js"&gt; &lt;/script&gt;
+&lt;script src="http://vjs.zencdn.net/4.3/video.js"&gt;&lt;/script&gt;
+&lt;script src='src/to/videojs.markers.js'&gt;&lt;/script&gt;</code>
+      </pre>
+   </div>
+
+   <h3>Setup your markers:</h3>
+   <div class="accordion-inner highlight">
+      <pre><code data-language="javascript">// initialize video.js
+var player = videojs('video-id');
+
+//load the marker plugin
+player.markers({
+   markers: [
+      {
+         time: 9.5,
+         text: "put"
+      },
+      {
+         time: 16,
+         text: "any"
+      },
+      {
+         time: 23.6,
+         text: "text"
+      },
+      {
+         time: 28,
+         text: "here"
+      }
+   ]
+});</code></pre>
+   </div>
+</section>
+
+<section id="option">
+  <div class="container">
+    <div class="page-header">
+      <h2>Options <small>Let's get deeper</small></h2>
+    </div>
+    <h3>Default Global options</h3>
+    <div class="accordion-inner highlight">
+      <pre><code data-language="javascript">// setup plugin
+player.markers({
+   markerStyle: {
+      'width':'7px',
+      'border-radius': '30%',
+      'background-color': 'red'
+   },
+   markerTip:{
+      display: true,
+      text: function(marker) {
+         return "Break: "+ marker.text;
+      }
+   },
+   breakOverlay:{
+      display: true,
+      displayTime: 3,
+      text: function(marker) {
+         return "Break overlay: " + marker.text;
+      },
+      style:{
+         'width':'100%',
+         'height': '20%',
+         'background-color': 'rgba(0,0,0,0.7)',
+         'color': 'white',
+         'font-size': '17px'
+      }
+   },
+   onMarkerReached: function(marker) {},
+   markers: [{
+      time: 9.5, 
+      text: "marker", 
+      overlay: 'overlay', 
+      class: 'custom-marker'
+   }]
+});
+// plugin api
+player.markers.next();
+player.markers.prev();
+player.markers.remove([1,2]);
+player.markers.removeAll();
+player.markers.add([{ time: 40, text: "I'm added"}]);
+player.markers.reset([{ time: 23, text: "I'm reset"}]);
+player.markers.destroy();</code></pre>
+   </div>
    
-    <h3>Setup your tour:</h3>
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// Instance the tour</span>
-<span class="kd">var</span> <span class="nx">tour</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Tour</span><span class="p">(</span>
-  <span class="nx">steps</span><span class="o">:</span> <span class="p">[</span>
-  <span class="p">{</span>
-    <span class="nx">element</span><span class="o">:</span> <span class="s2">"#my-element"</span><span class="p">,</span>
-    <span class="nx">title</span><span class="o">:</span> <span class="s2">"Title of my step"</span><span class="p">,</span>
-    <span class="nx">content</span><span class="o">:</span> <span class="s2">"Content of my step"</span>
-  <span class="p">},</span>
-  <span class="p">{</span>
-    <span class="nx">element</span><span class="o">:</span> <span class="s2">"#my-other-element"</span><span class="p">,</span>
-    <span class="nx">title</span><span class="o">:</span> <span class="s2">"Title of my step"</span><span class="p">,</span>
-    <span class="nx">content</span><span class="o">:</span> <span class="s2">"Content of my step"</span>
-  <span class="p">}</span>
-<span class="p">]);</span>
-
-<span class="c1">// Initialize the tour</span>
-<span class="nx">tour</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span>
-
-<span class="c1">// Start the tour</span>
-<span class="nx">tour</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span></code></pre></div>
-    <p>Do you want to do more? <a href="api">Read the full documentation.</a></p>
-  </div>
+   <h3>Documentation</h3>
+   <table class="table  table-bordered ">
+      <thead>
+         <tr>
+            <th colspan="2">Name</th>
+            <th>Type</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td colspan="2"><code>markerStyle</code></td>
+            <td>Object</td>
+            <td><code>'tour'</code></td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>markerTip</code></td>
+            <td>Object</td>
+            <td><code>'tour'</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>display</code></td>
+            <td>Boolean</td>
+            <td><code>[]</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>text</code></td>
+            <td>Function</td>
+            <td><code>[]</code></td>
+         </tr>
+         
+         <tr>
+            <td colspan="2"><code>breakOverlay</code></td>
+            <td>Object</td>
+            <td><code>'tour'</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>display</code></td>
+            <td>Boolean</td>
+            <td><code>[]</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>displayTime</code></td>
+            <td>Integer</td>
+            <td><code>[]</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>style</code></td>
+            <td>Object</td>
+            <td><code>[]</code></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td><code>text</code></td>
+            <td>Function</td>
+            <td><code>[]</code></td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>onMarkerReached</code></td>
+            <td>Function</td>
+            <td><code>'tour'</code></td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>markers</code></td>
+            <td>Array</td>
+            <td><code>'tour'</code></td>
+         </tr>
+      </tbody>
+   </table>
+  
+   </div>
 </section>
 
    <script src="/static/lib/jquery.js"></script>
