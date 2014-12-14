@@ -13,7 +13,13 @@
    <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
    <link href="static/lib/videojs-markers/videojs.markers.min.css" rel="stylesheet">
    <link rel="stylesheet" href="/static/lib/rainbow/themes/github.css">
-
+   <style>
+      .special-blue{
+         background-color: #4949d8 !important;
+      }
+      .video-js {padding-top: 56.25%}
+      .vjs-fullscreen {padding-top: 0px}
+   </style>
    
    <!--[if lt IE 9]><script src="/components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
 </script>
@@ -49,7 +55,7 @@
          The easiest way to show ad breaks, breakpoints, and bookmarks on your videojs player.
       </p>
       <p>
-         <button type="button" id="demo" class="btn btn-default btn-lg" data-demo="">
+         <button type="button" id="demo-btn" class="see-demo btn btn-default btn-lg" data-demo="">
          <span class="glyphicon glyphicon-play"></span>
          See a demo
          </button>
@@ -72,18 +78,23 @@
       </div>
       <h3>Basic</h3>
       <p>Add breakpoints on the video progress bar, hover-over tooltips and break overlays.</p>
-      <video id="basic-demo" controls class="video-js vjs-default-skin" width="640" height="264">
-         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
-      </video>
+      
+      <div class="row">
+         <div class="col-md-6 col-xs-12">
+             <video id="basic-demo" controls class="video-js vjs-default-skin" width="auto" height="auto" >
+               <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+               <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+            </video>
+         </div>
+      </div>
       <div class="accordion">
          <div class="accordion-group">
             <div class="accordion-heading">
-               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_example_markup">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_basic_demo">
                   Show code
                </a>
             </div>
-            <div id="accordion_example_markup" class="accordion-body collapse">
+            <div id="accordion_basic_demo" class="accordion-body collapse">
                <div class="accordion-inner highlight">
                   <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
    &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
@@ -108,18 +119,165 @@ player.markers({
       
       <h3>Customize markers</h3>
       <p>Fully customize the styles and text for your markers, tooltip and overlays.</p>
-      <video id="customize-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
-         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
-      </video>
+      <div class="row">
+         <div class="col-md-6 col-xs-12">
+             <video id="customize-demo" controls class="video-js vjs-default-skin" width="auto" height="auto" >
+               <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+               <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+            </video>
+         </div>
+      </div>
+      <div class="accordion">
+         <div class="accordion-group">
+            <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_customize_demo">
+                  Show code
+               </a>
+            </div>
+            <div id="accordion_customize_demo" class="accordion-body collapse">
+               <div class="accordion-inner highlight">
+                  <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"&gt;
+&lt;/video&gt;
+
+&lt;style&gt;
+.special-blue{
+   background-color: #4949d8 !important;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+var player = videojs('demo');
+   
+player.markers({
+   markerStyle: {
+      'width':'9px',
+      'border-radius': '40%',
+      'background-color': 'orange'
+   },
+   markerTip:{
+      display: true,
+      text: function(marker) {
+         return "I am a marker tip: "+ marker.text;
+      }
+   },
+   breakOverlay:{
+      display: true,
+      displayTime: 4,
+      style:{
+         'width':'100%',
+         'height': '30%',
+         'background-color': 'rgba(10,10,10,0.6)',
+         'color': 'white',
+         'font-size': '16px'
+      },
+      text: function(marker) {
+         return "This is a break overlay: " + marker.overlayText;
+      },
+   },
+   markers: [
+      {time: 9.5, text: "this", overlayText: "1", class: "special-blue"},
+      {time: 16,  text: "is", overlayText: "2"},
+      {time: 23.6,text: "so", overlayText: "3"},
+      {time: 28,  text: "cool", overlayText: "4"}
+   ]
+});
+&lt;/script&gt;</code></pre>
+               </div>
+            </div>
+         </div>
+      </div>
       
       <h3>Dynamic video</h3>
       <p>Dynamically add or remove markers on the fly.</p>
-      <video id="dynamic-demo" controls preload="none" class="video-js vjs-default-skin" width="640" height="264">
-         <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-         <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
-      </video>
-      
+      <div class="row">
+         <div class="col-md-6 col-xs-12">
+            <video id="dynamic-demo" controls preload="none" class="video-js vjs-default-skin" width="auto" height="auto">
+               <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+               <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+            </video>
+            <br>
+         </div>
+         <div class="col-md-6 col-xs-12">
+            <div class="btn-group" role="group" aria-label="...">
+               <button class='dynamic-demo-prev btn btn-default' type="button">Prev</button>
+               <button class='dynamic-demo-next btn btn-default' type="button">Next</button>
+               <button class='dynamic-demo-add-random btn btn-default' type="button">Add random</button>
+               <button class='dynamic-demo-remove-first btn btn-default' type="button">Remove 1st</button>
+               <button class='dynamic-demo-remove-all btn btn-default' type="button">Remove all</button>
+               <button class='dynamic-demo-destroy btn btn-default' type="button">Destroy</button>
+            </div>
+            <hr>
+            <ul class="dynamic-demo-events list-group">
+              <li class="list-group-item">Marker reach events:</li>
+              
+           </ul>
+         </div>
+      </div>
+      <div class="accordion">
+         <div class="accordion-group">
+            <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_dynamic_demo">
+                  Show code
+               </a>
+            </div>
+            <div id="accordion_dynamic_demo" class="accordion-body collapse">
+               <div class="accordion-inner highlight">
+                  <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"&gt;
+&lt;/video&gt;
+
+&lt;script&gt;
+var player = videojs('demo');
+player.markers({
+   breakOverlay:{
+      display: true
+   },
+   onMarkerReached: function(marker){
+      $('.dynamic-demo-events').append('<li class="list-group-item">Marker reached: '+marker.time+'</li>');
+   },
+   markers: [
+      {time: 9.5, text: "this", overlayText: "1"},
+      {time: 16,  text: "is", overlayText: "2"},
+      {time: 23.6,text: "so", overlayText: "3"},
+      {time: 28,  text: "cool", overlayText: "4"}
+   ]
+});
+
+// setup control handlers
+$(".dynamic-demo-prev").click(function(){
+   player.markers.prev();
+});
+$(".dynamic-demo-next").click(function(){
+   player.markers.next();
+});
+$(".dynamic-demo-add-random").click(function(){
+   var randomTime = Math.floor((Math.random() * parseInt(player.duration())) + 1);
+
+   // come up with a random time
+   player.markers.add([{
+      time: randomTime,
+      text: "I'm new",
+      overlayText: "I'm new"
+   }]);
+});
+$(".dynamic-demo-remove-first").click(function(){
+   player.markers.remove([0]);
+});
+$(".dynamic-demo-remove-all").click(function(){
+   player.markers.removeAll();
+});
+$(".dynamic-demo-destroy").click(function(){
+   player.markers.destroy();
+});
+&lt;/script&gt;</code></pre>
+               </div>
+            </div>
+         </div>
+      </div>
+    
    </div>
    
 
@@ -177,7 +335,7 @@ player.markers({
     <div class="page-header">
       <h2>Options <small>Let's get deeper</small></h2>
     </div>
-    <h3>Default Global options</h3>
+    <h3>Default Global Options</h3>
     <div class="accordion-inner highlight">
       <pre><code data-language="javascript">// setup plugin
 player.markers({
@@ -203,17 +361,18 @@ player.markers({
          'font-size': '17px'
       },
       text: function(marker) {
-         return "Break overlay: " + marker.text;
+         return "Break overlay: " + marker.overlayText;
       },
    },
    onMarkerReached: function(marker) {},
    markers: [{
       time: 9.5, 
       text: "marker", 
-      overlay: 'overlay', 
+      overlayText: 'overlay', 
       class: 'custom-marker'
    }]
 });
+
 // plugin api
 player.markers.next();
 player.markers.prev();
@@ -328,7 +487,7 @@ player.markers.destroy();</code></pre>
                <pre><code data-language="javascript">{
    time : 10,
    text: "marker text 1", 
-   overlay: 'overlay text 1', 
+   overlayText: 'overlay text 1', 
    class: 'custom-marker-class'
 }</code></pre>
                <p>The <code>time</code> field is required, while the rest are optional. <code>text</code> and <code>overlay</code> are handy fields for setting up the markerTip and overlay text. <code>class</code> should be used when you want to have different colors for different markers which wouldn't be possible with the universal <code>markerStyle</code>.</p>
@@ -360,19 +519,19 @@ player.markers.destroy();</code></pre>
          <tr>
             <td colspan="2"><code>next</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing</p>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
             </td>
          </tr>
          <tr>
             <td colspan="2"><code>prev</code></td>
             <td>
-               <p>Go to the pervious marker from the current time in the video. If there's isn't one, then does nothing</p>
+               <p>Go to the pervious marker from the current time in the video. If there's isn't one, then does nothing.</p>
             </td>
          </tr>
          <tr>
             <td colspan="2"><code>remove</code></td>
             <td>
-               <p>Remove the markers in the given array of indices. Note the index is 0-based (first marker has index 0).</p>
+               <p>Remove the markers in the given array of indices. Note the index is 0-based (e.g. first marker has index 0).</p>
                <p>Remove the 2nd and 3rd marker: </p>
                <pre><code data-language="javascript">player.markers.remove([1,2]);</code></pre>
             </td>
@@ -416,40 +575,124 @@ player.markers.destroy();</code></pre>
 </section>
 <footer class="footer">
    <div class="container">
-      <p>Code licensed under <a href="" target="_blank">MIT License</a></p>
+      <p>Code licensed under <a href="https://raw.githubusercontent.com/spchuang/videojs-markers/master/LICENSE-MIT" target="_blank">MIT License</a></p>
    </div>
 </footer>
 
    <script src="/static/lib/jquery.js"></script>
    <script src="/static/lib/bootstrap-3.3.1/js/bootstrap.min.js"></script>
    <script src="http://vjs.zencdn.net/4.3/video.js"></script>
-   <script src='/static/lib/videojs-markers/videojs-markers.min.js'></script>
+   <script src='/static/lib/videojs-markers/videojs-markers.js'></script>
    <script src="/static/lib/rainbow/rainbow-custom.min.js"></script>
    <script>
-   // initialize video.js
-   var basicDemoPlayer = videojs('basic-demo');
-
-   //load the marker plugin
-   basicDemoPlayer.markers({
-      markers: [
-         {
-            time: 9.5,
-            text: "this"
+   function loadFirstDemo() {
+      var player = videojs('basic-demo');
+   
+      player.markers({
+         markers: [
+            {time: 9.5, text: "this"},
+            {time: 16,  text: "is"},
+            {time: 23.6,text: "so"},
+            {time: 28,  text: "cool"}
+         ]
+      });
+   }
+   function loadSecondDemo() {
+      var player = videojs('customize-demo');
+   
+      player.markers({
+         markerStyle: {
+            'width':'9px',
+            'border-radius': '40%',
+            'background-color': 'orange'
          },
-         {
-            time: 16,
-            text: "is"
+         markerTip:{
+            display: true,
+            text: function(marker) {
+               return "I am a marker tip: "+ marker.text;
+            }
          },
-         {
-            time: 23.6,
-            text: "so"
+         breakOverlay:{
+            display: true,
+            displayTime: 4,
+            style:{
+               'width':'100%',
+               'height': '30%',
+               'background-color': 'rgba(10,10,10,0.6)',
+               'color': 'white',
+               'font-size': '16px'
+            },
+            text: function(marker) {
+               return "This is a break overlay: " + marker.overlayText;
+            },
          },
-         {
-            time: 28,
-            text: "cool"
-         }
-      ]
+         markers: [
+            {time: 9.5, text: "this", overlayText: "1", class: "special-blue"},
+            {time: 16,  text: "is", overlayText: "2"},
+            {time: 23.6,text: "so", overlayText: "3"},
+            {time: 28,  text: "cool", overlayText: "4"}
+         ]
+      });
+   }
+   
+   function loadThirdDemo() {
+      var player = videojs('dynamic-demo');
+      player.markers({
+         breakOverlay:{
+            display: true
+         },
+         onMarkerReached: function(marker){
+            $('.dynamic-demo-events').append('<li class="list-group-item">Marker reached: '+marker.time+'</li>');
+         },
+         markers: [
+            {time: 9.5, text: "this", overlayText: "1"},
+            {time: 16,  text: "is", overlayText: "2"},
+            {time: 23.6,text: "so", overlayText: "3"},
+            {time: 28,  text: "cool", overlayText: "4"}
+         ]
+      });
+      
+      // setup control handlers
+      $(".dynamic-demo-prev").click(function(){
+         player.markers.prev();
+      });
+      $(".dynamic-demo-next").click(function(){
+         player.markers.next();
+      });
+      $(".dynamic-demo-add-random").click(function(){
+         var randomTime = Math.floor((Math.random() * parseInt(player.duration())) + 1);
+      
+         // come up with a random time
+         player.markers.add([{
+            time: randomTime,
+            text: "I'm new",
+            overlayText: "I'm new"
+         }]);
+      });
+      $(".dynamic-demo-remove-first").click(function(){
+         player.markers.remove([0]);
+      });
+      $(".dynamic-demo-remove-all").click(function(){
+         player.markers.removeAll();
+      });
+      $(".dynamic-demo-destroy").click(function(){
+         player.markers.destroy();
+      });
+      
+   }
+   $(document).ready(function(){
+   
+      loadFirstDemo();
+      loadSecondDemo();
+      loadThirdDemo();
+      
+      $(".see-demo").click(function(){
+         $('html, body').animate({
+            scrollTop: $($("#demo")).offset().top
+          }, 500, 'swing');
+      });
    });
+   
 </script>
    
 </body>
