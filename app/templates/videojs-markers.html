@@ -195,16 +195,16 @@ player.markers({
    breakOverlay:{
       display: true,
       displayTime: 3,
-      text: function(marker) {
-         return "Break overlay: " + marker.text;
-      },
       style:{
          'width':'100%',
          'height': '20%',
          'background-color': 'rgba(0,0,0,0.7)',
          'color': 'white',
          'font-size': '17px'
-      }
+      },
+      text: function(marker) {
+         return "Break overlay: " + marker.text;
+      },
    },
    onMarkerReached: function(marker) {},
    markers: [{
@@ -225,7 +225,7 @@ player.markers.destroy();</code></pre>
    </div>
    
    <h3>Documentation</h3>
-   <table class="table  table-bordered ">
+   <table class="table  table-bordered">
       <thead>
          <tr>
             <th colspan="2">Name</th>
@@ -237,70 +237,188 @@ player.markers.destroy();</code></pre>
          <tr>
             <td colspan="2"><code>markerStyle</code></td>
             <td>Object</td>
-            <td><code>'tour'</code></td>
+            <td>
+               <p>The general css styling that would be applied to all the markers created by the plugin. The default is only concerned with <code>width</code>, <code>border-radius</code>, and <code>background-color</code>, but any other css rules would be applied too (think of it as jQuery's <code>css</code> function).</p>
+               <p>Set up square, orange markers: </p>
+               <pre><code data-language="javascript">{
+   'width':'7px',
+   'border-radius': '0%',
+   'background-color': 'orange'
+}</code></pre>
+            </td>
          </tr>
          <tr>
             <td colspan="2"><code>markerTip</code></td>
             <td>Object</td>
-            <td><code>'tour'</code></td>
+            <td>Options for hover-over marker tips.</td>
          </tr>
          <tr>
             <td></td>
             <td><code>display</code></td>
             <td>Boolean</td>
-            <td><code>[]</code></td>
+            <td><p>Whether markerTips are displayed or not. Default to <code>true</code>.</p></td>
          </tr>
          <tr>
             <td></td>
             <td><code>text</code></td>
             <td>Function</td>
-            <td><code>[]</code></td>
+            <td>
+               <p>Callback function for dynamically constructing your marker tip text. Simply return a string. The argument <code>marker</code> contains information about the specific marker you are hovering over: <code>time</code>, <code>text</code>, <code>overlay text</code>, <code>position</code>, <code>class</code>, <code>div</code>, and <code>key</code>.</p>
+               <p>Show time of the marker (<code>hh::mm::ss</code> format): </p>
+               <pre><code data-language="javascript">function(marker) {
+   var seconds = marker.time % 60;
+   var minutes = parseInt(marker.time / 60) % 60;
+   var hours = parseInt(marker.time / (60 * 60)) ;
+   return hours + ":" + minutes + ":" + seconds;
+}</code></pre>
+            </td>
          </tr>
          
          <tr>
             <td colspan="2"><code>breakOverlay</code></td>
             <td>Object</td>
-            <td><code>'tour'</code></td>
+            <td>Options for the break overlays at each marker.</td>
          </tr>
          <tr>
             <td></td>
             <td><code>display</code></td>
             <td>Boolean</td>
-            <td><code>[]</code></td>
+            <td><p>Whether overlays are displayed or not. Default to <code>false</code>.</p></td>
          </tr>
          <tr>
             <td></td>
             <td><code>displayTime</code></td>
             <td>Integer</td>
-            <td><code>[]</code></td>
+            <td><p>The number of seconds a overlay is shown from the beginning of its marker.. Default to <code>3</code> seconds.</p>
+            </td>
+
          </tr>
          <tr>
             <td></td>
             <td><code>style</code></td>
             <td>Object</td>
-            <td><code>[]</code></td>
+            <td><p>Setup css styles for the overlays (play around with color, font-size, and height). Similar to <code>markerStyle</code>, any other css styles not in the default options would still be applied.</p></td>
          </tr>
          <tr>
             <td></td>
             <td><code>text</code></td>
             <td>Function</td>
-            <td><code>[]</code></td>
+            <td>
+               <p>Same idea as markerTip's <code>text</code> callback mentioned above. This callback function is used to dynamically construct your overlay text. Simply return a string. </p>
+               
+               <pre><code data-language="javascript">function(marker) {
+   return "You can setup anything here" + marker.overlay;
+}</code></pre>
+            </td>
          </tr>
          <tr>
             <td colspan="2"><code>onMarkerReached</code></td>
             <td>Function</td>
-            <td><code>'tour'</code></td>
+            <td><p>This callback function is triggered whenever playback reaches the time interval from a marker. The interval is specified in the <code>breakOverlay.displayTime</code> . This can be used to trigger certain actions at each marker, depending on your use case. Again, this function is given a <code>marker</code> instance.</p>
+            <pre><code data-language="javascript">function(marker) {
+   alert ("I just reached a marker!");
+}</code></pre>
+            </td>
          </tr>
          <tr>
             <td colspan="2"><code>markers</code></td>
             <td>Array</td>
-            <td><code>'tour'</code></td>
+            <td>
+               <p>An array of markers to display by the plugin. For each marker, you can specify the following:</p>
+               <pre><code data-language="javascript">{
+   time : 10,
+   text: "marker text 1", 
+   overlay: 'overlay text 1', 
+   class: 'custom-marker-class'
+}</code></pre>
+               <p>The <code>time</code> field is required, while the rest are optional. <code>text</code> and <code>overlay</code> are handy fields for setting up the markerTip and overlay text. <code>class</code> should be used when you want to have different colors for different markers which wouldn't be possible with the universal <code>markerStyle</code>.</p>
+               
+               <pre><code data-language="javascript">[{
+   time: 10,
+   text: "red marker",
+   class: "red-marker-class"
+},
+{
+   time: 20,
+   text: "blue marker",
+   class: "blue-marker-class"
+}]</code></pre>
+            </td>
          </tr>
       </tbody>
    </table>
-  
+   
+   <h3>API Methods</h3>
+   <table class="table  table-bordered">
+      <thead>
+         <tr>
+            <th colspan="2">Name</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td colspan="2"><code>next</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>prev</code></td>
+            <td>
+               <p>Go to the pervious marker from the current time in the video. If there's isn't one, then does nothing</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>remove</code></td>
+            <td>
+               <p>Remove the markers in the given array of indices. Note the index is 0-based (first marker has index 0).</p>
+               <p>Remove the 2nd and 3rd marker: </p>
+               <pre><code data-language="javascript">player.markers.remove([1,2]);</code></pre>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>removeAll</code></td>
+            <td><p>Remove all the markers in the player.</p></td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>add</code></td>
+            <td><p>Dynamically add new markers.</p>
+               <pre><code data-language="javascript">player.markers.add([{
+   time: 40,
+   text: "I'm added dynamically"
+}]);</code></pre>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>reset</code></td>
+            <td>Reset all the markers in the video. This is equivalent to <code>removeAll</code> then <code>add</code> new markers.
+               <pre><code data-language="javascript">player.markers.reset([{
+   time: 40,
+   text: "I'm new"
+},
+{
+   time:20,
+   text: "I'm new too"
+}]);</code></pre>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>destroy</code></td>
+            <td>Destroy the plugin. After calling this function, <code>player.markers</code> should be undefined.</td>
+         </tr>
+      </tbody>
+   </table>
+   
    </div>
+   
+   
 </section>
+<footer class="footer">
+   <div class="container">
+      <p>Code licensed under <a href="" target="_blank">MIT License</a></p>
+   </div>
+</footer>
 
    <script src="/static/lib/jquery.js"></script>
    <script src="/static/lib/bootstrap-3.3.1/js/bootstrap.min.js"></script>
