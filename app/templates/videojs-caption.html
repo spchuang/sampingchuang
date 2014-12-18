@@ -353,30 +353,39 @@ player.caption({
       <tbody>
          <tr>
             <td ><code>captionSize</code></td>
-            <td>Object</td>
+            <td>Integer</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The font size of the caption from 0 to 8. The default is <code>3</code></p>
             </td>
          </tr>
          <tr>
             <td ><code>captionStyle</code></td>
             <td>Object</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The style to be applied to the caption overlay. Default is </p>
+               <pre><code data-language="javascript">{
+   'background-color': "rgba(255,0,0,0.8)",
+   'color':  'white',
+   'padding': "3px"
+},</code></pre>
             </td>
+            <td>
          </tr>
          <tr>
             <td ><code>onCaptionChange</code></td>
-            <td>Object</td>
+            <td>Function</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The callback function that gets triggered whenever the new caption is displayed. The function takes in a parameter of the id of the displayed caption. If there are multiple captions with the same start time, this function would only be triggered once and receives the id of the last caption.</p>
+               <pre><code data-language="javascript"> function(id){
+   console.log("I'm the id of the caption: " + id);
+},</code></pre>
             </td>
          </tr>
          <tr>
             <td ><code>captionType</code></td>
-            <td>Object</td>
+            <td>String</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>There are 2 caption types: "roll-up" and "pop-on". It is important to note that roll-up mode only supports horizontal bottom positions and no captions should have the same start time.</p>
             </td>
          </tr>
       </tbody>
@@ -394,53 +403,60 @@ player.caption({
          <tr>
             <td colspan="2"><code>startTime</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Start time of the caption in milliseconds.</p>
             </td>
          </tr>
          <tr>
             <td colspan="2"><code>endTime</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>End time of the caption in milliseconds</p>
             </td>
          </tr>
          <tr>
             <td colspan="2"><code>data</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The caption data.</p>
             </td>
          </tr>
          <tr>
             <td></td>
             <td>Inline styling tags</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Along with setting the styles of the caption overlay as a whole, you can also specify inline styles for text. For example: </p>
+               <pre><code data-language="javascript">&lt;b&gt;I&lt;/b&gt; am &lt;i&gt;italic text&lt;/i&gt;. &lt;u&gt;Cool&lt;/u&gt;!</code></pre>
             </td>
          </tr>
          <tr>
             <td></td>
             <td>Inline Ruby tags</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>For annotating East Asian typography, you can use <code>&lt;R&gt;&lt;/R&gt;</code>ruby tags to show the pronunciation of East Asian characters (hiragana for Japanese kanji, pinyin and zhuyin for Chinese characters).</p>
+               <pre><code data-language="javascript">&lt;R value='ㄋㄧˇ'&gt;你&lt;/R&gt;&lt;R value='ㄏㄠˇ'&gt;好&lt;/R&gt;</code></pre>
             </td>
          </tr>
          <tr>
             <td></td>
             <td>Inline Group tags</td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>When displaying text vertically, numbers (e.g. 123) are displayed vertically as well like this: </p>
+               <div style="height: 100px;" class="position-VR">這是123什麼</div>
+               <p>To "group" them together and display the numbers horizontally, use the <code>&lt;G&gt;&lt;/G&gt;</code> tag:</p>
+                <pre><code data-language="javascript">這是&lt;G&gt;123&lt;/G&gt;什麼</code></pre>
+                <p>The text will be displayed as follows: </p>
+                <div style="height: 100px;" class='position-VR'>這是<G class='group-tags'>123</G>什麼</div>
             </td>
          </tr>
          
          <tr>
             <td colspan="2"><code>position</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The position for displaying the caption. There are 4 different positions: <code>HB</code>, <code>HT</code>, <code>VR</code>, and <code>VL</code>, corresponding to horizontal bottom, horizontal top, vertical right, and vertical left, respectively.</p>
             </td>
          </tr>
          <tr>
             <td colspan="2"><code>alignment</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>The alignment of the caption. Currently there are only 2 types of alignments: <code>C</code> (center) and <code>L</code> (left), both of which only applies to horizontal positons.</p>
             </td>
          </tr>
       </tbody>
@@ -458,49 +474,49 @@ player.caption({
          <tr>
             <td ><code>updateCaption</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>This function should be called whenever the original caption data array has been modified, either change in text or time. It would re-render the current caption.</p>
             </td>
          </tr>
          <tr>
             <td ><code>loadNewCaption</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Load new caption data array. This function would also pause the video and seek to the beginning.</p>
             </td>
          </tr>
          <tr>
             <td ><code>getRowCursorID</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Get the ID of the currently displayed row.</p>
             </td>
          </tr>
          <tr>
             <td ><code>getCaptionData</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Get the entire caption array.</p>
             </td>
          </tr>
          <tr>
             <td ><code>increaseFontSize</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Increase the font size. There are a total of 9 levels.</p>
             </td>
          </tr>
          <tr>
             <td ><code>decreaseFontSize</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Decrease font size.</p>
             </td>
          </tr>
          <tr>
             <td ><code>changeToRollUp</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Make the necessary internal state changes to change to Roll-up mode. It is probably unecessary to change the mode within the same video so this function is designed for dynamic videos</p>
             </td>
          </tr>
          <tr>
             <td ><code>changeToPopOn</code></td>
             <td>
-               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+               <p>Change to PopOn mode.</p>
             </td>
          </tr>
        
