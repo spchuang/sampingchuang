@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Most flexible way to display captions for videojs.">
+   <title>Videojs-caption</title>
+   
+   <link href="/static/lib/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/static/doc/general.css" rel="stylesheet">
+   <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
+   <link rel="stylesheet" href="/static/lib/rainbow/themes/github.css">
+   <link rel="stylesheet" href="/static/lib/videojs-caption/videojs.caption.css">
+   
+   <!--[if lt IE 9]><script src="/components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
+   
+   <style>
+      .video-js {padding-top: 56.25%}
+      .vjs-fullscreen {padding-top: 0px}
+      .advanced-demo-captions{
+         height: 230px;
+         overflow-y: auto;
+      }
+   </style>
+</script>
+</head>
+
+<body cz-shortcut-listen="true">
+   <a href="https://github.com/spchuang/videojs-caption" id="github" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+   <div id="navbar" class="navbar navbar-static-top">
+      <div class="container">
+         <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <a href="/videojs-caption" class="navbar-brand">Videojs-caption</a>
+         <div class="collapse navbar-collapse">
+            <ul class="navbar-nav nav">
+               <li>
+                  <a href="https://github.com/spchuang/videojs-caption/releases" target="_blank">Download</a>
+               </li>
+               <li>
+                  <a href="https://github.com/spchuang/videojs-caption/issues" target="_blank">Bug reports</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <header id="home">
+      <div class="jumbotron masthead">
+      <h1>Videojs-caption</h1>
+      <p class="lead">
+         Most flexible way to display captions for videojs. Support displaying multiple captions at once, with different positions and alignments as well as roll-up and pop-on mode.
+      </p>
+      <p>
+         <button type="button" id="demo-btn" class="see-demo btn btn-default btn-lg" data-demo="">
+         <span class="glyphicon glyphicon-play"></span>
+         See a demo
+         </button>
+      </p>
+      <ul class="social">
+         <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=spchuang&amp;repo=videojs-caption&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
+         </li>
+         <li>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=spchuang&amp;repo=videojs-caption&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
+         </li>
+      </ul>
+      </div>
+   </header>
+
+<section id="features">
+   <div class="container">
+      <div class="page-header">
+         <h2>Features <small>How is it useful?</small></h2>
+      </div>
+      <p>Videojs already support <a href="https://github.com/videojs/video.js/blob/master/docs/guides/tracks.md">displaying text</a> on the video using webVTT standard. But there isn't a good way to display captions with higher flexibility. Videojs-caption is designed for fully customize your captions and be friendly to Asian characters.</p> 
+      
+      <ul>
+        <li>Custom styling</li>
+        <li>Display captions horizontally or vertically(for Asian characters)</li>
+        <li>Display multiple captions simultaneously at different positions and alignment</li>
+        <li>Pop-on and roll-on mode (useful for live programming or broadcasting)</li>
+        <li>Inline Styling with html tags or css</li>
+        <li>Make dynamic changes</li>
+      </ul>
+   </div>
+</section>
+   
+<section id="demo">
+   <div class="container">
+      <div class="page-header">
+         <h2>Demo <small>let's see it in action!</small></h2>
+      </div>
+      <h3>Display 2 captions</h3>
+      <p>Display Chinese and English subtitles simultaneously, one on the bottom and the other on top. Note the demo uses <code>videojs-youtube</code> to load youtube videos and gets subtitles from TED.</p>
+      
+      <div class="row">
+         <div class="col-md-6 col-xs-12">
+            <video id="tedDemo" controls class="video-js vjs-default-skin" preload="auto"  width="auto" height="auto" data-setup='{ "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=Ks-_Mh1QhMc" }'>
+             
+             </video>
+         </div>
+      </div>
+      <div class="accordion">
+         <div class="accordion-group">
+            <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_basic_demo">
+                  Show code
+               </a>
+            </div>
+            <div id="accordion_basic_demo" class="accordion-body collapse">
+               <div class="accordion-inner highlight">
+                  <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
+&lt;/video&gt;
+
+&lt;script&gt;
+var captionJson = [
+   {
+      "alignment": "C", 
+      "data": "So I want to start by offering you a free", 
+      "endTime": 18505, 
+      "position": "HB", 
+      "startTime": 15707
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9996\u5148\u6211\u8981\u63d0\u4f9b\u4f60\u5011\u4e00\u500b\u514d\u8cbb\u7684", 
+      "endTime": 18505, 
+      "position": "HT", 
+      "startTime": 15707
+    }, 
+    {
+      "alignment": "C", 
+      "data": "no-tech life hack,", 
+      "endTime": 21129, 
+      "position": "HB", 
+      "startTime": 18505
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u6d89\u79d1\u6280\u7684\u751f\u6d3b\u5c0f\u6487\u6b65", 
+      "endTime": 21129, 
+      "position": "HT", 
+      "startTime": 18505
+    }
+    ...
+]
+var demo = videojs('demo', { "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=Ks-_Mh1QhMc" });
+      
+demo.caption({
+   data: captionJson, 
+   setting:{
+      captionSize: 2,
+   } 
+});
+&lt;/script&gt;</code></pre>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+   <h3>Roll-up caption</h3>
+   <p>Showing caption in roll-up fashion, commonly used in live broadcast videos.</p>
+   <div class="row">
+      <div class="col-md-6 col-xs-12">
+         <video id="rollUpDemo" controls preload="none" class="video-js vjs-default-skin"  width="auto" height="auto" >
+            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"> 
+            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+          </video>
+      </div>
+   </div>
+   <div class="accordion">
+         <div class="accordion-group">
+            <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse" href="#accordion_rollup_demo">
+                  Show code
+               </a>
+            </div>
+            <div id="accordion_rollup_demo" class="accordion-body collapse">
+               <div class="accordion-inner highlight">
+                  <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4"&gt;
+   &lt;source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm"&gt;
+&lt;/video&gt;
+
+&lt;script&gt;
+var demo = videojs('demo');
+var captionJson = [
+   {
+      "data": "This is a roll up example.", 
+      "startTime": 0,
+      "endTime": 1000
+   },
+   {
+      "data": "As you can see,", 
+      "startTime": 1000,
+      "endTime": 2000
+   },
+   {
+      "data": "the caption is being pushed up.", 
+      "startTime": 2000,
+      "endTime": 3000
+   }
+   ...
+];
+
+demo.caption({
+   data: captionJson, 
+   setting:{
+      captionType: 'roll-up',
+   } 
+});
+&lt;/script&gt;</code></pre>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   
+   <h3>Advanced usage</h3>
+   <p>Display Japanese lyric caption where Kanji is annotated with hiragana. Chinese subtitle is shown vertically on the right. Also allow dynamically updating the caption time and font size.</p>
+   
+   <div class="row">
+      <div class="col-md-6 col-xs-12">
+         <video id="advancedDemo" controls class="video-js vjs-default-skin" preload="auto"  width="auto" height="auto">
+          
+          </video>
+      </div>
+
+      <div class="col-md-6 col-xs-12">
+         <div class="btn-group" role="group" aria-label="...">
+            <button class='advanced-demo-bigger btn btn-default' type="button">Bigger</button>
+            <button class='advanced-demo-smaller btn btn-default' type="button">Smaller</button>
+            <button class='advanced-demo-forward btn btn-default' type="button">Shift forward 0.5s</button>
+            <button class='advanced-demo-backward btn btn-default' type="button">Shift backward 0.5s</button>
+         </div>
+         <hr>
+         <ul class="advanced-demo-captions list-group">
+            <li class="list-group-item">Showing captions:</li>
+            
+        </ul>
+      </div>
+   </div>
+   
+   
+   <div class="accordion">
+      <div class="accordion-group">
+         <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" href="#accordion_advanced_demo">
+               Show code
+            </a>
+         </div>
+         <div id="accordion_advanced_demo" class="accordion-body collapse">
+            <div class="accordion-inner highlight">
+               <pre><code data-language="html">&lt;video id="demo" controls class="video-js vjs-default-skin"&gt;
+&lt;/video&gt;
+
+&lt;script&gt;
+var demo = videojs('advancedDemo', { "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=_Q5-4yMi-xg" });
+demo.caption({
+   data: firstLoveJson, 
+   setting : {
+      onCaptionChange: function(id){
+         if (id < firstLoveJson.length) {
+            $('.advanced-demo-captions').append('<li class="list-group-item">Caption reached: '+ 
+               getTimeFormat(firstLoveJson[id].startTime / 1000) + ", " + firstLoveJson[id].data + '</li>');
+         }
+      }
+   }
+});
+
+$(".advanced-demo-bigger").click(function(){
+   demo.caption.increaseFontSize();
+})
+$(".advanced-demo-smaller").click(function(){
+   demo.caption.decreaseFontSize();
+})
+$(".advanced-demo-forward").click(function(){
+   for (var i = 0; i < firstLoveJson.length; i++) {
+      firstLoveJson[i].startTime += 500;
+      firstLoveJson[i].endTime += 500;
+   }
+   demo.caption.updateCaption();
+})
+$(".advanced-demo-backward").click(function(){
+   for (var i = 0; i < firstLoveJson.length; i++){
+      firstLoveJson[i].startTime -= 500;
+      firstLoveJson[i].endTime -= 500;
+   }
+   demo.caption.updateCaption();
+})
+&lt;/script&gt;</code></pre>
+            </div>
+         </div>
+      </div>
+   </div>
+   <br>
+
+   </div>
+   
+</section>
+   
+<section id="usage">
+  <div class="container">
+    <div class="page-header">
+      <h2>The How-to <small>It's simple!</small></h2>
+    </div>
+    <h3>Add the dependencies</h3>
+    <p>Include <code>jquery.min.js</code>, <code>video-js.css</code> and <code>video.js</code>:</p>
+
+   <div class="accordion-inner highlight">
+      <pre><code data-language="html">&lt;link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet"&gt;
+&lt;link href="src/to/videojs.caption.css" rel="stylesheet"&gt;
+...
+&lt;script src="http://code.jquery.com/jquery-2.0.3.min.js"&gt; &lt;/script&gt;
+&lt;script src="http://vjs.zencdn.net/4.3/video.js"&gt;&lt;/script&gt;
+&lt;script src='src/to/videojs.caption.js'&gt;&lt;/script&gt;</code>
+      </pre>
+   </div>
+
+   <h3>Setup the caption plugin:</h3>
+   <div class="accordion-inner highlight">
+      <pre><code data-language="javascript">// initialize video.js
+var player = videojs('video-id');
+
+//load the caption plugin
+player.caption({
+   data: captionData
+});</code></pre>
+   </div>
+</section>
+
+<section id="option">
+  <div class="container">
+    <div class="page-header">
+      <h2>Options <small>Let's get deeper</small></h2>
+    </div>
+    
+    <h3>Caption Settings</h3>
+    <table class="table  table-bordered">
+      <thead>
+         <tr>
+            <th >Name</th>
+            <th>Type</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td ><code>captionSize</code></td>
+            <td>Object</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>captionStyle</code></td>
+            <td>Object</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>onCaptionChange</code></td>
+            <td>Object</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>captionType</code></td>
+            <td>Object</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+      </tbody>
+    </table>
+    
+    <h3>Caption Object</h3>
+    <table class="table  table-bordered">
+      <thead>
+         <tr >
+            <th colspan="2">Name</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td colspan="2"><code>startTime</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>endTime</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>data</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>Inline styling tags</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>Inline Ruby tags</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>Inline Group tags</td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         
+         <tr>
+            <td colspan="2"><code>position</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>alignment</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+      </tbody>
+    </table>
+    
+    <h3>API Methods</h3>
+    <table class="table  table-bordered">
+      <thead>
+         <tr>
+            <th >Name</th>
+            <th>Description</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td ><code>updateCaption</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>loadNewCaption</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>getRowCursorID</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>getCaptionData</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>increaseFontSize</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>decreaseFontSize</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>changeToRollUp</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td ><code>changeToPopOn</code></td>
+            <td>
+               <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
+            </td>
+         </tr>
+       
+      </tbody>
+   </table>
+  </div>
+</section>
+   
+<footer class="footer">
+   <div class="container">
+      <p>Code licensed under <a href="" target="_blank">MIT License</a></p>
+   
+   
+   </div>
+</footer>
+
+   <script src="/static/lib/jquery.js"></script>
+   <script src="/static/lib/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+   <script src="http://vjs.zencdn.net/4.3/video.js"></script>
+   <script src="/static/lib/rainbow/rainbow-custom.min.js"></script>
+   <script src="/static/lib/vjs.youtube.js"></script>
+   <script src="/static/lib/videojs-caption/videojs.caption.js"></script>
+   <script src="/static/doc/videojs-caption/body_language_captions.json"></script>
+   <script src="/static/doc/videojs-caption/first_love_captions.json"></script>
+   <script>
+   
+   function loadTedDemo(){
+      var demo = videojs('tedDemo', { "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=Ks-_Mh1QhMc" });
+      
+      demo.caption({
+         data: bodyLanguageJson, 
+         setting:{
+            captionSize: 2
+         }
+      });
+   }
+   
+   function loadRollUpDemo() {
+      var demo = videojs('rollUpDemo');
+      var captionJson = [
+         {
+            "data": "This is a roll up example.", 
+            "startTime": 0,
+            "endTime": 1000
+         },
+         {
+            "data": "As you can see,", 
+            "startTime": 1000,
+            "endTime": 2000
+         },
+         {
+            "data": "the caption is being pushed up.", 
+            "startTime": 2000,
+            "endTime": 3000
+         },
+         {
+            "data": "This type of caption is widely used", 
+            "startTime": 3000,
+            "endTime": 4500
+         },
+         {
+            "data": "ALL live programming and", 
+            "startTime": 4500,
+            "endTime": 6000
+         },
+         {
+            "data": "for post-production broadcast programming", 
+            "startTime": 6000,
+            "endTime": 7500
+         },
+         {
+            "data": "that only has one speaker", 
+            "startTime": 7500,
+            "endTime": 9000
+         }
+      ];
+      
+      demo.caption({
+         data: captionJson, 
+         setting:{
+            captionType: 'roll-up',
+            captionSize: 3
+         } 
+      });
+   }
+   
+   function getTimeFormat(totalSeconds){
+      hours = Math.floor(totalSeconds / 3600);
+      totalSeconds %= 3600;
+      minutes = Math.floor(totalSeconds / 60);
+      seconds = totalSeconds % 60;
+      
+      return hours + ":" + minutes + ":" + seconds
+   }
+   
+   function loadAdvancedDemo() {
+      var demo = videojs('advancedDemo', { "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=_Q5-4yMi-xg" });
+      demo.caption({
+         data: firstLoveJson, 
+         setting : {
+            onCaptionChange: function(id){
+               if (id < firstLoveJson.length) {
+                  $('.advanced-demo-captions').append('<li class="list-group-item">Caption reached: '+ 
+                     getTimeFormat(firstLoveJson[id].startTime / 1000) + ", " + firstLoveJson[id].data + '</li>');
+               }
+            }
+         }
+      });
+      
+      $(".advanced-demo-bigger").click(function(){
+         demo.caption.increaseFontSize();
+      })
+      $(".advanced-demo-smaller").click(function(){
+         demo.caption.decreaseFontSize();
+      })
+      $(".advanced-demo-forward").click(function(){
+         for (var i = 0; i < firstLoveJson.length; i++) {
+            firstLoveJson[i].startTime += 500;
+            firstLoveJson[i].endTime += 500;
+         }
+         demo.caption.updateCaption();
+      })
+      $(".advanced-demo-backward").click(function(){
+         for (var i = 0; i < firstLoveJson.length; i++){
+            firstLoveJson[i].startTime -= 500;
+            firstLoveJson[i].endTime -= 500;
+         }
+         demo.caption.updateCaption();
+      })
+   }
+   
+   $(document).ready(function(){
+      loadTedDemo();
+      loadRollUpDemo();
+      loadAdvancedDemo();
+      
+      $(".see-demo").click(function(){
+         $('html, body').animate({
+            scrollTop: $($("#tedDemo")).offset().top
+          }, 500, 'swing');
+      });
+   });
+   
+   </script>
+   
+</body>
+</html>

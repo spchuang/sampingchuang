@@ -12,6 +12,9 @@ def healthy():
 def videojs_markers():
    return render_template('videojs-markers.html');
 
+@home.route('/videojs-caption')
+def videojs_caption():
+   return render_template('videojs-caption.html');
 
 @home.route('/')
 def index():

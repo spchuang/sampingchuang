@@ -1,0 +1,232 @@
+var firstLoveJson = [
+   {
+      "data": "<R value='さいご'>最後</R>のキスは", 
+      "position": "HB", 
+      "startTime": 21500,
+      "endTime": 27000, 
+   },
+   {
+      "data": "最後的吻", 
+      "position": "VR", 
+      "startTime": 21500,
+      "endTime": 27000, 
+   },
+   {
+      "data": "タバコのflavorがした", 
+      "position": "HB", 
+      "startTime": 27000,
+      "endTime": 32000, 
+   },
+   {
+      "data": "帶著淡淡的香煙味道", 
+      "position": "VR", 
+      "startTime": 27000,
+      "endTime": 32000, 
+   },
+   {
+      "data": "<R value='ニガ'>苦</R>くてせつない<R value='かお'>香</R>り", 
+      "position": "HB", 
+      "startTime": 32000,
+      "endTime": 40000, 
+   },
+   {
+      "data": "苦澀而令人心碎的香味", 
+      "position": "VR", 
+      "startTime": 32000,
+      "endTime": 40000, 
+   },
+   {
+      "data": "<R value='あした'>明日</R>の<R value='いまごろ'>今頃</R>には", 
+      "position": "HB", 
+      "startTime": 40000,
+      "endTime": 48000, 
+   },
+   {
+      "data": "明天的這個時候", 
+      "position": "VR", 
+      "startTime": 40000,
+      "endTime": 48000, 
+   },
+   {
+      "data": "あなたはどこにいるんだろう", 
+      "position": "HB", 
+      "startTime": 48000,
+      "endTime": 54000, 
+   },
+   {
+      "data": "你會在哪里呢", 
+      "position": "VR", 
+      "startTime": 48000,
+      "endTime": 54000, 
+   },
+   {
+      "data": "<R value='だれ'>誰</R>を<R value='おも'>想</R>ってるんだろう", 
+      "position": "HB", 
+      "startTime": 54000,
+      "endTime": 62000, 
+   },
+   {
+      "data": "又會想著誰呢", 
+      "position": "VR", 
+      "startTime": 54000,
+      "endTime": 62000, 
+   },
+   {
+      "data": "You are always gonna be my love", 
+      "position": "HB", 
+      "startTime": 62000,
+      "endTime": 69000, 
+   },
+   {
+      "data": "いつか<R value='だれ'>誰</R>かとまた<R value='こい'>戀</R>に<R value='お'>落</R>ちても", 
+      "position": "HB", 
+      "startTime": 69000,
+      "endTime": 76000, 
+   },
+   {
+      "data": "就算在以後的生命中和誰戀愛也好", 
+      "position": "VR", 
+      "startTime": 69000,
+      "endTime": 76000, 
+   },
+   {
+      "data": "I'll remember to love", 
+      "position": "HB", 
+      "startTime": 76000,
+      "endTime": 78000, 
+   },
+   {
+      "data": "You taught me how", 
+      "position": "HB", 
+      "startTime": 78000,
+      "endTime": 81000, 
+   },
+   {
+      "data": "You are always gonna be the one", 
+      "position": "HB", 
+      "startTime": 81000,
+      "endTime": 84000, 
+   },
+   {
+      "data": "<R value='いま'>今</R>はまだ<R value='かな'>悲</R>しいlove song", 
+      "position": "HB", 
+      "startTime": 84000,
+      "endTime": 91000, 
+   },
+   {
+      "data": "現在仍唱著悲傷的情歌", 
+      "position": "VR", 
+      "startTime": 84000,
+      "endTime": 91000, 
+   },
+   {
+      "data": "<R value='あたら'>新</R>しい<R value='うた'>歌</R> <R value='うた'>歌</R>えるまで", 
+      "position": "HB", 
+      "startTime": 91000,
+      "endTime": 100000, 
+   },
+   {
+      "data": "直至新的歌曲再次推出", 
+      "position": "VR", 
+      "startTime": 91000,
+      "endTime": 100000, 
+   }
+];
+
+/*
+　　　　　sa i go no ki su ha(最後的吻)
+　　　　　
+　　　　　
+　　　　　ta ba ko no flavor ga si ta
+　　　　　(帶著淡淡的香煙味道)
+　　　　　
+　　　　　苦くてせつない香り
+　　　　　ni ga ku te se tsu na i ka o ri
+　　　　　(苦澀而令人心碎的香味)
+　　　　　
+　　　　　
+　　　　　a si te no i ma go ro ni ha
+　　　　　(明天的這個時候)
+　　　　　
+　　　　　あなたはどこにいるんだろう
+　　　　　a na te ha do ko ni i ru n da ro u
+　　　　　(你會在哪里呢)
+　　　　　
+　　　　　
+　　　　　da re o o mo tsu te ru n da ro u
+　　　　　(又會想著誰呢)
+　　　　　
+　　　　　You are always gonna be my love
+　　　　　
+　　　　　いつか誰かとまた戀に落ちても
+　　　　　i tsu ka da re ka to ma ta ko i ni o chi te mo
+　　　　　(就算在以後的生命中和誰戀愛也好)
+　　　　　
+　　　　　I'll remember to love
+　　　　　You taught me how
+　　　　　You are always gonna be the one
+　　　　　
+　　　　　今はまだ悲しいlove song
+　　　　　i ma ha ma da ka na si i love song
+　　　　　(現在仍唱著悲傷的情歌)
+　　　　　
+　　　　　新しい歌 歌えるまで
+　　　　　a ta ra si i u ta u ta e ru ma de
+　　　　　(直至新的歌曲再次推出)
+　　　　　
+　　　　　立ち止まる時間が
+　　　　　ta chi do ma ru ji ka n ga
+　　　　　(一度呆滯的時間)
+　　　　　
+　　　　　動き出そうとしてる
+　　　　　u go ki da ma da so u to si te ru
+　　　　　(將會繼續運轉)
+　　　　　
+　　　　　忘れたくないことばかり
+　　　　　wa su re ku na i ko to ge ka ri
+　　　　　(剩下的儘是難以忘懷的事情)
+　　　　　
+　　　　　明日の今頃には
+　　　　　a si te no i ma go ro ni te ru
+　　　　　(明天的這個時間)
+　　　　　わはきっと泣いてる
+　　　　　wa ta si ha ki tsu to na i te ru
+　　　　　(我一定會哭著)
+　　　　　
+　　　　　あなたを想ってるんだろう
+　　　　　a na ta o o mo tsu te ru n da ro u
+　　　　　(想起深愛過的你)
+　　　　　
+　　　　　You will always be inside my heart
+　　　　　
+　　　　　いつもあなただけの場所があるから
+　　　　　i tsu mo a na ta da ke no ba si yo ga a ru ka ra
+　　　　　(在我心中永遠給你留下一片空間)
+　　　　　
+　　　　　I hope that I have a place in your heart too
+　　　　　Now and forever you are still the one
+　　　　　
+　　　　　今はまだ悲しいlove song
+　　　　　i ma ha ra si i wu ta u ta e ru ma de
+　　　　　(現在仍唱著悲傷的情歌)
+　　　　　
+　　　　　新しい歌 歌えるまで
+　　　　　a ta ra si i u ta u ta e ru ma de
+　　　　　(直至新的歌曲再次推出)
+　　　　　
+　　　　　You are always gonna be my love
+　　　　　
+　　　　　いつか誰かとまた戀に落ちても
+　　　　　i tsu ka da re ka to ma ta ko i ni o chi te mo
+　　　　　(就算在以後的生命中和誰戀愛也好)
+　　　　　
+　　　　　I'll remember to love
+　　　　　You taught me how
+　　　　　You are always gonna be the one
+　　　　　
+　　　　　まだ悲しいlove song
+　　　　　i ma ha ma da ka na si i love song
+　　　　　(現在仍唱著悲傷的情歌)
+　　　　　
+　　　　　Now and forever
+*/

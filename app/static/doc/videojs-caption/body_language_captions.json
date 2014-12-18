@@ -1,0 +1,5896 @@
+var bodyLanguageJson = [
+    {
+      "alignment": "C", 
+      "data": "So I want to start by offering you a free", 
+      "endTime": 18505, 
+      "position": "HB", 
+      "startTime": 15707
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9996\u5148\u6211\u8981\u63d0\u4f9b\u4f60\u5011\u4e00\u500b\u514d\u8cbb\u7684", 
+      "endTime": 18505, 
+      "position": "HT", 
+      "startTime": 15707
+    }, 
+    {
+      "alignment": "C", 
+      "data": "no-tech life hack,", 
+      "endTime": 21129, 
+      "position": "HB", 
+      "startTime": 18505
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u6d89\u79d1\u6280\u7684\u751f\u6d3b\u5c0f\u6487\u6b65", 
+      "endTime": 21129, 
+      "position": "HT", 
+      "startTime": 18505
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and all it requires of you is this:", 
+      "endTime": 23750, 
+      "position": "HB", 
+      "startTime": 21129
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u53ea\u8981", 
+      "endTime": 23750, 
+      "position": "HT", 
+      "startTime": 21129
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that you change your posture for two minutes.", 
+      "endTime": 27937, 
+      "position": "HB", 
+      "startTime": 23750
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6539\u8b8a\u4f60\u7684\u59ff\u52e2\u4e8c\u5206\u9418", 
+      "endTime": 27937, 
+      "position": "HT", 
+      "startTime": 23750
+    }, 
+    {
+      "alignment": "C", 
+      "data": "But before I give it away, I want to ask you to right now", 
+      "endTime": 31361, 
+      "position": "HB", 
+      "startTime": 27937
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u6211\u8aaa\u660e\u524d\uff0c\u6211\u8981\u5148\u8acb\u5927\u5bb6", 
+      "endTime": 31361, 
+      "position": "HT", 
+      "startTime": 27937
+    }, 
+    {
+      "alignment": "C", 
+      "data": "do a little audit of your body and what you're doing with your body.", 
+      "endTime": 34954, 
+      "position": "HB", 
+      "startTime": 31361
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5148\u6aa2\u8996\u4e00\u4e0b\u4f60\u7684\u59ff\u614b", 
+      "endTime": 34954, 
+      "position": "HT", 
+      "startTime": 31361
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So how many of you are sort of making yourselves smaller?", 
+      "endTime": 37369, 
+      "position": "HB", 
+      "startTime": 34954
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5011\u4e4b\u4e2d\u6709\u591a\u5c11\u4eba\u8eab\u9ad4\u662f\u7d04\u7565\u7e2e\u5c0f\u7684?", 
+      "endTime": 37369, 
+      "position": "HT", 
+      "startTime": 34954
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Maybe you're hunching, crossing your legs,", 
+      "endTime": 40090, 
+      "position": "HB", 
+      "startTime": 37369
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u8a31\u4f60\u73fe\u5728\u7ff9\u8457\u8173\u99dd\u8457\u80cc?", 
+      "endTime": 40090, 
+      "position": "HT", 
+      "startTime": 37369
+    }, 
+    {
+      "alignment": "C", 
+      "data": "maybe wrapping your ankles.", 
+      "endTime": 41014, 
+      "position": "HB", 
+      "startTime": 40090
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u8005\u96d9\u624b\u62b1\u819d", 
+      "endTime": 41014, 
+      "position": "HT", 
+      "startTime": 40090
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Sometimes we hold onto our arms like this.", 
+      "endTime": 44753, 
+      "position": "HB", 
+      "startTime": 41014
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u6642\u6211\u5011\u6703\u9019\u6a23\u62b1\u8457\u624b\u81c2", 
+      "endTime": 44753, 
+      "position": "HT", 
+      "startTime": 41014
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Sometimes we spread out. (Laughter)", 
+      "endTime": 48424, 
+      "position": "HB", 
+      "startTime": 44753
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u6642\u6211\u5011\u6703\u6253\u958b\u96d9\u624b (\u7b11\u8072)", 
+      "endTime": 48424, 
+      "position": "HT", 
+      "startTime": 44753
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I see you. (Laughter)", 
+      "endTime": 50696, 
+      "position": "HB", 
+      "startTime": 48424
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u770b\u5230\u56c9(\u7b11\u8072)", 
+      "endTime": 50696, 
+      "position": "HT", 
+      "startTime": 48424
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I want you to pay attention to what you're doing right now.", 
+      "endTime": 53211, 
+      "position": "HB", 
+      "startTime": 50696
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u73fe\u5728\u8acb\u5927\u5bb6\u5c08\u5fc3\u5728\u81ea\u5df1\u8eab\u4e0a", 
+      "endTime": 53211, 
+      "position": "HT", 
+      "startTime": 50696
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We're going to come back to that in a few minutes,", 
+      "endTime": 55425, 
+      "position": "HB", 
+      "startTime": 53211
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u7b49\u4e00\u4e0b\u5728\u56de\u5230\u9019\u4ef6\u4e8b\u4e0a", 
+      "endTime": 55425, 
+      "position": "HT", 
+      "startTime": 53211
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I'm hoping that if you learn to tweak this a little bit,", 
+      "endTime": 58817, 
+      "position": "HB", 
+      "startTime": 55425
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5e0c\u671b\u4f60\u5011\u53ef\u4ee5\u7a0d\u5fae\u6539\u8b8a\u4e00\u4e0b", 
+      "endTime": 58817, 
+      "position": "HT", 
+      "startTime": 55425
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it could significantly change the way your life unfolds.", 
+      "endTime": 62453, 
+      "position": "HB", 
+      "startTime": 58817
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u6703\u8b93\u4f60\u7684\u751f\u6d3b\u8b8a\u5f97\u5f88\u4e0d\u4e00\u6a23", 
+      "endTime": 62453, 
+      "position": "HT", 
+      "startTime": 58817
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So, we're really fascinated with body language,", 
+      "endTime": 66977, 
+      "position": "HB", 
+      "startTime": 62453
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\uff0c\u6211\u5011\u6df1\u70ba\u8eab\u9ad4\u8a9e\u8a00\u8457\u8ff7", 
+      "endTime": 66977, 
+      "position": "HT", 
+      "startTime": 62453
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and we're particularly interested", 
+      "endTime": 68936, 
+      "position": "HB", 
+      "startTime": 66977
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7279\u5225\u662f", 
+      "endTime": 68936, 
+      "position": "HT", 
+      "startTime": 66977
+    }, 
+    {
+      "alignment": "C", 
+      "data": "in other people's body language.", 
+      "endTime": 70900, 
+      "position": "HB", 
+      "startTime": 68936
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5225\u4eba\u7684\u8eab\u9ad4\u8a9e\u8a00", 
+      "endTime": 70900, 
+      "position": "HT", 
+      "startTime": 68936
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You know, we're interested in, like, you know \u2014 (Laughter) \u2014", 
+      "endTime": 75121, 
+      "position": "HB", 
+      "startTime": 70900
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u77e5\u9053\uff0c\u7576\u6211\u5011\u70ba (\u7b11\u8072)", 
+      "endTime": 75121, 
+      "position": "HT", 
+      "startTime": 70900
+    }, 
+    {
+      "alignment": "C", 
+      "data": "an awkward interaction, or a smile,", 
+      "endTime": 79519, 
+      "position": "HB", 
+      "startTime": 75121
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c37\u5c2c\u7684\u4e92\u52d5\uff0c\u6216\u5fae\u7b11", 
+      "endTime": 79519, 
+      "position": "HT", 
+      "startTime": 75121
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or a contemptuous glance, or maybe a very awkward wink,", 
+      "endTime": 83751, 
+      "position": "HB", 
+      "startTime": 79519
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u8f15\u8511\u7684\u4e00\u77a5\uff0c\u6216\u4e0d\u81ea\u7136\u7684\u7728\u773c", 
+      "endTime": 83751, 
+      "position": "HT", 
+      "startTime": 79519
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or maybe even something like a handshake.", 
+      "endTime": 86989, 
+      "position": "HB", 
+      "startTime": 83751
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u751a\u81f3\u662f\u63e1\u624b\u9019\u6a23\u7684\u4e00\u4ef6\u4e8b", 
+      "endTime": 86989, 
+      "position": "HT", 
+      "startTime": 83751
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Narrator: Here they are arriving at Number 10, and look at this", 
+      "endTime": 89667, 
+      "position": "HB", 
+      "startTime": 86989
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\uff08\u5f71\u7247\u65c1\u767d\uff09\uff1a\u4ed6\u5011\u62b5\u9054\u82f1\u570b\u9996\u76f8\u5b98\u90b8\u5510\u5be7\u885710\u865f\uff0c", 
+      "endTime": 89667, 
+      "position": "HT", 
+      "startTime": 86989
+    }, 
+    {
+      "alignment": "C", 
+      "data": "lucky policeman gets to shake hands with the President", 
+      "endTime": 92343, 
+      "position": "HB", 
+      "startTime": 89667
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5e78\u904b\u7684\u8b66\u54e1\u53ef\u4ee5\u548c\u7f8e\u570b\u7e3d\u7d71\u63e1\u624b", 
+      "endTime": 92343, 
+      "position": "HT", 
+      "startTime": 89667
+    }, 
+    {
+      "alignment": "C", 
+      "data": "of the United States. Oh, and here comes", 
+      "endTime": 94831, 
+      "position": "HB", 
+      "startTime": 92343
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5662\uff0c\u9084\u6709", 
+      "endTime": 94831, 
+      "position": "HT", 
+      "startTime": 92343
+    }, 
+    {
+      "alignment": "C", 
+      "data": "the Prime Minister of the \u2014 ? No. (Laughter) (Applause)", 
+      "endTime": 99758, 
+      "position": "HB", 
+      "startTime": 94831
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f86\u81ea....\u7684\u9996\u76f8? \u4e0d (\u7b11\u8072) (\u638c\u8072)", 
+      "endTime": 99758, 
+      "position": "HT", 
+      "startTime": 94831
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(Laughter) (Applause)", 
+      "endTime": 101846, 
+      "position": "HB", 
+      "startTime": 99758
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(\u7b11\u8072) (\u638c\u8072)", 
+      "endTime": 101846, 
+      "position": "HT", 
+      "startTime": 99758
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Amy Cuddy: So a handshake, or the lack of a handshake,", 
+      "endTime": 106140, 
+      "position": "HB", 
+      "startTime": 101846
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u4e00\u500b\u63e1\u624b\uff0c\u6216\u4e0d\u63e1\u624b", 
+      "endTime": 106140, 
+      "position": "HT", 
+      "startTime": 101846
+    }, 
+    {
+      "alignment": "C", 
+      "data": "can have us talking for weeks and weeks and weeks.", 
+      "endTime": 108664, 
+      "position": "HB", 
+      "startTime": 106140
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u90fd\u53ef\u4ee5\u804a\u4e0a\u597d\u5e7e\u500b\u79ae\u62dc", 
+      "endTime": 108664, 
+      "position": "HT", 
+      "startTime": 106140
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Even the BBC and The New York Times.", 
+      "endTime": 110804, 
+      "position": "HB", 
+      "startTime": 108664
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5373\u4f7f BBC \u548c\u7d10\u7d04\u6642\u5831\u4e5f\u4e0d\u4f8b\u5916", 
+      "endTime": 110804, 
+      "position": "HT", 
+      "startTime": 108664
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So obviously when we think about nonverbal behavior,", 
+      "endTime": 114755, 
+      "position": "HB", 
+      "startTime": 110804
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u8aaa\u5230\u975e\u8a9e\u8a00\u884c\u70ba\u6216\u8eab\u9ad4\u8a9e\u8a00\u6642", 
+      "endTime": 114755, 
+      "position": "HT", 
+      "startTime": 110804
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or body language -- but we call it nonverbals as social scientists --", 
+      "endTime": 118143, 
+      "position": "HB", 
+      "startTime": 114755
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u793e\u6703\u79d1\u5b78\u5b78\u8005\u5c07\u4e4b\u6b78\u985e\u70ba\u975e\u53e3\u8a9e\u8a9e\u8a00", 
+      "endTime": 118143, 
+      "position": "HT", 
+      "startTime": 114755
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it's language, so we think about communication.", 
+      "endTime": 121023, 
+      "position": "HB", 
+      "startTime": 118143
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5b83\u5c31\u662f\u4e00\u7a2e\u8a9e\u8a00\uff0c\u6240\u4ee5\u6211\u5011\u6703\u60f3\u5230\u6e9d\u901a", 
+      "endTime": 121023, 
+      "position": "HT", 
+      "startTime": 118143
+    }, 
+    {
+      "alignment": "C", 
+      "data": "When we think about communication, we think about interactions.", 
+      "endTime": 123450, 
+      "position": "HB", 
+      "startTime": 121023
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u6211\u5011\u60f3\u5230\u6e9d\u901a\uff0c\u6211\u5011\u5c31\u60f3\u5230\u4e92\u52d5", 
+      "endTime": 123450, 
+      "position": "HT", 
+      "startTime": 121023
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what is your body language communicating to me?", 
+      "endTime": 126289, 
+      "position": "HB", 
+      "startTime": 123450
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u4f60\u73fe\u5728\u7684\u8eab\u9ad4\u8a9e\u8a00\u6b63\u5728\u544a\u8a34\u6211\u751a\u9ebc?", 
+      "endTime": 126289, 
+      "position": "HT", 
+      "startTime": 123450
+    }, 
+    {
+      "alignment": "C", 
+      "data": "What's mine communicating to you?", 
+      "endTime": 128555, 
+      "position": "HB", 
+      "startTime": 126289
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u7684\u8eab\u9ad4\u53c8\u662f\u5728\u50b3\u9054\u751a\u9ebc\u7d66\u4f60\u5011?", 
+      "endTime": 128555, 
+      "position": "HT", 
+      "startTime": 126289
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And there's a lot of reason to believe that this is a valid", 
+      "endTime": 132773, 
+      "position": "HB", 
+      "startTime": 128555
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u5f88\u591a\u7406\u7531\u8b93\u6211\u5011\u76f8\u4fe1\u9019\u662f\u6709\u6548\u7684\u5207\u5165\u9ede", 
+      "endTime": 132773, 
+      "position": "HT", 
+      "startTime": 128555
+    }, 
+    {
+      "alignment": "C", 
+      "data": "way to look at this. So social scientists have spent a lot", 
+      "endTime": 135308, 
+      "position": "HB", 
+      "startTime": 132773
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u793e\u6703\u79d1\u5b78\u5bb6\u82b1\u4e86\u5f88\u591a\u6642\u9593", 
+      "endTime": 135308, 
+      "position": "HT", 
+      "startTime": 132773
+    }, 
+    {
+      "alignment": "C", 
+      "data": "of time looking at the effects of our body language,", 
+      "endTime": 138700, 
+      "position": "HB", 
+      "startTime": 135308
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7814\u7a76\u6211\u5011\u7684\u8eab\u9ad4\u8a9e\u8a00", 
+      "endTime": 138700, 
+      "position": "HT", 
+      "startTime": 135308
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or other people's body language, on judgments.", 
+      "endTime": 141209, 
+      "position": "HB", 
+      "startTime": 138700
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u5176\u4ed6\u4eba\u7684\u8eab\u9ad4\u8a9e\u8a00\u5728\u5224\u65b7\u65b9\u9762\u7684\u6548\u61c9", 
+      "endTime": 141209, 
+      "position": "HT", 
+      "startTime": 138700
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And we make sweeping judgments and inferences from body language.", 
+      "endTime": 144648, 
+      "position": "HB", 
+      "startTime": 141209
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u6211\u5011\u6839\u64da\u4ed6\u4eba\u7684\u8eab\u9ad4\u8a9e\u8a00\uff0c\u63a8\u8ad6\u4e26\u505a\u51fa\u5feb\u901f\u53c8\u6c7a\u7d55\u7684\u5224\u65b7", 
+      "endTime": 144648, 
+      "position": "HT", 
+      "startTime": 141209
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And those judgments can predict really meaningful life outcomes", 
+      "endTime": 148638, 
+      "position": "HB", 
+      "startTime": 144648
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e9b\u5224\u65b7\u53ef\u4ee5\u5e6b\u6211\u5011\u9810\u6e2c\u751f\u547d\u88e1\u5f88\u6709\u610f\u7fa9\u7684\u4e8b\u4ef6", 
+      "endTime": 148638, 
+      "position": "HT", 
+      "startTime": 144648
+    }, 
+    {
+      "alignment": "C", 
+      "data": "like who we hire or promote, who we ask out on a date.", 
+      "endTime": 152431, 
+      "position": "HB", 
+      "startTime": 148638
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u50cf\u662f\u8981\u96c7\u7528\u8ab0\uff0c\u9080\u8acb\u8ab0\u51fa\u53bb\u7d04\u6703", 
+      "endTime": 152431, 
+      "position": "HT", 
+      "startTime": 148638
+    }, 
+    {
+      "alignment": "C", 
+      "data": "For example, Nalini Ambady, a researcher at Tufts University,", 
+      "endTime": 157116, 
+      "position": "HB", 
+      "startTime": 152431
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8209\u4f8b\u800c\u8a00\uff0cTufts \u5927\u5b78\u7684\u7814\u7a76\u54e1\uff0cNalini Ambady", 
+      "endTime": 157116, 
+      "position": "HT", 
+      "startTime": 152431
+    }, 
+    {
+      "alignment": "C", 
+      "data": "shows that when people watch 30-second soundless clips", 
+      "endTime": 161588, 
+      "position": "HB", 
+      "startTime": 157116
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8b93\u6211\u5011\u770b\u5230 \u7576\u4eba\u5011\u89c0\u8cde\u4e00\u6bb5 30 \u79d2", 
+      "endTime": 161588, 
+      "position": "HT", 
+      "startTime": 157116
+    }, 
+    {
+      "alignment": "C", 
+      "data": "of real physician-patient interactions,", 
+      "endTime": 164612, 
+      "position": "HB", 
+      "startTime": 161588
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6b63\u724c\u91ab\u5e2b\u548c\u75c5\u4eba\u4e92\u52d5\u7684\u7121\u8072\u5f71\u7247", 
+      "endTime": 164612, 
+      "position": "HT", 
+      "startTime": 161588
+    }, 
+    {
+      "alignment": "C", 
+      "data": "their judgments of the physician's niceness", 
+      "endTime": 167445, 
+      "position": "HB", 
+      "startTime": 164612
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u5c0d\u8a72\u91ab\u5e2b\u662f\u5426\u548c\u5584\u7684\u89c0\u611f", 
+      "endTime": 167445, 
+      "position": "HT", 
+      "startTime": 164612
+    }, 
+    {
+      "alignment": "C", 
+      "data": "predict whether or not that physician will be sued.", 
+      "endTime": 170082, 
+      "position": "HB", 
+      "startTime": 167445
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ef\u7528\u4f86\u9810\u6e2c\u8a72\u91ab\u5e2b\u65e5\u5f8c\u662f\u5426\u6703\u88ab\u75c5\u4eba\u544a\u4e0a\u6cd5\u5ead", 
+      "endTime": 170082, 
+      "position": "HT", 
+      "startTime": 167445
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So it doesn't have to do so much with whether or not", 
+      "endTime": 172276, 
+      "position": "HB", 
+      "startTime": 170082
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8ddf\u9019\u500b\u91ab\u5e2b\u7a31\u8077\u8207\u5426\u6c92\u6709\u592a\u5927\u95dc\u4fc2", 
+      "endTime": 172276, 
+      "position": "HT", 
+      "startTime": 170082
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that physician was incompetent, but do we like that person", 
+      "endTime": 174421, 
+      "position": "HB", 
+      "startTime": 172276
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u91cd\u9ede\u662f\u6211\u5011\u559c\u4e0d\u559c\u6b61\u4ed6", 
+      "endTime": 174421, 
+      "position": "HT", 
+      "startTime": 172276
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and how they interacted?", 
+      "endTime": 177117, 
+      "position": "HB", 
+      "startTime": 174421
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u4ed6\u5011\u4e92\u52d5\u7684\u60c5\u5f62?", 
+      "endTime": 177117, 
+      "position": "HT", 
+      "startTime": 174421
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Even more dramatic, Alex Todorov at Princeton has shown", 
+      "endTime": 180052, 
+      "position": "HB", 
+      "startTime": 177117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u66f4\u6232\u5287\u5316\u7684\u662f\uff0c\u666e\u6797\u65af\u9813\u7684 Alex Todorov \u7684\u7814\u7a76\u544a\u8a34\u6211\u5011", 
+      "endTime": 180052, 
+      "position": "HT", 
+      "startTime": 177117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "us that judgments of political candidates' faces", 
+      "endTime": 183729, 
+      "position": "HB", 
+      "startTime": 180052
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u5728\u4e00\u79d2\u5167\u5c0d\u653f\u6cbb\u4eba\u7269\u81c9\u90e8\u7684\u559c\u597d\u5224\u65b7", 
+      "endTime": 183729, 
+      "position": "HT", 
+      "startTime": 180052
+    }, 
+    {
+      "alignment": "C", 
+      "data": "in just one second predict 70 percent of U.S. Senate", 
+      "endTime": 188316, 
+      "position": "HB", 
+      "startTime": 183729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c0d\u7f8e\u570b\u53c3\u8b70\u9662\u548c\u7f8e\u570b\u5dde\u9577\u7684", 
+      "endTime": 188316, 
+      "position": "HT", 
+      "startTime": 183729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and gubernatorial race outcomes,", 
+      "endTime": 191547, 
+      "position": "HB", 
+      "startTime": 188316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9078\u8209\u7d50\u679c\u6709 70% \u7684\u9810\u6e2c\u529b", 
+      "endTime": 191547, 
+      "position": "HT", 
+      "startTime": 188316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and even, let's go digital,", 
+      "endTime": 193769, 
+      "position": "HB", 
+      "startTime": 191547
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u751a\u81f3\uff0c\u5728\u96fb\u8166\u4e0a\u7684\u4e92\u52d5", 
+      "endTime": 193769, 
+      "position": "HT", 
+      "startTime": 191547
+    }, 
+    {
+      "alignment": "C", 
+      "data": "emoticons used well in online negotiations", 
+      "endTime": 197914, 
+      "position": "HB", 
+      "startTime": 193769
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u7dda\u4e0a\u5354\u5546\u6642\uff0c\u59a5\u5584\u904b\u7528\u8868\u60c5\u7b26\u865f", 
+      "endTime": 197914, 
+      "position": "HT", 
+      "startTime": 193769
+    }, 
+    {
+      "alignment": "C", 
+      "data": "can lead to you claim more value from that negotiation.", 
+      "endTime": 200746, 
+      "position": "HB", 
+      "startTime": 197914
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ef\u4ee5\u8b93\u4f60\u5728\u5354\u5546\u4e2d\u7372\u7684\u8f03\u591a\u50f9\u503c", 
+      "endTime": 200746, 
+      "position": "HT", 
+      "startTime": 197914
+    }, 
+    {
+      "alignment": "C", 
+      "data": "If you use them poorly, bad idea. Right?", 
+      "endTime": 203969, 
+      "position": "HB", 
+      "startTime": 200746
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5047\u5982\u4f60\u904b\u7528\u4e0d\u5f97\u7576\uff0c\u4e0d\u5999\uff01\u5c0d\u5427?", 
+      "endTime": 203969, 
+      "position": "HT", 
+      "startTime": 200746
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So when we think of nonverbals, we think of how we judge", 
+      "endTime": 206866, 
+      "position": "HB", 
+      "startTime": 203969
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u6211\u5011\u60f3\u5230\u975e\u53e3\u8a9e\u8a9e\u8a00\uff0c\u6211\u5011\u5c31\u60f3\u5230\u5224\u65b7\u5225\u4eba", 
+      "endTime": 206866, 
+      "position": "HT", 
+      "startTime": 203969
+    }, 
+    {
+      "alignment": "C", 
+      "data": "others, how they judge us and what the outcomes are.", 
+      "endTime": 209968, 
+      "position": "HB", 
+      "startTime": 206866
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5225\u4eba\u5982\u4f55\u5224\u65b7\u6211\u5011\u4ee5\u53ca\u7d50\u679c", 
+      "endTime": 209968, 
+      "position": "HT", 
+      "startTime": 206866
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We tend to forget, though, the other audience", 
+      "endTime": 211848, 
+      "position": "HB", 
+      "startTime": 209968
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u5f80\u5f80\u5fd8\u8a18\uff0c\u9084\u6709\u5176\u4ed6\u4eba\u4e5f\u53d7\u5230\u6211\u5011\u975e\u53e3\u8a9e\u8a9e\u8a00\u5f71\u97ff", 
+      "endTime": 211848, 
+      "position": "HT", 
+      "startTime": 209968
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that's influenced by our nonverbals, and that's ourselves.", 
+      "endTime": 215523, 
+      "position": "HB", 
+      "startTime": 211848
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u90a3\u5c31\u662f\u6211\u5011\u81ea\u5df1", 
+      "endTime": 215523, 
+      "position": "HT", 
+      "startTime": 211848
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We are also influenced by our nonverbals, our thoughts", 
+      "endTime": 218736, 
+      "position": "HB", 
+      "startTime": 215523
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u4e5f\u540c\u6642\u53d7\u81ea\u5df1\u7684\u975e\u53e3\u8a9e\u8a9e\u8a00\u3001\u60f3\u6cd5", 
+      "endTime": 218736, 
+      "position": "HT", 
+      "startTime": 215523
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and our feelings and our physiology.", 
+      "endTime": 221099, 
+      "position": "HB", 
+      "startTime": 218736
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u611f\u89ba\u548c\u751f\u7406\u5f71\u97ff", 
+      "endTime": 221099, 
+      "position": "HT", 
+      "startTime": 218736
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what nonverbals am I talking about?", 
+      "endTime": 224162, 
+      "position": "HB", 
+      "startTime": 221099
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u6211\u8aaa\u7684\u7a76\u7adf\u662f\u751a\u9ebc\u6a23\u7684\u975e\u53e3\u8a9e\u8a9e\u8a00?", 
+      "endTime": 224162, 
+      "position": "HT", 
+      "startTime": 221099
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I'm a social psychologist. I study prejudice,", 
+      "endTime": 227105, 
+      "position": "HB", 
+      "startTime": 224162
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u662f\u4e00\u4f4d\u793e\u6703\u5fc3\u7406\u5b78\u5bb6\uff0c\u6211\u7814\u7a76\u504f\u898b", 
+      "endTime": 227105, 
+      "position": "HT", 
+      "startTime": 224162
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I teach at a competitive business school,", 
+      "endTime": 229832, 
+      "position": "HB", 
+      "startTime": 227105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5728\u4e00\u6240\u7af6\u722d\u6fc0\u70c8\u7684\u5546\u5b78\u9662\u6559\u66f8", 
+      "endTime": 229832, 
+      "position": "HT", 
+      "startTime": 227105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so it was inevitable that I would become interested in power dynamics.", 
+      "endTime": 234316, 
+      "position": "HB", 
+      "startTime": 229832
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u6b64\u7121\u53ef\u907f\u514d\u5730\u5c0d\u6b0a\u529b\u9593\u4e92\u52d5\u95dc\u4fc2\u8457\u8ff7", 
+      "endTime": 234316, 
+      "position": "HT", 
+      "startTime": 229832
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I became especially interested in nonverbal expressions", 
+      "endTime": 238128, 
+      "position": "HB", 
+      "startTime": 234316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7279\u5225\u662f\u5728\u975e\u53e3\u8a9e\u8a9e\u8a00\u8868\u9054\u65b9\u9762", 
+      "endTime": 238128, 
+      "position": "HT", 
+      "startTime": 234316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "of power and dominance.", 
+      "endTime": 240131, 
+      "position": "HB", 
+      "startTime": 238128
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7684\u6b0a\u529b\u548c\u652f\u914d", 
+      "endTime": 240131, 
+      "position": "HT", 
+      "startTime": 238128
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And what are nonverbal expressions of power and dominance?", 
+      "endTime": 242789, 
+      "position": "HB", 
+      "startTime": 240131
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c55\u793a\u6b0a\u529b\u548c\u652f\u914d\u7684\u975e\u53e3\u8a9e\u8a9e\u8a00\u53c8\u70ba\u4f55\u5462?", 
+      "endTime": 242789, 
+      "position": "HT", 
+      "startTime": 240131
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Well, this is what they are.", 
+      "endTime": 244953, 
+      "position": "HB", 
+      "startTime": 242789
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u55ef\uff0c\u8b93\u6211\u7d30\u7d30\u9053\u4f86", 
+      "endTime": 244953, 
+      "position": "HT", 
+      "startTime": 242789
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So in the animal kingdom, they are about expanding.", 
+      "endTime": 247831, 
+      "position": "HB", 
+      "startTime": 244953
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u52d5\u7269\u4e16\u754c\u88e1\uff0c\u6b0a\u529b\u548c\u652f\u914d\u7684\u975e\u53e3\u8a9e\u8a9e\u8a00\u8b1b\u7a76\u64f4\u5c55", 
+      "endTime": 247831, 
+      "position": "HT", 
+      "startTime": 244953
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So you make yourself big, you stretch out,", 
+      "endTime": 250841, 
+      "position": "HB", 
+      "startTime": 247831
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u4f60\u76e1\u53ef\u80fd\u5f97\u628a\u81ea\u5df1\u8b8a\u5927\uff0c\u4f60\u4f38\u5c55\u8eab\u9ad4", 
+      "endTime": 250841, 
+      "position": "HT", 
+      "startTime": 247831
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you take up space, you're basically opening up.", 
+      "endTime": 253782, 
+      "position": "HB", 
+      "startTime": 250841
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5360\u6eff\u7a7a\u9593\uff0c\u57fa\u672c\u4e0a\u5c31\u662f\u958b\u5c55\u8eab\u9ad4", 
+      "endTime": 253782, 
+      "position": "HT", 
+      "startTime": 250841
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It's about opening up. And this is true", 
+      "endTime": 256772, 
+      "position": "HB", 
+      "startTime": 253782
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c31\u662f\u95dc\u65bc\u5c55\u958b\u8eab\u9ad4", 
+      "endTime": 256772, 
+      "position": "HT", 
+      "startTime": 253782
+    }, 
+    {
+      "alignment": "C", 
+      "data": "across the animal kingdom. It's not just limited to primates.", 
+      "endTime": 260532, 
+      "position": "HB", 
+      "startTime": 256772
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6574\u500b\u52d5\u7269\u4e16\u754c\u90fd\u662f\u5982\u6b64\uff0c\u4e0d\u50c5\u9650\u65bc\u9748\u9577\u985e\u3002", 
+      "endTime": 260532, 
+      "position": "HT", 
+      "startTime": 256772
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And humans do the same thing. (Laughter)", 
+      "endTime": 263952, 
+      "position": "HB", 
+      "startTime": 260532
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4eba\u985e\u4e5f\u5e79\u540c\u6a23\u7684\u4e8b(\u7b11\u8072)", 
+      "endTime": 263952, 
+      "position": "HT", 
+      "startTime": 260532
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So they do this both when they have power sort of chronically,", 
+      "endTime": 267663, 
+      "position": "HB", 
+      "startTime": 263952
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u8ad6\u662f\u7fd2\u65bc\u6b0a\u529b\u7684\u4eba", 
+      "endTime": 267663, 
+      "position": "HT", 
+      "startTime": 263952
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and also when they're feeling powerful in the moment.", 
+      "endTime": 270664, 
+      "position": "HB", 
+      "startTime": 267663
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u666e\u901a\u4eba\u5076\u800c\u78b0\u4e0a\u53ef\u4ee5\u5927\u8072\u8b1b\u8a71\u7684\u6642\u5f8c\uff0c\u90fd\u662f\u5982\u6b64", 
+      "endTime": 270664, 
+      "position": "HT", 
+      "startTime": 267663
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And this one is especially interesting because it really shows us", 
+      "endTime": 273569, 
+      "position": "HB", 
+      "startTime": 270664
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7279\u5225\u6709\u8da3\u7684\u539f\u56e0\u662f", 
+      "endTime": 273569, 
+      "position": "HT", 
+      "startTime": 270664
+    }, 
+    {
+      "alignment": "C", 
+      "data": "how universal and old these expressions of power are.", 
+      "endTime": 277758, 
+      "position": "HB", 
+      "startTime": 273569
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5b83\u8b93\u6211\u5011\u660e\u767d\u53e4\u4eca\u4e16\u754c\u6b0a\u529b\u7684\u5c55\u73fe\u5f9e\u4f86\u662f\u5982\u6b64\u5730\u4e00\u81f4", 
+      "endTime": 277758, 
+      "position": "HT", 
+      "startTime": 273569
+    }, 
+    {
+      "alignment": "C", 
+      "data": "This expression, which is known as pride,", 
+      "endTime": 280357, 
+      "position": "HB", 
+      "startTime": 277758
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u81ea\u5c0a\u7684\u8868\u73fe", 
+      "endTime": 280357, 
+      "position": "HT", 
+      "startTime": 277758
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Jessica Tracy has studied. She shows that", 
+      "endTime": 283405, 
+      "position": "HB", 
+      "startTime": 280357
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Jessica Tracy \u7814\u7a76\u986f\u793a", 
+      "endTime": 283405, 
+      "position": "HT", 
+      "startTime": 280357
+    }, 
+    {
+      "alignment": "C", 
+      "data": "people who are born with sight", 
+      "endTime": 285517, 
+      "position": "HB", 
+      "startTime": 283405
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8996\u529b\u6b63\u5e38\u7684\u4eba", 
+      "endTime": 285517, 
+      "position": "HT", 
+      "startTime": 283405
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and people who are congenitally blind do this", 
+      "endTime": 288458, 
+      "position": "HB", 
+      "startTime": 285517
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u5148\u5929\u8996\u969c\u7684\u4eba", 
+      "endTime": 288458, 
+      "position": "HT", 
+      "startTime": 285517
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when they win at a physical competition.", 
+      "endTime": 290772, 
+      "position": "HB", 
+      "startTime": 288458
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u8d0f\u5f97\u6bd4\u8cfd\u6642\u90fd\u505a\u540c\u6a23\u7684\u4e8b", 
+      "endTime": 290772, 
+      "position": "HT", 
+      "startTime": 288458
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So when they cross the finish line and they've won,", 
+      "endTime": 292750, 
+      "position": "HB", 
+      "startTime": 290772
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u4ed6\u5011\u8de8\u904e\u7d42\u9ede\u7dda\u8d0f\u5f97\u6bd4\u8cfd\u4e4b\u969b", 
+      "endTime": 292750, 
+      "position": "HT", 
+      "startTime": 290772
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it doesn't matter if they've never seen anyone do it.", 
+      "endTime": 294861, 
+      "position": "HB", 
+      "startTime": 292750
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7121\u8ad6\u4ed6\u5011\u662f\u5426\u66fe\u770b\u904e\u9019\u7a2e\u884c\u70ba", 
+      "endTime": 294861, 
+      "position": "HT", 
+      "startTime": 292750
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They do this.", 
+      "endTime": 295947, 
+      "position": "HB", 
+      "startTime": 294861
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u90fd\u5c55\u73fe\u9019\u500b\u59ff\u52e2", 
+      "endTime": 295947, 
+      "position": "HT", 
+      "startTime": 294861
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So the arms up in the V, the chin is slightly lifted.", 
+      "endTime": 299390, 
+      "position": "HB", 
+      "startTime": 295947
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u96d9\u81c2\u5448V\u5b57\u578b\u671d\u4e0a\uff0c\u4e0b\u5df4\u5fae\u63da", 
+      "endTime": 299390, 
+      "position": "HT", 
+      "startTime": 295947
+    }, 
+    {
+      "alignment": "C", 
+      "data": "What do we do when we feel powerless? We do exactly", 
+      "endTime": 301934, 
+      "position": "HB", 
+      "startTime": 299390
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u90a3\u6211\u5011\u611f\u5230\u7121\u52a9\u7684\u6642\u5019\u5462? \u6211\u5011\u505a\u5b8c\u5168\u76f8\u53cd\u7684\u4e8b", 
+      "endTime": 301934, 
+      "position": "HT", 
+      "startTime": 299390
+    }, 
+    {
+      "alignment": "C", 
+      "data": "the opposite. We close up. We wrap ourselves up.", 
+      "endTime": 305984, 
+      "position": "HB", 
+      "startTime": 301934
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u7e2e\u8d77\u8eab\u9ad4\u3002\u6211\u5011\u628a\u81ea\u5df1\u6372\u66f2\u8d77\u4f86", 
+      "endTime": 305984, 
+      "position": "HT", 
+      "startTime": 301934
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We make ourselves small. We don't want to bump into the person next to us.", 
+      "endTime": 309448, 
+      "position": "HB", 
+      "startTime": 305984
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8b93\u81ea\u5df1\u8b8a\u5f97\u5c0f\u4e00\u9ede\uff0c\u6700\u597d\u5225\u78b0\u5230\u8eab\u65c1\u7684\u4eba", 
+      "endTime": 309448, 
+      "position": "HT", 
+      "startTime": 305984
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So again, both animals and humans do the same thing.", 
+      "endTime": 312489, 
+      "position": "HB", 
+      "startTime": 309448
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u518d\u91cd\u8907\u4e00\u6b21\uff0c\u4eba\u985e\u548c\u52d5\u7269\u90fd\u4e00\u6a23", 
+      "endTime": 312489, 
+      "position": "HT", 
+      "startTime": 309448
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And this is what happens when you put together high", 
+      "endTime": 315569, 
+      "position": "HB", 
+      "startTime": 312489
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u662f\u5728\u6b0a\u529b\u4e0d\u5c0d\u7b49\u6642\u767c\u751f\u7684\u72c0\u6cc1", 
+      "endTime": 315569, 
+      "position": "HT", 
+      "startTime": 312489
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and low power. So what we tend to do", 
+      "endTime": 317880, 
+      "position": "HB", 
+      "startTime": 315569
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u4e0d\u5c0d\u7b49\u6b0a\u529b\u72c0\u614b\u4e0b\uff0c\u6211\u5011\u50be\u5411", 
+      "endTime": 317880, 
+      "position": "HT", 
+      "startTime": 315569
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when it comes to power is that we complement the other's nonverbals.", 
+      "endTime": 322248, 
+      "position": "HB", 
+      "startTime": 317880
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u5c0d\u65b9\u4e92\u88dc", 
+      "endTime": 322248, 
+      "position": "HT", 
+      "startTime": 317880
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So if someone is being really powerful with us,", 
+      "endTime": 324679, 
+      "position": "HB", 
+      "startTime": 322248
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u82e5\u6709\u4eba\u5c0d\u6211\u5011\u5c55\u73fe\u6b0a\u529b", 
+      "endTime": 324679, 
+      "position": "HT", 
+      "startTime": 322248
+    }, 
+    {
+      "alignment": "C", 
+      "data": "we tend to make ourselves smaller. We don't mirror them.", 
+      "endTime": 326904, 
+      "position": "HB", 
+      "startTime": 324679
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u50be\u5411\u628a\u81ea\u5df1\u7e2e\u5c0f\u4e9b\uff0c\u6211\u5011\u4e0d\u6a21\u4eff\u4ed6\u5011", 
+      "endTime": 326904, 
+      "position": "HT", 
+      "startTime": 324679
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We do the opposite of them.", 
+      "endTime": 328937, 
+      "position": "HB", 
+      "startTime": 326904
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u80cc\u9053\u800c\u99b3", 
+      "endTime": 328937, 
+      "position": "HT", 
+      "startTime": 326904
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I'm watching this behavior in the classroom,", 
+      "endTime": 332136, 
+      "position": "HB", 
+      "startTime": 328937
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u6211\u5728\u8ab2\u5802\u4e0a\u89c0\u5bdf\u9019\u9ebc\u73fe\u8c61\u6642", 
+      "endTime": 332136, 
+      "position": "HT", 
+      "startTime": 328937
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and what do I notice? I notice that MBA students", 
+      "endTime": 338922, 
+      "position": "HB", 
+      "startTime": 332136
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u731c\u6211\u767c\u73fe\u751a\u9ebc? \u6211\u767c\u73fe MBA \u7684\u5b78\u751f", 
+      "endTime": 338922, 
+      "position": "HT", 
+      "startTime": 332136
+    }, 
+    {
+      "alignment": "C", 
+      "data": "really exhibit the full range of power nonverbals.", 
+      "endTime": 341926, 
+      "position": "HB", 
+      "startTime": 338922
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u628a\u6b0a\u529b\u7684\u975e\u53e3\u8a9e\u8a9e\u8a00\u90e8\u5206\u8868\u9054\u7684\u6dcb\u6f13\u76e1\u81f4", 
+      "endTime": 341926, 
+      "position": "HT", 
+      "startTime": 338922
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So you have people who are like caricatures of alphas,", 
+      "endTime": 344394, 
+      "position": "HB", 
+      "startTime": 341926
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u6703\u770b\u5230\u6709\u4e9b\u4eba\u5c31\u50cf\u52d5\u7269\u7fa4\u88e1\u652f\u914d\u7684\u96c4\u6027\u7684\u8b8a\u5f62", 
+      "endTime": 344394, 
+      "position": "HT", 
+      "startTime": 341926
+    }, 
+    {
+      "alignment": "C", 
+      "data": "really coming into the room, they get right into the middle of the room", 
+      "endTime": 347384, 
+      "position": "HB", 
+      "startTime": 344394
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0a\u8ab2\u524d\u5927\u6416\u5927\u64fa\u8d70\u9032\u6559\u5ba4\uff0c\u4e00\u5c41\u80a1\u5750\u5728\u6559\u5ba4\u6b63\u4e2d", 
+      "endTime": 347384, 
+      "position": "HT", 
+      "startTime": 344394
+    }, 
+    {
+      "alignment": "C", 
+      "data": "before class even starts, like they really want to occupy space.", 
+      "endTime": 351316, 
+      "position": "HB", 
+      "startTime": 347384
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u597d\u50cf\u4ed6\u5011\u771f\u7684\u8981\u5360\u64da\u6574\u500b\u7a7a\u9593\u4f3c\u7684", 
+      "endTime": 351316, 
+      "position": "HT", 
+      "startTime": 347384
+    }, 
+    {
+      "alignment": "C", 
+      "data": "When they sit down, they're sort of spread out.", 
+      "endTime": 353205, 
+      "position": "HB", 
+      "startTime": 351316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u4ed6\u5011\u5750\u4e0b\u7684\u6642\u5019\uff0c\u8eab\u9ad4\u6703\u5c55\u958b", 
+      "endTime": 353205, 
+      "position": "HT", 
+      "startTime": 351316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They raise their hands like this.", 
+      "endTime": 355337, 
+      "position": "HB", 
+      "startTime": 353205
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8209\u624b\u6642\u6703\u50cf\u9019\u6a23\u628a\u624b\u9ad8\u8209\u8d77\u4f86", 
+      "endTime": 355337, 
+      "position": "HT", 
+      "startTime": 353205
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You have other people who are virtually collapsing", 
+      "endTime": 357972, 
+      "position": "HB", 
+      "startTime": 355337
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u4e9b\u4eba\u57fa\u672c\u4e0a\u662f\u6524\u6210\u4e00\u5806", 
+      "endTime": 357972, 
+      "position": "HT", 
+      "startTime": 355337
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when they come in. As soon they come in, you see it.", 
+      "endTime": 360296, 
+      "position": "HB", 
+      "startTime": 357972
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u4e00\u8d70\u9032\u4f86\u4f60\u5c31\u6703\u767c\u73fe", 
+      "endTime": 360296, 
+      "position": "HT", 
+      "startTime": 357972
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You see it on their faces and their bodies, and they sit", 
+      "endTime": 362834, 
+      "position": "HB", 
+      "startTime": 360296
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5f9e\u4ed6\u5011\u7684\u81c9\u4e0a\u8868\u60c5\u548c\u8eab\u9ad4\u59ff\u52e2\u90fd\u770b\u5f97\u51fa\u4f86", 
+      "endTime": 362834, 
+      "position": "HT", 
+      "startTime": 360296
+    }, 
+    {
+      "alignment": "C", 
+      "data": "in their chair and they make themselves tiny,", 
+      "endTime": 364820, 
+      "position": "HB", 
+      "startTime": 362834
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u5750\u5728\u6905\u5b50\u4e0a\uff0c\u628a\u81ea\u5df1\u7e2e\u7684\u5c0f\u5c0f\u7684", 
+      "endTime": 364820, 
+      "position": "HT", 
+      "startTime": 362834
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and they go like this when they raise their hand.", 
+      "endTime": 367969, 
+      "position": "HB", 
+      "startTime": 364820
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u8209\u624b\u7684\u6642\u5019\u662f\u9019\u7a2e\u754f\u754f\u7e2e\u7e2e\u7684\u6a23\u5b50", 
+      "endTime": 367969, 
+      "position": "HT", 
+      "startTime": 364820
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I notice a couple of things about this.", 
+      "endTime": 369646, 
+      "position": "HB", 
+      "startTime": 367969
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u89c0\u5bdf\u5230\u5169\u9ede\uff1a", 
+      "endTime": 369646, 
+      "position": "HT", 
+      "startTime": 367969
+    }, 
+    {
+      "alignment": "C", 
+      "data": "One, you're not going to be surprised.", 
+      "endTime": 371383, 
+      "position": "HB", 
+      "startTime": 369646
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7b2c\u4e00\uff0c\u4e0d\u51fa\u6240\u6599", 
+      "endTime": 371383, 
+      "position": "HT", 
+      "startTime": 369646
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It seems to be related to gender.", 
+      "endTime": 373727, 
+      "position": "HB", 
+      "startTime": 371383
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u8ddf\u6027\u5225\u6709\u95dc", 
+      "endTime": 373727, 
+      "position": "HT", 
+      "startTime": 371383
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So women are much more likely to do this kind of thing than men.", 
+      "endTime": 379192, 
+      "position": "HB", 
+      "startTime": 373727
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5973\u4eba\u6bd4\u7537\u4eba\u66f4\u6703\u986f\u5f97\u754f\u7e2e", 
+      "endTime": 379192, 
+      "position": "HT", 
+      "startTime": 373727
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Women feel chronically less powerful than men,", 
+      "endTime": 381778, 
+      "position": "HB", 
+      "startTime": 379192
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9577\u671f\u4ee5\u4f86\u5973\u4eba\u90fd\u4e0d\u89ba\u5f97\u50cf\u7537\u4eba\u90a3\u9ebc\u5f37\u52e2", 
+      "endTime": 381778, 
+      "position": "HT", 
+      "startTime": 379192
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so this is not surprising. But the other thing I noticed is that", 
+      "endTime": 385733, 
+      "position": "HB", 
+      "startTime": 381778
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u9019\u4e26\u4e0d\u592a\u8b93\u4eba\u610f\u5916\u3002\u4f46\u7b2c\u4e8c\u4ef6\u6211\u89c0\u5bdf\u5230\u7684", 
+      "endTime": 385733, 
+      "position": "HT", 
+      "startTime": 381778
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it also seemed to be related to the extent to which", 
+      "endTime": 388578, 
+      "position": "HB", 
+      "startTime": 385733
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u7a2e\u8868\u73fe\u4f3c\u4e4e\u8ddf\u5b78\u751f\u7684\u53c3\u8207\u7a0b\u5ea6", 
+      "endTime": 388578, 
+      "position": "HT", 
+      "startTime": 385733
+    }, 
+    {
+      "alignment": "C", 
+      "data": "the students were participating, and how well they were participating.", 
+      "endTime": 392259, 
+      "position": "HB", 
+      "startTime": 388578
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8207\u53c3\u8207\u8868\u73fe\u76f8\u95dc", 
+      "endTime": 392259, 
+      "position": "HT", 
+      "startTime": 388578
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And this is really important in the MBA classroom,", 
+      "endTime": 394841, 
+      "position": "HB", 
+      "startTime": 392259
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728 MBA \u7684\u8ab2\u5802\u4e0a\u4f86\u8aaa\u9019\u771f\u7684\u975e\u5e38\u91cd\u8981", 
+      "endTime": 394841, 
+      "position": "HT", 
+      "startTime": 392259
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because participation counts for half the grade.", 
+      "endTime": 397522, 
+      "position": "HB", 
+      "startTime": 394841
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u53c3\u8207\u7684\u8868\u73fe\u5360\u6210\u7e3e\u7684\u4e00\u534a", 
+      "endTime": 397522, 
+      "position": "HT", 
+      "startTime": 394841
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So business schools have been struggling with this gender grade gap.", 
+      "endTime": 401995, 
+      "position": "HB", 
+      "startTime": 397522
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u5546\u5b78\u9662\u4e00\u76f4\u4ee5\u4f86\u90fd\u70ba\u7537\u5973\u751f\u5728\u53c3\u8207\u4e0a\u7684\u5dee\u5225\u50b7\u8166\u7b4b", 
+      "endTime": 401995, 
+      "position": "HT", 
+      "startTime": 397522
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You get these equally qualified women and men coming in", 
+      "endTime": 405267, 
+      "position": "HB", 
+      "startTime": 401995
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5165\u5b78\u7684\u6642\u5019\u7537\u5973\u751f\u4e0d\u5206\u8ed2\u8f0a", 
+      "endTime": 405267, 
+      "position": "HT", 
+      "startTime": 401995
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and then you get these differences in grades,", 
+      "endTime": 407263, 
+      "position": "HB", 
+      "startTime": 405267
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ef\u662f\u6210\u7e3e\u51fa\u4f86\u537b\u53cd\u6620\u6027\u5225\u5dee\u7570", 
+      "endTime": 407263, 
+      "position": "HT", 
+      "startTime": 405267
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and it seems to be partly attributable to participation.", 
+      "endTime": 410523, 
+      "position": "HB", 
+      "startTime": 407263
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u770b\u8d77\u4f86\u4e00\u90e8\u5206\u539f\u56e0\u548c\u53c3\u8207\u6709\u95dc", 
+      "endTime": 410523, 
+      "position": "HT", 
+      "startTime": 407263
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I started to wonder, you know, okay,", 
+      "endTime": 413546, 
+      "position": "HB", 
+      "startTime": 410523
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u6211\u958b\u59cb\u601d\u8003\uff0c\u597d\u5427", 
+      "endTime": 413546, 
+      "position": "HT", 
+      "startTime": 410523
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so you have these people coming in like this, and they're", 
+      "endTime": 416070, 
+      "position": "HB", 
+      "startTime": 413546
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u9019\u7fa4\u4eba\u4e00\u958b\u59cb\u4f86\u662f\u9019\u526f\u6a23\u5b50\uff0c\u770b\u8d77\u4f86\u7a4d\u6975\u53c3\u8207", 
+      "endTime": 416070, 
+      "position": "HT", 
+      "startTime": 413546
+    }, 
+    {
+      "alignment": "C", 
+      "data": "participating. Is it possible that we could get people to fake it", 
+      "endTime": 419741, 
+      "position": "HB", 
+      "startTime": 416070
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u90a3\u662f\u4e0d\u662f\u53ef\u80fd\u8b93\u5927\u5bb6\u5148\u5047\u88dd\u6210\u90a3\u6a23", 
+      "endTime": 419741, 
+      "position": "HT", 
+      "startTime": 416070
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and would it lead them to participate more?", 
+      "endTime": 421713, 
+      "position": "HB", 
+      "startTime": 419741
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9032\u800c\u5f71\u97ff\u4ed6\u5011\uff0c\u80fd\u66f4\u7a4d\u6975\u53c3\u8207?", 
+      "endTime": 421713, 
+      "position": "HT", 
+      "startTime": 419741
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So my main collaborator Dana Carney, who's at Berkeley,", 
+      "endTime": 426378, 
+      "position": "HB", 
+      "startTime": 421713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5728 Berkeley \u7684\u4e3b\u8981\u5408\u4f5c\u7814\u7a76\u5925\u4f34\uff0cDana Carney", 
+      "endTime": 426378, 
+      "position": "HT", 
+      "startTime": 421713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I really wanted to know, can you fake it till you make it?", 
+      "endTime": 429933, 
+      "position": "HB", 
+      "startTime": 426378
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u6211\u90fd\u5f88\u60f3\u77e5\u9053\uff0c\u662f\u4e0d\u662f\u80fd\u5148\u5047\u88dd\uff0c\u5230\u6700\u5f8c\u5247\u6210\u771f", 
+      "endTime": 429933, 
+      "position": "HT", 
+      "startTime": 426378
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Like, can you do this just for a little while and actually", 
+      "endTime": 432963, 
+      "position": "HB", 
+      "startTime": 429933
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8b6c\u5982\u8aaa\uff0c\u5148\u5c0f\u5c0f\u5047\u88dd\u4e00\u9663\u5b50\uff0c\u7136\u5f8c\u5728\u5be6\u969b\u884c\u70ba\u4e0a\u7d93\u9a57\u5230", 
+      "endTime": 432963, 
+      "position": "HT", 
+      "startTime": 429933
+    }, 
+    {
+      "alignment": "C", 
+      "data": "experience a behavioral outcome that makes you seem more powerful?", 
+      "endTime": 436786, 
+      "position": "HB", 
+      "startTime": 432963
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u770b\u4f86\u5f88\u6709\u6b0a\u529b\u7684\u6a23\u5b50\u7684\u7d50\u679c", 
+      "endTime": 436786, 
+      "position": "HT", 
+      "startTime": 432963
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So we know that our nonverbals govern how other people", 
+      "endTime": 440338, 
+      "position": "HB", 
+      "startTime": 436786
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u90fd\u77e5\u9053\u975e\u53e3\u8a9e\u8a9e\u8a00\u5f71\u97ff", 
+      "endTime": 440338, 
+      "position": "HT", 
+      "startTime": 436786
+    }, 
+    {
+      "alignment": "C", 
+      "data": "think and feel about us. There's a lot of evidence.", 
+      "endTime": 442031, 
+      "position": "HB", 
+      "startTime": 440338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u4eba\u5c0d\u6211\u5011\u7684\u770b\u6cd5\u3002\u5df2\u7d93\u6709\u5f88\u591a\u7814\u7a76\u8b49\u660e\u9019\u4ef6\u4e8b", 
+      "endTime": 442031, 
+      "position": "HT", 
+      "startTime": 440338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "But our question really was, do our nonverbals", 
+      "endTime": 445143, 
+      "position": "HB", 
+      "startTime": 442031
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u6211\u5011\u8981\u554f\u7684\u554f\u984c\u662f\uff0c\u975e\u53e3\u8a9e\u8a9e\u8a00", 
+      "endTime": 445143, 
+      "position": "HT", 
+      "startTime": 442031
+    }, 
+    {
+      "alignment": "C", 
+      "data": "govern how we think and feel about ourselves?", 
+      "endTime": 448253, 
+      "position": "HB", 
+      "startTime": 445143
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u662f\u5426\u5f71\u97ff\u6211\u5011\u5c0d\u81ea\u5df1\u7684\u770b\u6cd5\u8207\u611f\u89ba\uff1f", 
+      "endTime": 448253, 
+      "position": "HT", 
+      "startTime": 445143
+    }, 
+    {
+      "alignment": "C", 
+      "data": "There's some evidence that they do.", 
+      "endTime": 450943, 
+      "position": "HB", 
+      "startTime": 448253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u78ba\u5be6\u6709\u8b49\u64da\u652f\u6301\u9019\u500b\u8aaa\u6cd5", 
+      "endTime": 450943, 
+      "position": "HT", 
+      "startTime": 448253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So, for example, we smile when we feel happy,", 
+      "endTime": 455579, 
+      "position": "HB", 
+      "startTime": 450943
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8209\u4f8b\u4f86\u8aaa\uff0c\u6211\u5011\u958b\u5fc3\u7684\u6642\u5019\u6703\u5fae\u7b11", 
+      "endTime": 455579, 
+      "position": "HT", 
+      "startTime": 450943
+    }, 
+    {
+      "alignment": "C", 
+      "data": "but also, when we're forced to smile", 
+      "endTime": 457757, 
+      "position": "HB", 
+      "startTime": 455579
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u540c\u6a23\u5730\uff0c\u7576\u6211\u5011\u88ab\u8feb\u5728\u53e3\u4e2d\u54ac\u4f4f\u4e00\u96bb\u7b46", 
+      "endTime": 457757, 
+      "position": "HT", 
+      "startTime": 455579
+    }, 
+    {
+      "alignment": "C", 
+      "data": "by holding a pen in our teeth like this, it makes us feel happy.", 
+      "endTime": 462172, 
+      "position": "HB", 
+      "startTime": 457757
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5448\u73fe\u5fae\u7b11\u7684\u8868\u60c5\u6642\uff0c\u6211\u5011\u4e5f\u6703\u611f\u5230\u958b\u5fc3", 
+      "endTime": 462172, 
+      "position": "HT", 
+      "startTime": 457757
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So it goes both ways. When it comes to power,", 
+      "endTime": 465253, 
+      "position": "HB", 
+      "startTime": 462172
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ee3\u8868\u9019\u662f\u4e92\u70ba\u56e0\u679c\uff0c\u4e92\u76f8\u5f71\u97ff\u7684\u3002\u8aaa\u5230\u6b0a\u529b", 
+      "endTime": 465253, 
+      "position": "HT", 
+      "startTime": 462172
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it also goes both ways. So when you feel powerful,", 
+      "endTime": 470468, 
+      "position": "HB", 
+      "startTime": 465253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ea6\u662f\u5982\u6b64\u3002\u6240\u4ee5\u7576\u6211\u5011\u611f\u5230\u5f88\u6709\u6b0a\u529b\u6642", 
+      "endTime": 470468, 
+      "position": "HT", 
+      "startTime": 465253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you're more likely to do this, but it's also possible that", 
+      "endTime": 473854, 
+      "position": "HB", 
+      "startTime": 470468
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u6bd4\u8f03\u6703\u9019\u6a23\u505a\uff0c\u4f46\u4f60\u4e5f\u53ef\u80fd", 
+      "endTime": 473854, 
+      "position": "HT", 
+      "startTime": 470468
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when you pretend to be powerful, you are more likely", 
+      "endTime": 479460, 
+      "position": "HB", 
+      "startTime": 473854
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5047\u88dd\u81ea\u5df1\u5f88\u6709\u6b0a\u529b\uff0c", 
+      "endTime": 479460, 
+      "position": "HT", 
+      "startTime": 473854
+    }, 
+    {
+      "alignment": "C", 
+      "data": "to actually feel powerful.", 
+      "endTime": 481888, 
+      "position": "HB", 
+      "startTime": 479460
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u771f\u7684\u89ba\u5f97\u81ea\u5df1\u529b\u91cf\u5f37\u5927", 
+      "endTime": 481888, 
+      "position": "HT", 
+      "startTime": 479460
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So the second question really was, you know,", 
+      "endTime": 484948, 
+      "position": "HB", 
+      "startTime": 481888
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u90a3\u7b2c\u4e8c\u500b\u554f\u984c\u5c31\u662f", 
+      "endTime": 484948, 
+      "position": "HT", 
+      "startTime": 481888
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so we know that our minds change our bodies,", 
+      "endTime": 487531, 
+      "position": "HB", 
+      "startTime": 484948
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u77e5\u9053\u5fc3\u7406\u72c0\u614b\u6703\u5f71\u97ff\u8eab\u9ad4", 
+      "endTime": 487531, 
+      "position": "HT", 
+      "startTime": 484948
+    }, 
+    {
+      "alignment": "C", 
+      "data": "but is it also true that our bodies change our minds?", 
+      "endTime": 491948, 
+      "position": "HB", 
+      "startTime": 487531
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u90a3\u8eab\u9ad4\u662f\u5426\u80fd\u5f71\u97ff\u5fc3\u7406\u5462?", 
+      "endTime": 491948, 
+      "position": "HT", 
+      "startTime": 487531
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And when I say minds, in the case of the powerful,", 
+      "endTime": 494675, 
+      "position": "HB", 
+      "startTime": 491948
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u88e1\u6240\u8aaa\u7684\u5fc3\u7406\u5145\u6eff\u529b\u91cf", 
+      "endTime": 494675, 
+      "position": "HT", 
+      "startTime": 491948
+    }, 
+    {
+      "alignment": "C", 
+      "data": "what am I talking about?", 
+      "endTime": 496047, 
+      "position": "HB", 
+      "startTime": 494675
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6307\u7684\u662f\u751a\u9ebc?", 
+      "endTime": 496047, 
+      "position": "HT", 
+      "startTime": 494675
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I'm talking about thoughts and feelings", 
+      "endTime": 498213, 
+      "position": "HB", 
+      "startTime": 496047
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u6307\u7684\u662f\u60f3\u6cd5\u548c\u611f\u89ba", 
+      "endTime": 498213, 
+      "position": "HT", 
+      "startTime": 496047
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and the sort of physiological things that make up our thoughts and feelings,", 
+      "endTime": 501668, 
+      "position": "HB", 
+      "startTime": 498213
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u69cb\u6210\u6211\u5011\u60f3\u6cd5\u548c\u611f\u53d7\u7684\u751f\u7406\u56e0\u7d20", 
+      "endTime": 501668, 
+      "position": "HT", 
+      "startTime": 498213
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and in my case, that's hormones. I look at hormones.", 
+      "endTime": 504876, 
+      "position": "HB", 
+      "startTime": 501668
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u9019\u88e1\u662f\u6307\u8377\u723e\u8499\u3002\u6240\u4ee5\u6211\u91dd\u5c0d\u8377\u723e\u8499\u4f86\u770b", 
+      "endTime": 504876, 
+      "position": "HT", 
+      "startTime": 501668
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what do the minds of the powerful versus the powerless", 
+      "endTime": 507979, 
+      "position": "HB", 
+      "startTime": 504876
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5145\u6eff\u529b\u91cf\u6216\u5145\u6eff\u7121\u529b\u611f", 
+      "endTime": 507979, 
+      "position": "HT", 
+      "startTime": 504876
+    }, 
+    {
+      "alignment": "C", 
+      "data": "look like?", 
+      "endTime": 509210, 
+      "position": "HB", 
+      "startTime": 507979
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u8377\u723e\u8499\u5c64\u9762\u4e0a\u6709\u4ec0\u9ebc\u5dee\u5225\uff1f", 
+      "endTime": 509210, 
+      "position": "HT", 
+      "startTime": 507979
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So powerful people tend to be, not surprisingly,", 
+      "endTime": 513506, 
+      "position": "HB", 
+      "startTime": 509210
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u51fa\u4e4e\u610f\u6599\uff0c\u611f\u89ba\u81ea\u5df1\u6709\u529b\u7684\u4eba\u5f80\u5f80", 
+      "endTime": 513506, 
+      "position": "HT", 
+      "startTime": 509210
+    }, 
+    {
+      "alignment": "C", 
+      "data": "more assertive and more confident, more optimistic.", 
+      "endTime": 517730, 
+      "position": "HB", 
+      "startTime": 513506
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6bd4\u8f03\u679c\u65b7\uff0c\u81ea\u4fe1\uff0c\u4e14\u6a02\u89c0", 
+      "endTime": 517730, 
+      "position": "HT", 
+      "startTime": 513506
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They actually feel that they're going to win even at games of chance.", 
+      "endTime": 520729, 
+      "position": "HB", 
+      "startTime": 517730
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u78ba\u5207\u8a8d\u70ba\u6a5f\u6703\u6c38\u9060\u7ad9\u5728\u4ed6\u5011\u9019\u908a", 
+      "endTime": 520729, 
+      "position": "HT", 
+      "startTime": 517730
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They also tend to be able to think more abstractly.", 
+      "endTime": 524908, 
+      "position": "HB", 
+      "startTime": 520729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u4e5f\u8f03\u64c5\u9577\u62bd\u8c61\u601d\u8003", 
+      "endTime": 524908, 
+      "position": "HT", 
+      "startTime": 520729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So there are a lot of differences. They take more risks.", 
+      "endTime": 527514, 
+      "position": "HB", 
+      "startTime": 524908
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9084\u6709\u8a31\u591a\u5dee\u7570\u3002\u9019\u7a2e\u4eba\u6bd4\u8f03\u6562\u627f\u53d7\u98a8\u96aa", 
+      "endTime": 527514, 
+      "position": "HT", 
+      "startTime": 524908
+    }, 
+    {
+      "alignment": "C", 
+      "data": "There are a lot of differences between powerful and powerless people.", 
+      "endTime": 530367, 
+      "position": "HB", 
+      "startTime": 527514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5f37\u52e2\u7684\u4eba\u8207\u5145\u6eff\u7121\u529b\u611f\u7684\u4eba\u771f\u7684\u5dee\u5225\u5f88\u5927", 
+      "endTime": 530367, 
+      "position": "HT", 
+      "startTime": 527514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Physiologically, there also are differences on two", 
+      "endTime": 533659, 
+      "position": "HB", 
+      "startTime": 530367
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u751f\u7406\u4e0a\u6709\u4e8c\u500b\u91cd\u8981\u7684\u8377\u723e\u8499\u5c0d\u6b64\u6709\u5f71\u97ff", 
+      "endTime": 533659, 
+      "position": "HT", 
+      "startTime": 530367
+    }, 
+    {
+      "alignment": "C", 
+      "data": "key hormones: testosterone, which is the dominance hormone,", 
+      "endTime": 537724, 
+      "position": "HB", 
+      "startTime": 533659
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e00\u662f\u776a\u56fa\u916e:\u4e5f\u5c31\u662f\u652f\u914d\u6027\u8377\u723e\u8499", 
+      "endTime": 537724, 
+      "position": "HT", 
+      "startTime": 533659
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and cortisol, which is the stress hormone.", 
+      "endTime": 541387, 
+      "position": "HB", 
+      "startTime": 537724
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e00\u662f\u814e\u4e0a\u817a\u76ae\u8cea\u9187:\u4e5f\u5c31\u662f\u58d3\u529b\u8377\u723e\u8499", 
+      "endTime": 541387, 
+      "position": "HT", 
+      "startTime": 537724
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what we find is that", 
+      "endTime": 544724, 
+      "position": "HB", 
+      "startTime": 541387
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u767c\u73fe\u5230", 
+      "endTime": 544724, 
+      "position": "HT", 
+      "startTime": 541387
+    }, 
+    {
+      "alignment": "C", 
+      "data": "high-power alpha males in primate hierarchies", 
+      "endTime": 548563, 
+      "position": "HB", 
+      "startTime": 544724
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9748\u9577\u985e\u88e1\u7684\u5f37\u52e2\u7537\u6027", 
+      "endTime": 548563, 
+      "position": "HT", 
+      "startTime": 544724
+    }, 
+    {
+      "alignment": "C", 
+      "data": "have high testosterone and low cortisol,", 
+      "endTime": 551761, 
+      "position": "HB", 
+      "startTime": 548563
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u5927\u91cf\u7684\u776a\u56fa\u916e\u548c\u4f4e\u91cf\u7684\u814e\u4e0a\u817a\u76ae\u8cea\u9187", 
+      "endTime": 551761, 
+      "position": "HT", 
+      "startTime": 548563
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and powerful and effective leaders also have", 
+      "endTime": 555287, 
+      "position": "HB", 
+      "startTime": 551761
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5f37\u52e2\uff0c\u9ad8\u6548\u80fd\u7684\u9818\u8896\u4eba\u7269", 
+      "endTime": 555287, 
+      "position": "HT", 
+      "startTime": 551761
+    }, 
+    {
+      "alignment": "C", 
+      "data": "high testosterone and low cortisol.", 
+      "endTime": 557542, 
+      "position": "HB", 
+      "startTime": 555287
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e5f\u6709\u5927\u91cf\u776a\u56fa\u916e\u8207\u4f4e\u91cf\u7684\u814e\u4e0a\u817a\u76ae\u8cea\u9187", 
+      "endTime": 557542, 
+      "position": "HT", 
+      "startTime": 555287
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what does that mean? When you think about power,", 
+      "endTime": 559845, 
+      "position": "HB", 
+      "startTime": 557542
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u8868\u793a\u751a\u9ebc? \u7576\u4f60\u60f3\u5230\u6b0a\u529b", 
+      "endTime": 559845, 
+      "position": "HT", 
+      "startTime": 557542
+    }, 
+    {
+      "alignment": "C", 
+      "data": "people tended to think only about testosterone,", 
+      "endTime": 562270, 
+      "position": "HB", 
+      "startTime": 559845
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4eba\u5011\u5f80\u5f80\u53ea\u60f3\u5230\u776a\u56fa\u916e", 
+      "endTime": 562270, 
+      "position": "HT", 
+      "startTime": 559845
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because that was about dominance.", 
+      "endTime": 564058, 
+      "position": "HB", 
+      "startTime": 562270
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u5b83\u4ee3\u8868\u652f\u914d\u7d71\u6cbb", 
+      "endTime": 564058, 
+      "position": "HT", 
+      "startTime": 562270
+    }, 
+    {
+      "alignment": "C", 
+      "data": "But really, power is also about how you react to stress.", 
+      "endTime": 567528, 
+      "position": "HB", 
+      "startTime": 564058
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u529b\u91cf\u5176\u5be6\u4e5f\u548c\u5982\u4f55\u8655\u7406\u58d3\u529b\u6709\u95dc", 
+      "endTime": 567528, 
+      "position": "HT", 
+      "startTime": 564058
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So do you want the high-power leader that's dominant,", 
+      "endTime": 570657, 
+      "position": "HB", 
+      "startTime": 567528
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u4f60\u6703\u60f3\u898b\u4e00\u500b\u6709\u652f\u914d\u5730\u4f4d\u5f37\u52e2\u9818\u8896", 
+      "endTime": 570657, 
+      "position": "HT", 
+      "startTime": 567528
+    }, 
+    {
+      "alignment": "C", 
+      "data": "high on testosterone, but really stress reactive?", 
+      "endTime": 573399, 
+      "position": "HB", 
+      "startTime": 570657
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u8457\u5f88\u591a\u776a\u56fa\u916e\u4f46\u540c\u6642\u53c8\u5c0d\u58d3\u529b\u53cd\u61c9\u904e\u5ea6\u55ce?", 
+      "endTime": 573399, 
+      "position": "HT", 
+      "startTime": 570657
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Probably not, right? You want the person", 
+      "endTime": 575734, 
+      "position": "HB", 
+      "startTime": 573399
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5927\u6982\u4e0d\u6703\u5427\uff0c\u4e0d\u662f\u55ce?\u4f60\u6703\u5e0c\u671b\u90a3\u500b\u4eba", 
+      "endTime": 575734, 
+      "position": "HT", 
+      "startTime": 573399
+    }, 
+    {
+      "alignment": "C", 
+      "data": "who's powerful and assertive and dominant,", 
+      "endTime": 578018, 
+      "position": "HB", 
+      "startTime": 575734
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u662f\u5145\u6eff\u529b\u91cf\uff0c\u80af\u5b9a\u679c\u65b7\uff0c\u975e\u5e38\u5f37\u52e2", 
+      "endTime": 578018, 
+      "position": "HT", 
+      "startTime": 575734
+    }, 
+    {
+      "alignment": "C", 
+      "data": "but not very stress reactive, the person who's laid back.", 
+      "endTime": 581706, 
+      "position": "HB", 
+      "startTime": 578018
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u4e5f\u4e0d\u6703\u5c0d\u58d3\u529b\u53cd\u61c9\u904e\u5ea6\uff0c\u4e0d\u80fd\u8f15\u9b06\u4ee5\u5c0d", 
+      "endTime": 581706, 
+      "position": "HT", 
+      "startTime": 578018
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So we know that in primate hierarchies, if an alpha", 
+      "endTime": 587938, 
+      "position": "HB", 
+      "startTime": 581706
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9748\u9577\u52d5\u7269\u7684\u793e\u7fa4\u968e\u7d1a\u88e1\uff0c\u5982\u679c\u4e00\u500b\u5f37\u52e2\u96c4\u6027", 
+      "endTime": 587938, 
+      "position": "HT", 
+      "startTime": 581706
+    }, 
+    {
+      "alignment": "C", 
+      "data": "needs to take over, if an individual needs to take over", 
+      "endTime": 591629, 
+      "position": "HB", 
+      "startTime": 587938
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u60f3\u8981\u596a\u6b0a\uff0c\u5982\u679c\u4e00\u500b\u96c4\u6027\u7a81\u7136\u60f3\u8981\u722d\u53d6", 
+      "endTime": 591629, 
+      "position": "HT", 
+      "startTime": 587938
+    }, 
+    {
+      "alignment": "C", 
+      "data": "an alpha role sort of suddenly,", 
+      "endTime": 594186, 
+      "position": "HB", 
+      "startTime": 591629
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9996\u9818\u9019\u500b\u89d2\u8272", 
+      "endTime": 594186, 
+      "position": "HT", 
+      "startTime": 591629
+    }, 
+    {
+      "alignment": "C", 
+      "data": "within a few days, that individual's testosterone has gone up", 
+      "endTime": 597297, 
+      "position": "HB", 
+      "startTime": 594186
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5e7e\u5929\u5167\uff0c\u4ed6\u9ad4\u5167\u7684\u776a\u56fa\u916e\u4e00\u5b9a\u6025\u901f\u589e\u52a0", 
+      "endTime": 597297, 
+      "position": "HT", 
+      "startTime": 594186
+    }, 
+    {
+      "alignment": "C", 
+      "data": "significantly and his cortisol has dropped significantly.", 
+      "endTime": 600802, 
+      "position": "HB", 
+      "startTime": 597297
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u5176\u814e\u4e0a\u817a\u76ae\u8cea\u9187\u5287\u70c8\u5730\u6e1b\u5c11", 
+      "endTime": 600802, 
+      "position": "HT", 
+      "startTime": 597297
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So we have this evidence, both that the body can shape", 
+      "endTime": 603843, 
+      "position": "HB", 
+      "startTime": 600802
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8eab\u9ad4\u5f71\u97ff\u5fc3\u7406\uff0c\u7531\u6b64\u53ef\u8b49", 
+      "endTime": 603843, 
+      "position": "HT", 
+      "startTime": 600802
+    }, 
+    {
+      "alignment": "C", 
+      "data": "the mind, at least at the facial level,", 
+      "endTime": 606209, 
+      "position": "HB", 
+      "startTime": 603843
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u81f3\u5c11\u5c31\u8868\u9762\u800c\u8a00\u662f\u5982\u6b64", 
+      "endTime": 606209, 
+      "position": "HT", 
+      "startTime": 603843
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and also that role changes can shape the mind.", 
+      "endTime": 610338, 
+      "position": "HB", 
+      "startTime": 606209
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u540c\u6642\u89d2\u8272\u7684\u8f49\u63db\u4e5f\u6703\u5f71\u97ff\u5fc3\u7406", 
+      "endTime": 610338, 
+      "position": "HT", 
+      "startTime": 606209
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So what happens, okay, you take a role change,", 
+      "endTime": 613120, 
+      "position": "HB", 
+      "startTime": 610338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\uff0c\u5982\u679c\u4f60\u6539\u8b8a\u89d2\u8272", 
+      "endTime": 613120, 
+      "position": "HT", 
+      "startTime": 610338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "what happens if you do that at a really minimal level,", 
+      "endTime": 615704, 
+      "position": "HB", 
+      "startTime": 613120
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5982\u679c\u4f60\u505a\u4e00\u500b\u5fae\u5c0f\u6539\u8b8a\u6703\u600e\u6a23", 
+      "endTime": 615704, 
+      "position": "HT", 
+      "startTime": 613120
+    }, 
+    {
+      "alignment": "C", 
+      "data": "like this tiny manipulation, this tiny intervention?", 
+      "endTime": 618117, 
+      "position": "HB", 
+      "startTime": 615704
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u50cf\u9019\u6a23\u7684\u64cd\u4f5c\uff0c\u9019\u6a23\u4e00\u500b\u5c0f\u5c0f\u7684\u5e72\u9810?", 
+      "endTime": 618117, 
+      "position": "HT", 
+      "startTime": 615704
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"For two minutes,\" you say, \"I want you to stand like this,", 
+      "endTime": 620768, 
+      "position": "HB", 
+      "startTime": 618117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u6301\u7e8c\u4e8c\u5206\u9418\"\u4f60\u8aaa\uff0c\"\u6211\u8981\u4f60\u5011\u9019\u6a23\u7ad9\u8457\uff0c", 
+      "endTime": 620768, 
+      "position": "HT", 
+      "startTime": 618117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and it's going to make you feel more powerful.\"", 
+      "endTime": 623551, 
+      "position": "HB", 
+      "startTime": 620768
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5b83\u6703\u8b93\u4f60\u611f\u5230\u66f4\u5145\u6eff\u529b\u91cf\"", 
+      "endTime": 623551, 
+      "position": "HT", 
+      "startTime": 620768
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is what we did. We decided to bring people", 
+      "endTime": 628026, 
+      "position": "HB", 
+      "startTime": 623551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u63a5\u8457\u6211\u5011\u5c31\u6c7a\u5b9a\u505a\u9019\u500b\u5be6\u9a57\u3002", 
+      "endTime": 628026, 
+      "position": "HT", 
+      "startTime": 623551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "into the lab and run a little experiment, and these people", 
+      "endTime": 632239, 
+      "position": "HB", 
+      "startTime": 628026
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u5c07\u4eba\u5011\u5e36\u9032\u5be6\u9a57\u5ba4\u505a\u500b\u5c0f\u5be6\u9a57", 
+      "endTime": 632239, 
+      "position": "HT", 
+      "startTime": 628026
+    }, 
+    {
+      "alignment": "C", 
+      "data": "adopted, for two minutes, either high-power poses", 
+      "endTime": 636668, 
+      "position": "HB", 
+      "startTime": 632239
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e9b\u4eba\u5c07\u64fa\u51fa\u6709\u6b0a\u52e2\u7684\u59ff\u614b", 
+      "endTime": 636668, 
+      "position": "HT", 
+      "startTime": 632239
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or low-power poses, and I'm just going to show you", 
+      "endTime": 638917, 
+      "position": "HB", 
+      "startTime": 636668
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u7121\u529b\u7684\u59ff\u614b\u5169\u5206\u9418\uff0c\u73fe\u5728\u6211\u5011\u4e00\u8d77\u770b", 
+      "endTime": 638917, 
+      "position": "HT", 
+      "startTime": 636668
+    }, 
+    {
+      "alignment": "C", 
+      "data": "five of the poses, although they took on only two.", 
+      "endTime": 641879, 
+      "position": "HB", 
+      "startTime": 638917
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e94\u7a2e\u59ff\u52e2\uff0c\u96d6\u7136\u4ed6\u5011\u53ea\u505a\u4e86\u5176\u4e2d\u4e8c\u7a2e", 
+      "endTime": 641879, 
+      "position": "HT", 
+      "startTime": 638917
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So here's one.", 
+      "endTime": 644359, 
+      "position": "HB", 
+      "startTime": 641879
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u662f\u5176\u4e00", 
+      "endTime": 644359, 
+      "position": "HT", 
+      "startTime": 641879
+    }, 
+    {
+      "alignment": "C", 
+      "data": "A couple more.", 
+      "endTime": 646453, 
+      "position": "HB", 
+      "startTime": 644359
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u518d\u5169\u500b\u59ff\u52e2", 
+      "endTime": 646453, 
+      "position": "HT", 
+      "startTime": 644359
+    }, 
+    {
+      "alignment": "C", 
+      "data": "This one has been dubbed the \"Wonder Woman\"", 
+      "endTime": 649271, 
+      "position": "HB", 
+      "startTime": 646453
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u500b\u59ff\u52e2\u662f\u5a92\u9ad4\u4e00\u822c\u7a31\u70ba", 
+      "endTime": 649271, 
+      "position": "HT", 
+      "startTime": 646453
+    }, 
+    {
+      "alignment": "C", 
+      "data": "by the media.", 
+      "endTime": 651646, 
+      "position": "HB", 
+      "startTime": 649271
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u795e\u529b\u5973\u8d85\u4eba\" \u7684\u59ff\u614b", 
+      "endTime": 651646, 
+      "position": "HT", 
+      "startTime": 649271
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Here are a couple more.", 
+      "endTime": 652968, 
+      "position": "HB", 
+      "startTime": 651646
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9084\u6709\u9019\u5169\u500b", 
+      "endTime": 652968, 
+      "position": "HT", 
+      "startTime": 651646
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So you can be standing or you can be sitting.", 
+      "endTime": 655322, 
+      "position": "HB", 
+      "startTime": 652968
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u7ad9\u6216\u5750", 
+      "endTime": 655322, 
+      "position": "HT", 
+      "startTime": 652968
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And here are the low-power poses.", 
+      "endTime": 657307, 
+      "position": "HB", 
+      "startTime": 655322
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e9b\u662f\u7121\u52a9\u7684\u59ff\u52e2", 
+      "endTime": 657307, 
+      "position": "HT", 
+      "startTime": 655322
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So you're folding up, you're making yourself small.", 
+      "endTime": 661370, 
+      "position": "HB", 
+      "startTime": 657307
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u96d9\u624b\u4ea4\u53c9\uff0c\u8a66\u8457\u8b93\u81ea\u5df1\u8b8a\u5c0f\u4e00\u9ede", 
+      "endTime": 661370, 
+      "position": "HT", 
+      "startTime": 657307
+    }, 
+    {
+      "alignment": "C", 
+      "data": "This one is very low-power.", 
+      "endTime": 663109, 
+      "position": "HB", 
+      "startTime": 661370
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u5f35\u986f\u73fe\u975e\u5e38\u7121\u52a9\u7684\u6a23\u5b50", 
+      "endTime": 663109, 
+      "position": "HT", 
+      "startTime": 661370
+    }, 
+    {
+      "alignment": "C", 
+      "data": "When you're touching your neck,", 
+      "endTime": 664466, 
+      "position": "HB", 
+      "startTime": 663109
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u4f60\u6478\u8116\u5b50", 
+      "endTime": 664466, 
+      "position": "HT", 
+      "startTime": 663109
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you're really protecting yourself.", 
+      "endTime": 667092, 
+      "position": "HB", 
+      "startTime": 664466
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5176\u5be6\u5728\u4fdd\u8b77\u81ea\u5df1", 
+      "endTime": 667092, 
+      "position": "HT", 
+      "startTime": 664466
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is what happens. They come in,", 
+      "endTime": 669677, 
+      "position": "HB", 
+      "startTime": 667092
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5be6\u969b\u7684\u72c0\u6cc1\u662f\uff0c\u4ed6\u5011\u4e00\u9032\u4f86", 
+      "endTime": 669677, 
+      "position": "HT", 
+      "startTime": 667092
+    }, 
+    {
+      "alignment": "C", 
+      "data": "they spit into a vial,", 
+      "endTime": 671437, 
+      "position": "HB", 
+      "startTime": 669677
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5148\u671d\u8a66\u7ba1\u88e1\u5410\u53e3\u53e3\u6c34", 
+      "endTime": 671437, 
+      "position": "HT", 
+      "startTime": 669677
+    }, 
+    {
+      "alignment": "C", 
+      "data": "we for two minutes say, \"You need to do this or this.\"", 
+      "endTime": 674610, 
+      "position": "HB", 
+      "startTime": 671437
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u544a\u8a34\u4ed6\uff0c\u64fa\u9019\u500b\u59ff\u52e2\uff0c\u5169\u5206\u9418", 
+      "endTime": 674610, 
+      "position": "HT", 
+      "startTime": 671437
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They don't look at pictures of the poses. We don't want to prime them", 
+      "endTime": 676403, 
+      "position": "HB", 
+      "startTime": 674610
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u4e0d\u6703\u770b\u5230\u59ff\u52e2\u7684\u7167\u7247\uff0c\u56e0\u70ba\u6211\u5011\u4e0d\u60f3\u8981\u6697\u793a\uff0c\u5f71\u97ff\u4ed6\u5011", 
+      "endTime": 676403, 
+      "position": "HT", 
+      "startTime": 674610
+    }, 
+    {
+      "alignment": "C", 
+      "data": "with a concept of power. We want them to be feeling power,", 
+      "endTime": 679783, 
+      "position": "HB", 
+      "startTime": 676403
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u8981\u4ed6\u5011\u81ea\u5df1\u611f\u89ba\u529b\u91cf", 
+      "endTime": 679783, 
+      "position": "HT", 
+      "startTime": 676403
+    }, 
+    {
+      "alignment": "C", 
+      "data": "right? So two minutes they do this.", 
+      "endTime": 681842, 
+      "position": "HB", 
+      "startTime": 679783
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u662f\u55ce? \u6240\u4ee5\u4ed6\u5011\u64fa\u4e86\u4e8c\u5206\u9418\u59ff\u52e2", 
+      "endTime": 681842, 
+      "position": "HT", 
+      "startTime": 679783
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We then ask them, \"How powerful do you feel?\" on a series of items,", 
+      "endTime": 685051, 
+      "position": "HB", 
+      "startTime": 681842
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\uff0c\u6211\u5011\u62ff\u4e00\u5806\u6771\u897f\uff0c\u554f\u4ed6\u5011: \"\u73fe\u5728\u4f60\u89ba\u5f97\u81ea\u5df1\u591a\u6709\u529b\u91cf?\"", 
+      "endTime": 685051, 
+      "position": "HT", 
+      "startTime": 681842
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and then we give them an opportunity to gamble,", 
+      "endTime": 687818, 
+      "position": "HB", 
+      "startTime": 685051
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53d7\u8a66\u8005\u63a5\u8457\u6703\u6709\u4e00\u500b\u535a\u5955\u7684\u6a5f\u6703", 
+      "endTime": 687818, 
+      "position": "HT", 
+      "startTime": 685051
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and then we take another saliva sample.", 
+      "endTime": 690583, 
+      "position": "HB", 
+      "startTime": 687818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u63a5\u8457\u518d\u53d6\u4e00\u6b21\u553e\u6db2\u6a23\u672c", 
+      "endTime": 690583, 
+      "position": "HT", 
+      "startTime": 687818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "That's it. That's the whole experiment.", 
+      "endTime": 692148, 
+      "position": "HB", 
+      "startTime": 690583
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c31\u662f\u9019\u6a23\u3002\u9019\u5c31\u662f\u6574\u500b\u5be6\u9a57", 
+      "endTime": 692148, 
+      "position": "HT", 
+      "startTime": 690583
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is what we find. Risk tolerance, which is the gambling,", 
+      "endTime": 695854, 
+      "position": "HB", 
+      "startTime": 692148
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u767c\u73fe\u5230\u98a8\u96aa\u627f\u64d4\u80fd\u529b\uff0c\u7528\u8ced\u535a\u4f86\u8861\u91cf", 
+      "endTime": 695854, 
+      "position": "HT", 
+      "startTime": 692148
+    }, 
+    {
+      "alignment": "C", 
+      "data": "what we find is that when you're in the high-power", 
+      "endTime": 698752, 
+      "position": "HB", 
+      "startTime": 695854
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u64fa\u51fa\u6709\u6b0a\u52e2\u59ff\u52e2\u7684\u4eba", 
+      "endTime": 698752, 
+      "position": "HT", 
+      "startTime": 695854
+    }, 
+    {
+      "alignment": "C", 
+      "data": "pose condition, 86 percent of you will gamble.", 
+      "endTime": 702250, 
+      "position": "HB", 
+      "startTime": 698752
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709 86% \u6703\u9078\u64c7\u8ced\u535a", 
+      "endTime": 702250, 
+      "position": "HT", 
+      "startTime": 698752
+    }, 
+    {
+      "alignment": "C", 
+      "data": "When you're in the low-power pose condition,", 
+      "endTime": 704195, 
+      "position": "HB", 
+      "startTime": 702250
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u64fa\u4f4e\u6b0a\u52e2\u59ff\u614b\u7684\u4eba\u5462", 
+      "endTime": 704195, 
+      "position": "HT", 
+      "startTime": 702250
+    }, 
+    {
+      "alignment": "C", 
+      "data": "only 60 percent, and that's a pretty whopping significant difference.", 
+      "endTime": 708370, 
+      "position": "HB", 
+      "startTime": 704195
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ea\u6709 60% \u6703\u8ced\uff0c\u9019\u5169\u8005\u9593\u5dee\u7570\u771f\u7684\u5f88\u5927", 
+      "endTime": 708370, 
+      "position": "HT", 
+      "startTime": 704195
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Here's what we find on testosterone.", 
+      "endTime": 710850, 
+      "position": "HB", 
+      "startTime": 708370
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u767c\u73fe", 
+      "endTime": 710850, 
+      "position": "HT", 
+      "startTime": 708370
+    }, 
+    {
+      "alignment": "C", 
+      "data": "From their baseline when they come in, high-power people", 
+      "endTime": 714355, 
+      "position": "HB", 
+      "startTime": 710850
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e9b\u4eba\u9032\u4f86\u7684\u90a3\u4e00\u523b\u8d77\uff0c\u64fa\u9ad8\u6b0a\u52e2\u59ff\u614b\u7684\u4eba", 
+      "endTime": 714355, 
+      "position": "HT", 
+      "startTime": 710850
+    }, 
+    {
+      "alignment": "C", 
+      "data": "experience about a 20-percent increase,", 
+      "endTime": 716717, 
+      "position": "HB", 
+      "startTime": 714355
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u776a\u56fa\u916e\u6703\u4e0a\u5347 20%", 
+      "endTime": 716717, 
+      "position": "HT", 
+      "startTime": 714355
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and low-power people experience about a 10-percent decrease.", 
+      "endTime": 721338, 
+      "position": "HB", 
+      "startTime": 716717
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u64fa\u4f4e\u6b0a\u52e2\u59ff\u614b\u7684\u4eba\u5247\u662f\u4e0b\u964d 10%", 
+      "endTime": 721338, 
+      "position": "HT", 
+      "startTime": 716717
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So again, two minutes, and you get these changes.", 
+      "endTime": 724155, 
+      "position": "HB", 
+      "startTime": 721338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\uff0c\u518d\u8aaa\u4e00\u6b21\uff0c\u53ea\u6709\u5169\u5206\u9418\uff0c\u5c31\u6709\u9019\u7a2e\u5dee\u7570", 
+      "endTime": 724155, 
+      "position": "HT", 
+      "startTime": 721338
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Here's what you get on cortisol. High-power people", 
+      "endTime": 726907, 
+      "position": "HB", 
+      "startTime": 724155
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u64fa\u6709\u6b0a\u52e2\u59ff\u614b\u7684\u4eba", 
+      "endTime": 726907, 
+      "position": "HT", 
+      "startTime": 724155
+    }, 
+    {
+      "alignment": "C", 
+      "data": "experience about a 25-percent decrease, and", 
+      "endTime": 729954, 
+      "position": "HB", 
+      "startTime": 726907
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u814e\u4e0a\u817a\u76ae\u8cea\u9187\u4e0b\u964d 25%\uff0c", 
+      "endTime": 729954, 
+      "position": "HT", 
+      "startTime": 726907
+    }, 
+    {
+      "alignment": "C", 
+      "data": "the low-power people experience about a 15-percent increase.", 
+      "endTime": 734086, 
+      "position": "HB", 
+      "startTime": 729954
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u64fa\u4f4e\u6b0a\u52e2\u59ff\u614b\u7684\u4eba\u814e\u4e0a\u817a\u76ae\u8cea\u9187\u5247\u4e0a\u5347 15%", 
+      "endTime": 734086, 
+      "position": "HT", 
+      "startTime": 729954
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So two minutes lead to these hormonal changes", 
+      "endTime": 736818, 
+      "position": "HB", 
+      "startTime": 734086
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ea\u8981\u4e8c\u5206\u9418\u53ef\u4ee5\u8b93\u9019\u4e9b\u8377\u723e\u8499\u7522\u751f\u9019\u7a2e\u6539\u8b8a", 
+      "endTime": 736818, 
+      "position": "HT", 
+      "startTime": 734086
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that configure your brain to basically be either", 
+      "endTime": 739835, 
+      "position": "HB", 
+      "startTime": 736818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f7f\u4f60\u7684\u8166\u888b\u6210\u70ba", 
+      "endTime": 739835, 
+      "position": "HT", 
+      "startTime": 736818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "assertive, confident and comfortable,", 
+      "endTime": 742763, 
+      "position": "HB", 
+      "startTime": 739835
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u679c\u65b7\u3001\u81ea\u4fe1\u548c\u81ea\u5728", 
+      "endTime": 742763, 
+      "position": "HT", 
+      "startTime": 739835
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or really stress-reactive, and, you know, feeling", 
+      "endTime": 746771, 
+      "position": "HB", 
+      "startTime": 742763
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u9ad8\u5ea6\u7dca\u5f35\u4ee5\u53ca\u611f\u5230", 
+      "endTime": 746771, 
+      "position": "HT", 
+      "startTime": 742763
+    }, 
+    {
+      "alignment": "C", 
+      "data": "sort of shut down. And we've all had the feeling, right?", 
+      "endTime": 750627, 
+      "position": "HB", 
+      "startTime": 746771
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9000\u7e2e\u3002\u6211\u5011\u90fd\u66fe\u6709\u904e\u9019\u4e9b\u9ad4\u9a57\u4e0d\u662f\u55ce?", 
+      "endTime": 750627, 
+      "position": "HT", 
+      "startTime": 746771
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So it seems that our nonverbals do govern", 
+      "endTime": 753514, 
+      "position": "HB", 
+      "startTime": 750627
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u770b\u4f86\u975e\u53e3\u8a9e\u7684\u8a9e\u8a00\u78ba\u5be6\u638c\u63a7", 
+      "endTime": 753514, 
+      "position": "HT", 
+      "startTime": 750627
+    }, 
+    {
+      "alignment": "C", 
+      "data": "how we think and feel about ourselves,", 
+      "endTime": 755835, 
+      "position": "HB", 
+      "startTime": 753514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u5c0d\u81ea\u5df1\u7684\u60f3\u6cd5\u611f\u53d7", 
+      "endTime": 755835, 
+      "position": "HT", 
+      "startTime": 753514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so it's not just others, but it's also ourselves.", 
+      "endTime": 758291, 
+      "position": "HB", 
+      "startTime": 755835
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u53ea\u662f\u5f71\u97ff\u5225\u4eba\uff0c\u66f4\u5f71\u97ff\u6211\u5011\u81ea\u5df1", 
+      "endTime": 758291, 
+      "position": "HT", 
+      "startTime": 755835
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Also, our bodies change our minds.", 
+      "endTime": 760718, 
+      "position": "HB", 
+      "startTime": 758291
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u540c\u6642\uff0c\u6211\u5011\u7684\u8eab\u9ad4\u53ef\u4ee5\u6539\u8b8a\u5fc3\u7406", 
+      "endTime": 760718, 
+      "position": "HT", 
+      "startTime": 758291
+    }, 
+    {
+      "alignment": "C", 
+      "data": "But the next question, of course, is", 
+      "endTime": 763124, 
+      "position": "HB", 
+      "startTime": 760718
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u4e0b\u4e00\u500b\u554f\u984c\uff0c\u7576\u7136\uff0c\u5c31\u662f", 
+      "endTime": 763124, 
+      "position": "HT", 
+      "startTime": 760718
+    }, 
+    {
+      "alignment": "C", 
+      "data": "can power posing for a few minutes", 
+      "endTime": 764638, 
+      "position": "HB", 
+      "startTime": 763124
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7dad\u6301\u6578\u5206\u9418\u7684\u59ff\u52e2", 
+      "endTime": 764638, 
+      "position": "HT", 
+      "startTime": 763124
+    }, 
+    {
+      "alignment": "C", 
+      "data": "really change your life in meaningful ways?", 
+      "endTime": 766929, 
+      "position": "HB", 
+      "startTime": 764638
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u662f\u5426\u771f\u80fd\u5f71\u97ff\u4f60\u7684\u4eba\u751f?", 
+      "endTime": 766929, 
+      "position": "HT", 
+      "startTime": 764638
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is in the lab. It's this little task, you know,", 
+      "endTime": 769575, 
+      "position": "HB", 
+      "startTime": 766929
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u525b\u525b\u90fd\u53ea\u662f\u5728\u5be6\u9a57\u5ba4\u54e9\uff0c\u4e00\u500b\u5c0f\u5be6\u9a57\uff0c\u4f60\u77e5\u9053\u7684\uff0c", 
+      "endTime": 769575, 
+      "position": "HT", 
+      "startTime": 766929
+    }, 
+    {
+      "alignment": "C", 
+      "data": "it's just a couple of minutes. Where can you actually", 
+      "endTime": 772171, 
+      "position": "HB", 
+      "startTime": 769575
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ea\u6709\u5e7e\u5206\u9418\u3002\u9019\u6709\u4ec0\u9ebc\u5730\u65b9\u53ef\u4ee5\u61c9\u7528\u5462\uff1f", 
+      "endTime": 772171, 
+      "position": "HT", 
+      "startTime": 769575
+    }, 
+    {
+      "alignment": "C", 
+      "data": "apply this? Which we cared about, of course.", 
+      "endTime": 774946, 
+      "position": "HB", 
+      "startTime": 772171
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u624d\u662f\u6211\u5011\u95dc\u5fc3\u7684", 
+      "endTime": 774946, 
+      "position": "HT", 
+      "startTime": 772171
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And so we think it's really, what matters, I mean,", 
+      "endTime": 779123, 
+      "position": "HB", 
+      "startTime": 774946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u8a8d\u70ba\u4ec0\u9ebc\u6642\u5019\u53ef\u4ee5\u61c9\u7528\u5462\uff1f", 
+      "endTime": 779123, 
+      "position": "HT", 
+      "startTime": 774946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "where you want to use this is evaluative situations", 
+      "endTime": 781711, 
+      "position": "HB", 
+      "startTime": 779123
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u76f8\u4fe1\u662f\u5728\u8a55\u91cf\u7684\u60c5\u6cc1\u4e0b\u53ef\u7528", 
+      "endTime": 781711, 
+      "position": "HT", 
+      "startTime": 779123
+    }, 
+    {
+      "alignment": "C", 
+      "data": "like social threat situations. Where are you being evaluated,", 
+      "endTime": 785164, 
+      "position": "HB", 
+      "startTime": 781711
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u50cf\u662f\u793e\u4ea4\u5a01\u8105\u7684\u60c5\u5883\u88e1\uff0c\u5728\u4f60\u88ab\u4eba\u8a55\u4f30\u7684\u6642\u5019", 
+      "endTime": 785164, 
+      "position": "HT", 
+      "startTime": 781711
+    }, 
+    {
+      "alignment": "C", 
+      "data": "either by your friends? Like for teenagers it's at the lunchroom table.", 
+      "endTime": 788848, 
+      "position": "HB", 
+      "startTime": 785164
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e5f\u8a31\u662f\u4f60\u670b\u53cb\u8a55\u4f30\u4f60\uff1f\u5c31\u50cf\u662f\u662f\u9752\u5c11\u5e74\u5403\u5348\u9910\u7684\u9910\u684c\u4e0a\u90a3\u7dca\u5f35\u6a23", 
+      "endTime": 788848, 
+      "position": "HT", 
+      "startTime": 785164
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It could be, you know, for some people it's speaking", 
+      "endTime": 791053, 
+      "position": "HB", 
+      "startTime": 788848
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u4e9b\u4eba\u53ef\u4ee5\u61c9\u7528\u5728\u5b78\u6821\u8463\u4e8b\u6703\u6f14\u8b1b\u6642", 
+      "endTime": 791053, 
+      "position": "HT", 
+      "startTime": 788848
+    }, 
+    {
+      "alignment": "C", 
+      "data": "at a school board meeting. It might be giving a pitch", 
+      "endTime": 794077, 
+      "position": "HB", 
+      "startTime": 791053
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ef\u80fd\u662f\u63d0\u51fa\u5ba3\u63da\u4e00\u500b\u4e3b\u5f35", 
+      "endTime": 794077, 
+      "position": "HT", 
+      "startTime": 791053
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or giving a talk like this", 
+      "endTime": 796934, 
+      "position": "HB", 
+      "startTime": 794077
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u662f\u50cf\u73fe\u5728\u4e00\u6a23\u7684\u6f14\u8b1b\u88e1\u7528", 
+      "endTime": 796934, 
+      "position": "HT", 
+      "startTime": 794077
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or doing a job interview.", 
+      "endTime": 799732, 
+      "position": "HB", 
+      "startTime": 796934
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u662f\u627e\u5de5\u4f5c\u9762\u8a66\u6642\uff0c\u90fd\u7528\u7684\u4e0a", 
+      "endTime": 799732, 
+      "position": "HT", 
+      "startTime": 796934
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We decided that the one that most people could relate to", 
+      "endTime": 802224, 
+      "position": "HB", 
+      "startTime": 799732
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u8a8d\u70ba\u4e00\u822c\u4eba\u6700\u80fd\u8a8d\u540c\u9ad4\u6703\u7684\u60c5\u5883", 
+      "endTime": 802224, 
+      "position": "HT", 
+      "startTime": 799732
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because most people had been through", 
+      "endTime": 803461, 
+      "position": "HB", 
+      "startTime": 802224
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u5927\u90e8\u5206\u4eba\u90fd\u66fe\u7d93\u6b77\u904e", 
+      "endTime": 803461, 
+      "position": "HT", 
+      "startTime": 802224
+    }, 
+    {
+      "alignment": "C", 
+      "data": "was the job interview.", 
+      "endTime": 804843, 
+      "position": "HB", 
+      "startTime": 803461
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e5f\u5c31\u662f\u6c42\u8077\u9762\u8a66", 
+      "endTime": 804843, 
+      "position": "HT", 
+      "startTime": 803461
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So we published these findings, and the media", 
+      "endTime": 808796, 
+      "position": "HB", 
+      "startTime": 804843
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u767c\u8868\u9019\u500b\u7d50\u8ad6\uff0c\u5a92\u9ad4\u5927\u8086\u7092\u4f5c", 
+      "endTime": 808796, 
+      "position": "HT", 
+      "startTime": 804843
+    }, 
+    {
+      "alignment": "C", 
+      "data": "are all over it, and they say, Okay, so this is what you do", 
+      "endTime": 811390, 
+      "position": "HB", 
+      "startTime": 808796
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u8aaa\uff0c\u597d\u5427\uff0c\u6240\u4ee5\u4f60\u53bb\u6c42\u8077\u9762\u8a66\u6642\uff0c", 
+      "endTime": 811390, 
+      "position": "HT", 
+      "startTime": 808796
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when you go in for the job interview, right? (Laughter)", 
+      "endTime": 814590, 
+      "position": "HB", 
+      "startTime": 811390
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5f97\u9019\u6a23\u505a\uff0c\u5c0d\u5427? (\u7b11\u8072)", 
+      "endTime": 814590, 
+      "position": "HT", 
+      "startTime": 811390
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You know, so we were of course horrified, and said,", 
+      "endTime": 816981, 
+      "position": "HB", 
+      "startTime": 814590
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u7576\u7136\u5927\u5403\u4e00\u9a5a\uff0c\u8868\u793a", 
+      "endTime": 816981, 
+      "position": "HT", 
+      "startTime": 814590
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Oh my God, no, no, no, that's not what we meant at all.", 
+      "endTime": 819166, 
+      "position": "HB", 
+      "startTime": 816981
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u7684\u5929\u554a\uff0c\u4e0d\u4e0d\u4e0d\uff0c\u6211\u5011\u4e0d\u662f\u9019\u500b\u610f\u601d", 
+      "endTime": 819166, 
+      "position": "HT", 
+      "startTime": 816981
+    }, 
+    {
+      "alignment": "C", 
+      "data": "For numerous reasons, no, no, no, don't do that.", 
+      "endTime": 821941, 
+      "position": "HB", 
+      "startTime": 819166
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u7ba1\u751a\u9ebc\u539f\u56e0\uff0c\u4e0d\u4e0d\uff0c\u5343\u842c\u5225\u9019\u9ebc\u505a", 
+      "endTime": 821941, 
+      "position": "HT", 
+      "startTime": 819166
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Again, this is not about you talking to other people.", 
+      "endTime": 824532, 
+      "position": "HB", 
+      "startTime": 821941
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u548c\u4f60\u8ddf\u5225\u4eba\u4ea4\u8ac7\u7121\u95dc", 
+      "endTime": 824532, 
+      "position": "HT", 
+      "startTime": 821941
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It's you talking to yourself. What do you do", 
+      "endTime": 826391, 
+      "position": "HB", 
+      "startTime": 824532
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u662f\u4f60\u548c\u4f60\u81ea\u5df1\u5fc3\u7406\u5c0d\u8ac7", 
+      "endTime": 826391, 
+      "position": "HT", 
+      "startTime": 824532
+    }, 
+    {
+      "alignment": "C", 
+      "data": "before you go into a job interview? You do this.", 
+      "endTime": 829200, 
+      "position": "HB", 
+      "startTime": 826391
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5728\u9762\u8a66\u5de5\u4f5c\u4e4b\u524d\u505a\u751a\u9ebc? \u4f60\u6703\u9019\u6a23", 
+      "endTime": 829200, 
+      "position": "HT", 
+      "startTime": 826391
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Right? You're sitting down. You're looking at your iPhone --", 
+      "endTime": 831466, 
+      "position": "HB", 
+      "startTime": 829200
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c0d\u5427? \u4f60\u6703\u505a\u4e0b\u4f86\uff0c\u4f60\u76ef\u8457\u81ea\u5df1\u7684 iPhone \u624b\u6a5f", 
+      "endTime": 831466, 
+      "position": "HT", 
+      "startTime": 829200
+    }, 
+    {
+      "alignment": "C", 
+      "data": "or your Android, not trying to leave anyone out.", 
+      "endTime": 833752, 
+      "position": "HB", 
+      "startTime": 831466
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6216\u5b89\u5353\u624b\u6a5f\uff0c\u6211\u5011\u53ef\u4e0d\u60f3\u6f0f\u6389\u54ea\u500b", 
+      "endTime": 833752, 
+      "position": "HT", 
+      "startTime": 831466
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You are, you know, you're looking at your notes,", 
+      "endTime": 835946, 
+      "position": "HB", 
+      "startTime": 833752
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u770b\u8457\u81ea\u5df1\u7684\u7b46\u8a18", 
+      "endTime": 835946, 
+      "position": "HT", 
+      "startTime": 833752
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you're hunching up, making yourself small,", 
+      "endTime": 837776, 
+      "position": "HB", 
+      "startTime": 835946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u628a\u81ea\u5df1\u8737\u7e2e\u8d77\u4f86\uff0c\u8a66\u8457\u8b93\u81ea\u5df1\u8b8a\u5f97\u5c0f\u4e00\u9ede", 
+      "endTime": 837776, 
+      "position": "HT", 
+      "startTime": 835946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "when really what you should be doing maybe is this,", 
+      "endTime": 840068, 
+      "position": "HB", 
+      "startTime": 837776
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u771f\u6b63\u9700\u8981\u505a\u7684\u61c9\u8a72\u662f", 
+      "endTime": 840068, 
+      "position": "HT", 
+      "startTime": 837776
+    }, 
+    {
+      "alignment": "C", 
+      "data": "like, in the bathroom, right? Do that. Find two minutes.", 
+      "endTime": 843484, 
+      "position": "HB", 
+      "startTime": 840068
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5230\u6d17\u624b\u9593\uff0c\u7136\u5f8c\u9019\u6a23\uff0c\u82b1\u500b\u4e8c\u5206\u9418", 
+      "endTime": 843484, 
+      "position": "HT", 
+      "startTime": 840068
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So that's what we want to test. Okay?", 
+      "endTime": 844904, 
+      "position": "HB", 
+      "startTime": 843484
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u6211\u5011\u60f3\u6e2c\u8a66\u7684\u662f\u9019\u500b", 
+      "endTime": 844904, 
+      "position": "HT", 
+      "startTime": 843484
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So we bring people into a lab, and", 
+      "endTime": 847088, 
+      "position": "HB", 
+      "startTime": 844904
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u628a\u4eba\u5e36\u9032\u5be6\u9a57\u5ba4", 
+      "endTime": 847088, 
+      "position": "HT", 
+      "startTime": 844904
+    }, 
+    {
+      "alignment": "C", 
+      "data": "they do either high- or low-power poses again,", 
+      "endTime": 850465, 
+      "position": "HB", 
+      "startTime": 847088
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u518d\u64fa\u9ad8\u6b0a\u52e2\u6216\u4f4e\u6b0a\u52e2\u7684\u59ff\u614b", 
+      "endTime": 850465, 
+      "position": "HT", 
+      "startTime": 847088
+    }, 
+    {
+      "alignment": "C", 
+      "data": "they go through a very stressful job interview.", 
+      "endTime": 853097, 
+      "position": "HB", 
+      "startTime": 850465
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u63a5\u8457\u9032\u884c\u4e00\u500b\u9ad8\u5ea6\u58d3\u529b\u7684\u6c42\u8077\u9762\u8a66", 
+      "endTime": 853097, 
+      "position": "HT", 
+      "startTime": 850465
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It's five minutes long. They are being recorded.", 
+      "endTime": 856713, 
+      "position": "HB", 
+      "startTime": 853097
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u70ba\u6642\u4e94\u5206\u9418\u3002\u5168\u7a0b\u9304\u5f71", 
+      "endTime": 856713, 
+      "position": "HT", 
+      "startTime": 853097
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They're being judged also, and the judges", 
+      "endTime": 859224, 
+      "position": "HB", 
+      "startTime": 856713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u540c\u6642\u4e5f\u88ab\u8a55\u8ad6\uff0c\u800c\u9019\u4e9b\u8003\u5b98\u90fd\u63a5\u53d7\u904e\u8a13\u7df4", 
+      "endTime": 859224, 
+      "position": "HT", 
+      "startTime": 856713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "are trained to give no nonverbal feedback,", 
+      "endTime": 863199, 
+      "position": "HB", 
+      "startTime": 859224
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u6703\u7d66\u4e88\u4efb\u4f55\u975e\u8a9e\u8a00\u7684\u56de\u994b", 
+      "endTime": 863199, 
+      "position": "HT", 
+      "startTime": 859224
+    }, 
+    {
+      "alignment": "C", 
+      "data": "so they look like this. Like, imagine", 
+      "endTime": 864806, 
+      "position": "HB", 
+      "startTime": 863199
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u4ed6\u5011\u770b\u8d77\u4f86\u5c31\u50cf\u9019\u6a23\uff0c\u60f3\u50cf\u4e00\u4e0b", 
+      "endTime": 864806, 
+      "position": "HT", 
+      "startTime": 863199
+    }, 
+    {
+      "alignment": "C", 
+      "data": "this is the person interviewing you.", 
+      "endTime": 867090, 
+      "position": "HB", 
+      "startTime": 864806
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u500b\u4eba\u6b63\u5728\u9762\u8a66\u4f60", 
+      "endTime": 867090, 
+      "position": "HT", 
+      "startTime": 864806
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So for five minutes, nothing, and this is worse than being heckled.", 
+      "endTime": 871713, 
+      "position": "HB", 
+      "startTime": 867090
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6574\u6574\u4e94\u5206\u9418\uff0c\u751a\u9ebc\u90fd\u6c92\u6709\uff0c\u9019\u6bd4\u5201\u96e3\u8a70\u554f\u66f4\u96e3\u53d7", 
+      "endTime": 871713, 
+      "position": "HT", 
+      "startTime": 867090
+    }, 
+    {
+      "alignment": "C", 
+      "data": "People hate this. It's what Marianne LaFrance calls", 
+      "endTime": 875026, 
+      "position": "HB", 
+      "startTime": 871713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5927\u5bb6\u90fd\u4e0d\u559c\u6b61\u9019\u7a2e\u65b9\u5f0f\u3002\u9019\u5c31\u662f Marianne LaFrance \u6240\u8b02\u7684", 
+      "endTime": 875026, 
+      "position": "HT", 
+      "startTime": 871713
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"standing in social quicksand.\"", 
+      "endTime": 877117, 
+      "position": "HB", 
+      "startTime": 875026
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u9677\u5165\u793e\u4ea4\u6d41\u6c99\u4e2d\"", 
+      "endTime": 877117, 
+      "position": "HT", 
+      "startTime": 875026
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this really spikes your cortisol.", 
+      "endTime": 878926, 
+      "position": "HB", 
+      "startTime": 877117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u53ef\u4ee5\u5927\u5927\u6fc0\u767c\u4f60\u7684\u814e\u4e0a\u817a\u76ae\u8cea\u9187", 
+      "endTime": 878926, 
+      "position": "HT", 
+      "startTime": 877117
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is the job interview we put them through,", 
+      "endTime": 880628, 
+      "position": "HB", 
+      "startTime": 878926
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u7d66\u4e88\u53d7\u8a66\u8005\u9019\u7a2e\u9762\u8a66", 
+      "endTime": 880628, 
+      "position": "HT", 
+      "startTime": 878926
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because we really wanted to see what happened.", 
+      "endTime": 883457, 
+      "position": "HB", 
+      "startTime": 880628
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u770b\u7d50\u679c\u5982\u4f55", 
+      "endTime": 883457, 
+      "position": "HT", 
+      "startTime": 880628
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We then have these coders look at these tapes, four of them.", 
+      "endTime": 886564, 
+      "position": "HB", 
+      "startTime": 883457
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u627e\u4e86\u56db\u500b\u6253\u5206\u6578\u7684\u4eba\u770b\u9019\u4e9b\u9762\u8a66\u9304\u5f71", 
+      "endTime": 886564, 
+      "position": "HT", 
+      "startTime": 883457
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They're blind to the hypothesis. They're blind to the conditions.", 
+      "endTime": 889736, 
+      "position": "HB", 
+      "startTime": 886564
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u4e0d\u77e5\u5047\u8a2d\u524d\u63d0\u548c\u4e5f\u4e0d\u4e86\u89e3\u6e2c\u8a66\u7684\u689d\u4ef6", 
+      "endTime": 889736, 
+      "position": "HT", 
+      "startTime": 886564
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They have no idea who's been posing in what pose,", 
+      "endTime": 892521, 
+      "position": "HB", 
+      "startTime": 889736
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6c92\u6709\u4eba\u77e5\u9053\u8ab0\u64fa\u751a\u9ebc\u6a23\u7684\u59ff\u52e2", 
+      "endTime": 892521, 
+      "position": "HT", 
+      "startTime": 889736
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and they end up looking at these sets of tapes,", 
+      "endTime": 897611, 
+      "position": "HB", 
+      "startTime": 892521
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6700\u5f8c\u4ed6\u5011\u89c0\u770b\u9019\u4e9b\u5e36\u5b50", 
+      "endTime": 897611, 
+      "position": "HT", 
+      "startTime": 892521
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and they say, \"Oh, we want to hire these people,\" --", 
+      "endTime": 899683, 
+      "position": "HB", 
+      "startTime": 897611
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u4ed6\u5011\u8aaa\uff0c\"\u5662\uff0c\u6211\u5011\u60f3\u8981\u9304\u7528\u9019\u4e9b\u4eba\"", 
+      "endTime": 899683, 
+      "position": "HT", 
+      "startTime": 897611
+    }, 
+    {
+      "alignment": "C", 
+      "data": "all the high-power posers -- \"we don't want to hire these people.", 
+      "endTime": 903105, 
+      "position": "HB", 
+      "startTime": 899683
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e5f\u5c31\u662f\u90a3\u4e9b\u64fa\u9ad8\u6b0a\u52e2\u59ff\u52e2\u7684\u4eba-- \"\u9019\u4e9b\u4eba\u6211\u5011\u4e0d\u60f3\u9304\u7528\"", 
+      "endTime": 903105, 
+      "position": "HT", 
+      "startTime": 899683
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We also evaluate these people much more positively overall.\"", 
+      "endTime": 905890, 
+      "position": "HB", 
+      "startTime": 903105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u5c0d\u9019\u4e9b\u4eba\u7684\u6574\u9ad4\u5370\u8c61\u4e5f\u6bd4\u8f03\u6b63\u9762", 
+      "endTime": 905890, 
+      "position": "HT", 
+      "startTime": 903105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "But what's driving it? It's not about the content of the speech.", 
+      "endTime": 910626, 
+      "position": "HB", 
+      "startTime": 905890
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u80cc\u5f8c\u7684\u539f\u56e0\u662f\u751a\u9ebc? \u8ddf\u6f14\u8b1b\u7684\u5167\u5bb9\u7121\u95dc", 
+      "endTime": 910626, 
+      "position": "HT", 
+      "startTime": 905890
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It's about the presence that they're bringing to the speech.", 
+      "endTime": 913502, 
+      "position": "HB", 
+      "startTime": 910626
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u662f\u4ed6\u5011\u628a\u81ea\u5df1\u5e36\u9032\u4e86\u6f14\u8b1b\u88e1", 
+      "endTime": 913502, 
+      "position": "HT", 
+      "startTime": 910626
+    }, 
+    {
+      "alignment": "C", 
+      "data": "We also, because we rate them on all these variables", 
+      "endTime": 915551, 
+      "position": "HB", 
+      "startTime": 913502
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u4e5f\u8861\u91cf\u4e00\u4e9b\u5176\u4ed6\u7684\u8b8a\u6578", 
+      "endTime": 915551, 
+      "position": "HT", 
+      "startTime": 913502
+    }, 
+    {
+      "alignment": "C", 
+      "data": "related to competence, like, how well-structured", 
+      "endTime": 918642, 
+      "position": "HB", 
+      "startTime": 915551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u548c\u80fd\u529b\u6709\u95dc\uff0c\u50cf\u662f\u6f14\u8b1b\u7684\u7d50\u69cb\u597d\u4e0d\u597d", 
+      "endTime": 918642, 
+      "position": "HT", 
+      "startTime": 915551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "is the speech? How good is it? What are their qualifications?", 
+      "endTime": 921418, 
+      "position": "HB", 
+      "startTime": 918642
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5b83\u6709\u591a\u68d2? \u8b1b\u8005\u7684\u5b78\u7d93\u6b77?", 
+      "endTime": 921418, 
+      "position": "HT", 
+      "startTime": 918642
+    }, 
+    {
+      "alignment": "C", 
+      "data": "No effect on those things. This is what's affected.", 
+      "endTime": 924474, 
+      "position": "HB", 
+      "startTime": 921418
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5168\u90fd\u7121\u95dc\u3002\u6709\u5f71\u97ff\u7684\u662f", 
+      "endTime": 924474, 
+      "position": "HT", 
+      "startTime": 921418
+    }, 
+    {
+      "alignment": "C", 
+      "data": "These kinds of things. People are bringing their true selves,", 
+      "endTime": 927753, 
+      "position": "HB", 
+      "startTime": 924474
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u4e9b\u4e8b\u3002\u57fa\u672c\u4e0a\u4eba\u5011\u8868\u73fe\u51fa\u771f\u5be6\u7684\u81ea\u5df1", 
+      "endTime": 927753, 
+      "position": "HT", 
+      "startTime": 924474
+    }, 
+    {
+      "alignment": "C", 
+      "data": "basically. They're bringing themselves.", 
+      "endTime": 929626, 
+      "position": "HB", 
+      "startTime": 927753
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c31\u4ed6\u5011\u81ea\u5df1", 
+      "endTime": 929626, 
+      "position": "HT", 
+      "startTime": 927753
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They bring their ideas, but as themselves,", 
+      "endTime": 931849, 
+      "position": "HB", 
+      "startTime": 929626
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u8aa0\u5be6\u7684\u5e36\u5165\u4e86\u81ea\u5df1\u7684\u7a2e\u7a2e\u610f\u5ff5", 
+      "endTime": 931849, 
+      "position": "HT", 
+      "startTime": 929626
+    }, 
+    {
+      "alignment": "C", 
+      "data": "with no, you know, residue over them.", 
+      "endTime": 934385, 
+      "position": "HB", 
+      "startTime": 931849
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6beb\u7121\u4fdd\u7559", 
+      "endTime": 934385, 
+      "position": "HT", 
+      "startTime": 931849
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is what's driving the effect, or mediating the effect.", 
+      "endTime": 939316, 
+      "position": "HB", 
+      "startTime": 934385
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u5c31\u662f\u80cc\u5f8c\u771f\u5be6\u7684\u529b\u91cf\uff0c\u6216\u9020\u6210\u5f71\u97ff", 
+      "endTime": 939316, 
+      "position": "HT", 
+      "startTime": 934385
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So when I tell people about this,", 
+      "endTime": 942684, 
+      "position": "HB", 
+      "startTime": 939316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u7576\u6211\u544a\u8a34\u4eba\u5011", 
+      "endTime": 942684, 
+      "position": "HT", 
+      "startTime": 939316
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that our bodies change our minds and our minds can change our behavior,", 
+      "endTime": 945563, 
+      "position": "HB", 
+      "startTime": 942684
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5011\u7684\u8eab\u9ad4\u6703\u6539\u8b8a\u5fc3\u7406\uff0c\u5fc3\u7406\u6703\u6539\u8b8a\u884c\u70ba", 
+      "endTime": 945563, 
+      "position": "HT", 
+      "startTime": 942684
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and our behavior can change our outcomes, they say to me,", 
+      "endTime": 948539, 
+      "position": "HB", 
+      "startTime": 945563
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u884c\u70ba\u6703\u6539\u8b8a\u7d50\u679c\uff0c\u4ed6\u5011\u56de\u6211\u8aaa", 
+      "endTime": 948539, 
+      "position": "HT", 
+      "startTime": 945563
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"I don't -- It feels fake.\" Right?", 
+      "endTime": 950406, 
+      "position": "HB", 
+      "startTime": 948539
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u6211\u4e0d\u9019\u9ebc\u60f3--\u807d\u8d77\u4f86\u597d\u50cf\u662f\u5047\u7684\" \u5c0d\u55ce?", 
+      "endTime": 950406, 
+      "position": "HT", 
+      "startTime": 948539
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I said, fake it till you make it. I don't -- It's not me.", 
+      "endTime": 954185, 
+      "position": "HB", 
+      "startTime": 950406
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5c31\u8aaa\uff0c\u4f60\u5c31\u5047\u88dd\u4e00\u76f4\u5230\u4f60\u9054\u6210\u76ee\u7684\u70ba\u6b62\u3002\u4e0d\u5e79\uff0c\u9019\u4e0d\u662f\u6211", 
+      "endTime": 954185, 
+      "position": "HT", 
+      "startTime": 950406
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I don't want to get there and then still feel like a fraud.", 
+      "endTime": 957360, 
+      "position": "HB", 
+      "startTime": 954185
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u4e0d\u60f3\u8981\u6210\u529f\u5f8c\u611f\u89ba\u50cf\u662f\u4e00\u500b\u9a19\u5b50", 
+      "endTime": 957360, 
+      "position": "HT", 
+      "startTime": 954185
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I don't want to feel like an impostor.", 
+      "endTime": 958879, 
+      "position": "HB", 
+      "startTime": 957360
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u4e0d\u60f3\u81ea\u5df1\u89ba\u5f97\u81ea\u5df1\u662f\u500b\u5047\u8ca8", 
+      "endTime": 958879, 
+      "position": "HT", 
+      "startTime": 957360
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I don't want to get there only to feel like I'm not supposed to be here.", 
+      "endTime": 963291, 
+      "position": "HB", 
+      "startTime": 958879
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u4e0d\u8981\u9054\u6210\u76ee\u7684\u5f8c\uff0c\u53ea\u6709\u4e00\u7a2e\u6211\u672c\u4e0d\u8a72\u6210\u529f\u7684\u611f\u89ba", 
+      "endTime": 963291, 
+      "position": "HT", 
+      "startTime": 958879
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And that really resonated with me,", 
+      "endTime": 965478, 
+      "position": "HB", 
+      "startTime": 963291
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u6df1\u6709\u540c\u611f", 
+      "endTime": 965478, 
+      "position": "HT", 
+      "startTime": 963291
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because I want to tell you a little story about", 
+      "endTime": 967536, 
+      "position": "HB", 
+      "startTime": 965478
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u88e1\u8ddf\u5927\u5bb6\u5206\u4eab\u4e00\u500b\u5c0f\u6545\u4e8b", 
+      "endTime": 967536, 
+      "position": "HT", 
+      "startTime": 965478
+    }, 
+    {
+      "alignment": "C", 
+      "data": "being an impostor and feeling like I'm not supposed to be here.", 
+      "endTime": 970946, 
+      "position": "HB", 
+      "startTime": 967536
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u95dc\u8eab\u70ba\u5047\u8ca8\uff0c\u611f\u89ba\u6211\u4e0d\u914d\u6210\u529f\u7684\u6545\u4e8b", 
+      "endTime": 970946, 
+      "position": "HT", 
+      "startTime": 967536
+    }, 
+    {
+      "alignment": "C", 
+      "data": "When I was 19, I was in a really bad car accident.", 
+      "endTime": 973887, 
+      "position": "HB", 
+      "startTime": 970946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u6211 19 \u6b72\u7684\u6642\u5019\uff0c\u767c\u751f\u4e86\u4e00\u5834\u5f88\u56b4\u91cd\u7684\u8eca\u798d", 
+      "endTime": 973887, 
+      "position": "HT", 
+      "startTime": 970946
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I was thrown out of a car, rolled several times.", 
+      "endTime": 977292, 
+      "position": "HB", 
+      "startTime": 973887
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u6574\u500b\u4eba\u98db\u51fa\u8eca\u5916\uff0c\u6efe\u4e86\u597d\u5e7e\u7ffb", 
+      "endTime": 977292, 
+      "position": "HT", 
+      "startTime": 973887
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I was thrown from the car. And I woke up in a head injury", 
+      "endTime": 980803, 
+      "position": "HB", 
+      "startTime": 977292
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5f48\u51fa\u8eca\u5916\uff0c\u982d\u90e8\u91cd\u50b7\uff0c\u9192\u4f86\u6642\u8eab\u8655\u982d\u90e8\u5fa9\u5065\u75c5\u623f", 
+      "endTime": 980803, 
+      "position": "HT", 
+      "startTime": 977292
+    }, 
+    {
+      "alignment": "C", 
+      "data": "rehab ward, and I had been withdrawn from college,", 
+      "endTime": 984395, 
+      "position": "HB", 
+      "startTime": 980803
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5f9e\u5927\u5b78\u88e1\u4f11\u5b78", 
+      "endTime": 984395, 
+      "position": "HT", 
+      "startTime": 980803
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I learned that my I.Q. had dropped by two standard deviations,", 
+      "endTime": 990107, 
+      "position": "HB", 
+      "startTime": 984395
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5225\u4eba\u544a\u77e5\u6211\u667a\u5546\u4e0b\u964d\u4e86 2 \u500b\u6a19\u6e96\u5dee", 
+      "endTime": 990107, 
+      "position": "HT", 
+      "startTime": 984395
+    }, 
+    {
+      "alignment": "C", 
+      "data": "which was very traumatic.", 
+      "endTime": 992695, 
+      "position": "HB", 
+      "startTime": 990107
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c31\u662f\u8aaa\u975e\u5e38\u975e\u5e38\u7cdf\u7cd5", 
+      "endTime": 992695, 
+      "position": "HT", 
+      "startTime": 990107
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I knew my I.Q. because I had identified with being smart,", 
+      "endTime": 995566, 
+      "position": "HB", 
+      "startTime": 992695
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u77e5\u9053\u6211\u7684\u667a\u5546\u61c9\u8a72\u662f\u591a\u5c11\uff0c\u56e0\u70ba\u6211\u4ee5\u524d\u88ab\u4eba\u5bb6\u8a8d\u70ba\u662f\u5f88\u8070\u660e\u7684\u90a3\u7a2e", 
+      "endTime": 995566, 
+      "position": "HT", 
+      "startTime": 992695
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I had been called gifted as a child.", 
+      "endTime": 997578, 
+      "position": "HB", 
+      "startTime": 995566
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c0f\u6642\u5927\u5bb6\u90fd\u6559\u6211\u662f\u8cc7\u512a\u751f", 
+      "endTime": 997578, 
+      "position": "HT", 
+      "startTime": 995566
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I'm taken out of college, I keep trying to go back.", 
+      "endTime": 1000778, 
+      "position": "HB", 
+      "startTime": 997578
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u6211\u88ab\u8feb\u96e2\u958b\u5927\u5b78\u6642\uff0c\u6211\u8a66\u8457\u56de\u53bb", 
+      "endTime": 1000778, 
+      "position": "HT", 
+      "startTime": 997578
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They say, \"You're not going to finish college.", 
+      "endTime": 1002502, 
+      "position": "HB", 
+      "startTime": 1000778
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4ed6\u5011\u8aaa\u90fd\u544a\u8a34\u6211\u8aaa\uff0c\"\u4f60\u6c92\u6709\u8fa6\u6cd5\u7562\u696d\u7684\u3002", 
+      "endTime": 1002502, 
+      "position": "HT", 
+      "startTime": 1000778
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Just, you know, there are other things for you to do,", 
+      "endTime": 1005379, 
+      "position": "HB", 
+      "startTime": 1002502
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u77e5\u9053\uff0c\u4f60\u9084\u53ef\u4ee5\u505a\u5f88\u591a\u5176\u4ed6\u7684\u4e8b\u554a\uff0c", 
+      "endTime": 1005379, 
+      "position": "HT", 
+      "startTime": 1002502
+    }, 
+    {
+      "alignment": "C", 
+      "data": "but that's not going to work out for you.\"", 
+      "endTime": 1007277, 
+      "position": "HB", 
+      "startTime": 1005379
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u5927\u5b78\u4f60\u662f\u7121\u671b\u4e86\u3002\"", 
+      "endTime": 1007277, 
+      "position": "HT", 
+      "startTime": 1005379
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I really struggled with this, and I have to say,", 
+      "endTime": 1011161, 
+      "position": "HB", 
+      "startTime": 1007277
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u6b7b\u547d\u6399\u624e\uff0c\u6211\u5fc5\u9808\u627f\u8a8d", 
+      "endTime": 1011161, 
+      "position": "HT", 
+      "startTime": 1007277
+    }, 
+    {
+      "alignment": "C", 
+      "data": "having your identity taken from you, your core identity,", 
+      "endTime": 1013935, 
+      "position": "HB", 
+      "startTime": 1011161
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7576\u4f60\u81ea\u6211\u8a8d\u540c\u611f\u88ab\u525d\u596a\uff0c\u4e3b\u8981\u7684\u8eab\u5206\u8a8d\u540c", 
+      "endTime": 1013935, 
+      "position": "HT", 
+      "startTime": 1011161
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and for me it was being smart,", 
+      "endTime": 1015794, 
+      "position": "HB", 
+      "startTime": 1013935
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c0d\u6211\u800c\u8a00\uff0c\u6211\u7684\u81ea\u6211\u8a8d\u540c\u5c31\u662f\u8070\u660e", 
+      "endTime": 1015794, 
+      "position": "HT", 
+      "startTime": 1013935
+    }, 
+    {
+      "alignment": "C", 
+      "data": "having that taken from you, there's nothing that leaves you feeling more powerless than that.", 
+      "endTime": 1020203, 
+      "position": "HB", 
+      "startTime": 1015794
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e0d\u518d\u8070\u660e\uff0c\u518d\u6c92\u6709\u6bd4\u9019\u500b\u8b93\u6211\u66f4\u52a0\u7121\u52a9\u7684\u4e86", 
+      "endTime": 1020203, 
+      "position": "HT", 
+      "startTime": 1015794
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I felt entirely powerless. I worked and worked and worked,", 
+      "endTime": 1022805, 
+      "position": "HB", 
+      "startTime": 1020203
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u611f\u5230\u5b8c\u5168\u7684\u7121\u529b\uff0c\u6211\u62fc\u547d\u5730\u760b\u72c2\u5730\u52aa\u529b\uff0c\u52aa\u529b\u518d\u52aa\u529b", 
+      "endTime": 1022805, 
+      "position": "HT", 
+      "startTime": 1020203
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I got lucky, and worked, and got lucky, and worked.", 
+      "endTime": 1025939, 
+      "position": "HB", 
+      "startTime": 1022805
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5e78\u904b\u7737\u9867\uff0c\u518d\u52aa\u529b\uff0c\u5e78\u904b\uff0c\u518d\u52aa\u529b\u3002", 
+      "endTime": 1025939, 
+      "position": "HT", 
+      "startTime": 1022805
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Eventually I graduated from college.", 
+      "endTime": 1028391, 
+      "position": "HB", 
+      "startTime": 1025939
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6700\u7d42\u6211\u5927\u5b78\u7562\u696d\u4e86\u3002", 
+      "endTime": 1028391, 
+      "position": "HT", 
+      "startTime": 1025939
+    }, 
+    {
+      "alignment": "C", 
+      "data": "It took me four years longer than my peers,", 
+      "endTime": 1030198, 
+      "position": "HB", 
+      "startTime": 1028391
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u6bd4\u540c\u5115\u591a\u82b1\u4e86\u56db\u5e74\u7684\u6642\u9593", 
+      "endTime": 1030198, 
+      "position": "HT", 
+      "startTime": 1028391
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I convinced someone, my angel advisor, Susan Fiske,", 
+      "endTime": 1034756, 
+      "position": "HB", 
+      "startTime": 1030198
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u8aaa\u670d\u6211\u7684\u6069\u5e2b\uff0cSusan Fiske", 
+      "endTime": 1034756, 
+      "position": "HT", 
+      "startTime": 1030198
+    }, 
+    {
+      "alignment": "C", 
+      "data": "to take me on, and so I ended up at Princeton,", 
+      "endTime": 1037700, 
+      "position": "HB", 
+      "startTime": 1034756
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6536\u6211\uff0c\u8b93\u6211\u9032\u5165\u4e86\u666e\u6797\u65af\u9813", 
+      "endTime": 1037700, 
+      "position": "HT", 
+      "startTime": 1034756
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and I was like, I am not supposed to be here.", 
+      "endTime": 1040551, 
+      "position": "HB", 
+      "startTime": 1037700
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u7576\u6642\u89ba\u5f97\uff0c\u6211\u4e0d\u61c9\u8a72\u5728\u9019\u88e1", 
+      "endTime": 1040551, 
+      "position": "HT", 
+      "startTime": 1037700
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I am an impostor.", 
+      "endTime": 1041845, 
+      "position": "HB", 
+      "startTime": 1040551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u662f\u500b\u5192\u724c\u8ca8", 
+      "endTime": 1041845, 
+      "position": "HT", 
+      "startTime": 1040551
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And the night before my first-year talk,", 
+      "endTime": 1043426, 
+      "position": "HB", 
+      "startTime": 1041845
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u6211\u7b2c\u4e00\u5e74\u6f14\u8b1b\u524d\u7684\u90a3\u500b\u665a\u4e0a\uff0c", 
+      "endTime": 1043426, 
+      "position": "HT", 
+      "startTime": 1041845
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and the first-year talk at Princeton is a 20-minute talk", 
+      "endTime": 1046064, 
+      "position": "HB", 
+      "startTime": 1043426
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u666e\u6797\u65af\u9813\u7b2c\u4e00\u5e74\u7684\u6f14\u8b1b", 
+      "endTime": 1046064, 
+      "position": "HT", 
+      "startTime": 1043426
+    }, 
+    {
+      "alignment": "C", 
+      "data": "to 20 people. That's it.", 
+      "endTime": 1048099, 
+      "position": "HB", 
+      "startTime": 1046064
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5927\u7d04\u662f\u5c0d 20 \u500b\u4eba\u505a 20 \u5206\u9418\u7684\u6f14\u8b1b\u3002\u5c31\u9019\u6a23", 
+      "endTime": 1048099, 
+      "position": "HT", 
+      "startTime": 1046064
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I was so afraid of being found out the next day", 
+      "endTime": 1050986, 
+      "position": "HB", 
+      "startTime": 1048099
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u7576\u6642\u597d\u5bb3\u6015\u9694\u5929\u88ab\u62c6\u7a7f\u6211\u4e0d\u914d\u7576\u666e\u6797\u65af\u9813\u7684\u5b78\u751f", 
+      "endTime": 1050986, 
+      "position": "HT", 
+      "startTime": 1048099
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that I called her and said, \"I'm quitting.\"", 
+      "endTime": 1053799, 
+      "position": "HB", 
+      "startTime": 1050986
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u6211\u6253\u7d66\u5979\u8aaa\uff0c\"\u6211\u4e0d\u5e79\u4e86\u3002\"", 
+      "endTime": 1053799, 
+      "position": "HT", 
+      "startTime": 1050986
+    }, 
+    {
+      "alignment": "C", 
+      "data": "She was like, \"You are not quitting,", 
+      "endTime": 1055655, 
+      "position": "HB", 
+      "startTime": 1053799
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5979\u8aaa:\"\u4f60\u4e0d\u53ef\u4ee5\u4e0d\u5e79\uff0c", 
+      "endTime": 1055655, 
+      "position": "HT", 
+      "startTime": 1053799
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because I took a gamble on you, and you're staying.", 
+      "endTime": 1058213, 
+      "position": "HB", 
+      "startTime": 1055655
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u6211\u8ced\u5728\u4f60\u8eab\u4e0a\u4e86\uff0c\u4f60\u5f97\u7559\u4e0b\u3002", 
+      "endTime": 1058213, 
+      "position": "HT", 
+      "startTime": 1055655
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You're going to stay, and this is what you're going to do.", 
+      "endTime": 1060404, 
+      "position": "HB", 
+      "startTime": 1058213
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u6703\u7559\u4e0b\uff0c\u4f60\u5f97\u9019\u9ebc\u505a\u3002", 
+      "endTime": 1060404, 
+      "position": "HT", 
+      "startTime": 1058213
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You are going to fake it.", 
+      "endTime": 1061761, 
+      "position": "HB", 
+      "startTime": 1060404
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u8981\u5047\u88dd\u4f60\u5c31\u662f\u6b63\u724c\u666e\u6797\u65af\u9813\u5b78\u751f", 
+      "endTime": 1061761, 
+      "position": "HT", 
+      "startTime": 1060404
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You're going to do every talk that you ever get asked to do.", 
+      "endTime": 1065541, 
+      "position": "HB", 
+      "startTime": 1061761
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6bcf\u500b\u9080\u8acb\u4f60\u53bb\u4e3b\u8b1b\u7684\u6f14\u8b1b\uff0c\u4f60\u90fd\u5f97\u7167\u8fa6", 
+      "endTime": 1065541, 
+      "position": "HT", 
+      "startTime": 1061761
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You're just going to do it and do it and do it,", 
+      "endTime": 1067280, 
+      "position": "HB", 
+      "startTime": 1065541
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5f97\u4e00\u76f4\u8b1b\u4e00\u76f4\u8b1b", 
+      "endTime": 1067280, 
+      "position": "HT", 
+      "startTime": 1065541
+    }, 
+    {
+      "alignment": "C", 
+      "data": "even if you're terrified and just paralyzed", 
+      "endTime": 1070249, 
+      "position": "HB", 
+      "startTime": 1067280
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5373\u4f7f\u4f60\u6015\u6b7b\u4e86\uff0c\u8173\u7671\u4e86", 
+      "endTime": 1070249, 
+      "position": "HT", 
+      "startTime": 1067280
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and having an out-of-body experience, until you have", 
+      "endTime": 1072827, 
+      "position": "HB", 
+      "startTime": 1070249
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9b42\u4e0d\u9644\u9ad4\u4e86\uff0c\u76f4\u5230\u4f60\u767c\u73fe\u4f60\u5728\u8aaa", 
+      "endTime": 1072827, 
+      "position": "HT", 
+      "startTime": 1070249
+    }, 
+    {
+      "alignment": "C", 
+      "data": "this moment where you say, 'Oh my gosh, I'm doing it.", 
+      "endTime": 1075992, 
+      "position": "HB", 
+      "startTime": 1072827
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u5662\uff0c\u6211\u7684\u5929\u554a\uff0c\u6211\u6b63\u5728\u505a\u9019\u4ef6\u4e8b\u3002", 
+      "endTime": 1075992, 
+      "position": "HT", 
+      "startTime": 1072827
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Like, I have become this. I am actually doing this.'\"", 
+      "endTime": 1078958, 
+      "position": "HB", 
+      "startTime": 1075992
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5df2\u7d93\u6210\u70ba\u5b83\u7684\u4e00\u90e8\u5206\u4e86\uff0c\u6211\u5c31\u662f\u6b63\u724c\u666e\u6797\u65af\u9813\u4eba\u3002\"", 
+      "endTime": 1078958, 
+      "position": "HT", 
+      "startTime": 1075992
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So that's what I did. Five years in grad school,", 
+      "endTime": 1081368, 
+      "position": "HB", 
+      "startTime": 1078958
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u5c31\u662f\u8aaa\u6240\u505a\u7684\uff0c\u4e94\u5e74\u7684\u7814\u7a76\u751f\u751f\u6daf", 
+      "endTime": 1081368, 
+      "position": "HT", 
+      "startTime": 1078958
+    }, 
+    {
+      "alignment": "C", 
+      "data": "a few years, you know, I'm at Northwestern,", 
+      "endTime": 1083109, 
+      "position": "HB", 
+      "startTime": 1081368
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5728\u897f\u5317\u5927\u5b78\u5f85\u4e86\u5e7e\u5e74", 
+      "endTime": 1083109, 
+      "position": "HT", 
+      "startTime": 1081368
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I moved to Harvard, I'm at Harvard, I'm not really", 
+      "endTime": 1085696, 
+      "position": "HB", 
+      "startTime": 1083109
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u5f8c\u4f86\u53bb\u4e86\u54c8\u4f5b\uff0c\u6211\u5728\u54c8\u4f5b\uff0c\u6211\u6c92\u6709\u5728\u60f3\u5230\u9019\u4ef6\u4e8b\u4e86", 
+      "endTime": 1085696, 
+      "position": "HT", 
+      "startTime": 1083109
+    }, 
+    {
+      "alignment": "C", 
+      "data": "thinking about it anymore, but for a long time I had been thinking,", 
+      "endTime": 1089196, 
+      "position": "HB", 
+      "startTime": 1085696
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f46\u4e4b\u524d\u6709\u5f88\u9577\u4e00\u6bb5\u6642\u9593\u6211\u90fd\u5728\u60f3\u9019\u4ef6\u4e8b", 
+      "endTime": 1089196, 
+      "position": "HT", 
+      "startTime": 1085696
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"Not supposed to be here. Not supposed to be here.\"", 
+      "endTime": 1091500, 
+      "position": "HB", 
+      "startTime": 1089196
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u4e0d\u914d\u5728\u9019\u3002\u4e0d\u61c9\u8a72\u5728\u9019\u3002\"", 
+      "endTime": 1091500, 
+      "position": "HT", 
+      "startTime": 1089196
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So at the end of my first year at Harvard,", 
+      "endTime": 1093978, 
+      "position": "HB", 
+      "startTime": 1091500
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u54c8\u4f5b\u7b2c\u4e00\u5e74\u7d50\u675f", 
+      "endTime": 1093978, 
+      "position": "HT", 
+      "startTime": 1091500
+    }, 
+    {
+      "alignment": "C", 
+      "data": "a student who had not talked in class the entire semester,", 
+      "endTime": 1098544, 
+      "position": "HB", 
+      "startTime": 1093978
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6709\u500b\u6574\u5b78\u671f\u5728\u8ab2\u5802\u4e0a\u6c92\u8aaa\u904e\u4e00\u53e5\u8a71\u7684\u5b78\u751f", 
+      "endTime": 1098544, 
+      "position": "HT", 
+      "startTime": 1093978
+    }, 
+    {
+      "alignment": "C", 
+      "data": "who I had said, \"Look, you've gotta participate or else you're going to fail,\"", 
+      "endTime": 1101751, 
+      "position": "HB", 
+      "startTime": 1098544
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u66fe\u7d93\u8b66\u544a\u5979\uff1a\"\u4f60\u5f97\u53c3\u8207\u878d\u5165\u5426\u5247\u4f60\u6703\u88ab\u7576\"", 
+      "endTime": 1101751, 
+      "position": "HT", 
+      "startTime": 1098544
+    }, 
+    {
+      "alignment": "C", 
+      "data": "came into my office. I really didn't know her at all.", 
+      "endTime": 1104253, 
+      "position": "HB", 
+      "startTime": 1101751
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f86\u8fa6\u516c\u5ba4\u898b\u6211\u3002\u5176\u5be6\u6211\u58d3\u6839\u5c31\u4e0d\u8a8d\u8b58\u5979\u3002", 
+      "endTime": 1104253, 
+      "position": "HT", 
+      "startTime": 1101751
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And she said, she came in totally defeated, and she said,", 
+      "endTime": 1108235, 
+      "position": "HB", 
+      "startTime": 1104253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5979\u9032\u4f86\u6642\u5782\u982d\u55aa\u6c23\uff0c\u5979\u8aaa", 
+      "endTime": 1108235, 
+      "position": "HT", 
+      "startTime": 1104253
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"I'm not supposed to be here.\"", 
+      "endTime": 1114280, 
+      "position": "HB", 
+      "startTime": 1108235
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u6211\u4e0d\u914d\u5728\u9019\u88e1\u3002\"", 
+      "endTime": 1114280, 
+      "position": "HT", 
+      "startTime": 1108235
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And that was the moment for me. Because two things happened.", 
+      "endTime": 1118408, 
+      "position": "HB", 
+      "startTime": 1114280
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6b64\u6642\u6b64\u523b\uff0c\u6211\u4e86\u89e3\u3002\u5c31\u5728\u6b64\u523b\uff0c\u4e8c\u4ef6\u4e8b\u767c\u751f\u4e86\u3002", 
+      "endTime": 1118408, 
+      "position": "HT", 
+      "startTime": 1114280
+    }, 
+    {
+      "alignment": "C", 
+      "data": "One was that I realized,", 
+      "endTime": 1119902, 
+      "position": "HB", 
+      "startTime": 1118408
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u7a81\u7136\u660e\u767d", 
+      "endTime": 1119902, 
+      "position": "HT", 
+      "startTime": 1118408
+    }, 
+    {
+      "alignment": "C", 
+      "data": "oh my gosh, I don't feel like that anymore. You know.", 
+      "endTime": 1123136, 
+      "position": "HB", 
+      "startTime": 1119902
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5929\u554a\uff0c\u6211\u518d\u4e5f\u6c92\u6709\u9019\u7a2e\u611f\u89ba\u4e86\u3002\u4f60\u77e5\u9053\u55ce\u3002", 
+      "endTime": 1123136, 
+      "position": "HT", 
+      "startTime": 1119902
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I don't feel that anymore, but she does, and I get that feeling.", 
+      "endTime": 1125818, 
+      "position": "HB", 
+      "startTime": 1123136
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u518d\u4e5f\u4e0d\u9019\u6a23\u611f\u89ba\u4e86\uff0c\u4f46\u5979\u537b\u662f\uff0c\u6211\u61c2\u5979\u3002", 
+      "endTime": 1125818, 
+      "position": "HT", 
+      "startTime": 1123136
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And the second was, she is supposed to be here!", 
+      "endTime": 1128455, 
+      "position": "HB", 
+      "startTime": 1125818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7b2c\u4e8c\u4ef6\u4e8b\uff0c\u5979\u672c\u4f86\u5c31\u61c9\u8a72\u5728\u9019\u88e1!", 
+      "endTime": 1128455, 
+      "position": "HT", 
+      "startTime": 1125818
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Like, she can fake it, she can become it.", 
+      "endTime": 1130259, 
+      "position": "HB", 
+      "startTime": 1128455
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5979\u53ef\u4ee5\u5047\u88dd\uff0c\u5979\u53ef\u4ee5\u6210\u529f\u3002", 
+      "endTime": 1130259, 
+      "position": "HT", 
+      "startTime": 1128455
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I was like, \"Yes, you are! You are supposed to be here!", 
+      "endTime": 1133999, 
+      "position": "HB", 
+      "startTime": 1130259
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6240\u4ee5\u6211\u8ddf\u5979\u8aaa\uff0c\"\u7576\u7136\u4f60\u61c9\u8a72! \u4f60\u672c\u4f86\u5c31\u61c9\u8a72\u5728\u9019\u88e1!\"", 
+      "endTime": 1133999, 
+      "position": "HT", 
+      "startTime": 1130259
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And tomorrow you're going to fake it,", 
+      "endTime": 1135434, 
+      "position": "HB", 
+      "startTime": 1133999
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u660e\u5929\u8d77\u4f60\u5c31\u5047\u88dd", 
+      "endTime": 1135434, 
+      "position": "HT", 
+      "startTime": 1133999
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you're going to make yourself powerful, and, you know,", 
+      "endTime": 1138498, 
+      "position": "HB", 
+      "startTime": 1135434
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u8981\u8b93\u81ea\u5df1\u5145\u6eff\u529b\u91cf\uff0c", 
+      "endTime": 1138498, 
+      "position": "HT", 
+      "startTime": 1135434
+    }, 
+    {
+      "alignment": "C", 
+      "data": "you're gonna \u2014 \" (Applause)", 
+      "endTime": 1141521, 
+      "position": "HB", 
+      "startTime": 1138498
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5c07\u6703---\"(\u638c\u8072)", 
+      "endTime": 1141521, 
+      "position": "HT", 
+      "startTime": 1138498
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(Applause)", 
+      "endTime": 1143560, 
+      "position": "HB", 
+      "startTime": 1141521
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(\u638c\u8072)", 
+      "endTime": 1143560, 
+      "position": "HT", 
+      "startTime": 1141521
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"And you're going to go into the classroom,", 
+      "endTime": 1147993, 
+      "position": "HB", 
+      "startTime": 1143560
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\"\u4f60\u8981\u8d70\u9032\u6559\u5ba4", 
+      "endTime": 1147993, 
+      "position": "HT", 
+      "startTime": 1143560
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and you are going to give the best comment ever.\"", 
+      "endTime": 1150417, 
+      "position": "HB", 
+      "startTime": 1147993
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u6703\u767c\u8868\u6700\u68d2\u7684\u8a55\u8ad6\u3002\"", 
+      "endTime": 1150417, 
+      "position": "HT", 
+      "startTime": 1147993
+    }, 
+    {
+      "alignment": "C", 
+      "data": "You know? And she gave the best comment ever,", 
+      "endTime": 1153422, 
+      "position": "HB", 
+      "startTime": 1150417
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u77e5\u9053\u55ce? \u5979\u5c31\u771f\u7684\u767c\u8868\u4e86\u6700\u68d2\u7684\u8a55\u8ad6", 
+      "endTime": 1153422, 
+      "position": "HT", 
+      "startTime": 1150417
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and people turned around and they were like,", 
+      "endTime": 1154285, 
+      "position": "HB", 
+      "startTime": 1153422
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5927\u5bb6\u90fd\u56de\u904e\u795e\u4f86\uff0c\u4ed6\u5011\u5c31\u597d\u50cf", 
+      "endTime": 1154285, 
+      "position": "HT", 
+      "startTime": 1153422
+    }, 
+    {
+      "alignment": "C", 
+      "data": "oh my God, I didn't even notice her sitting there, you know? (Laughter)", 
+      "endTime": 1157729, 
+      "position": "HB", 
+      "startTime": 1154285
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5594\u6211\u7684\u5929\u554a\uff0c\u6211\u7adf\u6c92\u6709\u6ce8\u610f\u5230\u5979\u5750\u5728\u90a3\u88e1\uff0c\u4f60\u77e5\u9053\u55ce? (\u7b11\u8072)", 
+      "endTime": 1157729, 
+      "position": "HT", 
+      "startTime": 1154285
+    }, 
+    {
+      "alignment": "C", 
+      "data": "She comes back to me months later, and I realized", 
+      "endTime": 1160600, 
+      "position": "HB", 
+      "startTime": 1157729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5e7e\u500b\u6708\u5f8c\u5979\u4f86\u627e\u6211\uff0c\u6211\u624d\u660e\u767d", 
+      "endTime": 1160600, 
+      "position": "HT", 
+      "startTime": 1157729
+    }, 
+    {
+      "alignment": "C", 
+      "data": "that she had not just faked it till she made it,", 
+      "endTime": 1162884, 
+      "position": "HB", 
+      "startTime": 1160600
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5979\u4e0d\u50c5\u53ea\u662f\u5047\u88dd\u5230\u5979\u6210\u529f\u70ba\u6b62", 
+      "endTime": 1162884, 
+      "position": "HT", 
+      "startTime": 1160600
+    }, 
+    {
+      "alignment": "C", 
+      "data": "she had actually faked it till she became it.", 
+      "endTime": 1165608, 
+      "position": "HB", 
+      "startTime": 1162884
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5979\u6839\u672c\u5c31\u662f\u5f9e\u5047\u88dd\u8f49\u8b8a\u5230\u771f\u5be6", 
+      "endTime": 1165608, 
+      "position": "HT", 
+      "startTime": 1162884
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So she had changed.", 
+      "endTime": 1167431, 
+      "position": "HB", 
+      "startTime": 1165608
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6574\u500b\u4eba\u812b\u80ce\u63db\u9aa8", 
+      "endTime": 1167431, 
+      "position": "HT", 
+      "startTime": 1165608
+    }, 
+    {
+      "alignment": "C", 
+      "data": "And so I want to say to you, don't fake it till you make it.", 
+      "endTime": 1171515, 
+      "position": "HB", 
+      "startTime": 1167431
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6211\u60f3\u5c0d\u5927\u5bb6\u8aaa\uff0c\u4e0d\u8981\u5047\u88dd\u5230\u4f60\u6210\u529f", 
+      "endTime": 1171515, 
+      "position": "HT", 
+      "startTime": 1167431
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Fake it till you become it. You know? It's not \u2014", 
+      "endTime": 1174312, 
+      "position": "HB", 
+      "startTime": 1171515
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5148\u5047\u88dd\u7136\u5f8c\u7d42\u5c07\u6210\u771f\u3002\u77e5\u9053\u55ce?", 
+      "endTime": 1174312, 
+      "position": "HT", 
+      "startTime": 1171515
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Do it enough until you actually become it and internalize.", 
+      "endTime": 1177953, 
+      "position": "HB", 
+      "startTime": 1174312
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6301\u7e8c\u5730\u505a\u76f4\u5230\u5b83\u5167\u5316\u5230\u4f60\u7684\u9aa8\u5b50\u88e1\u3002", 
+      "endTime": 1177953, 
+      "position": "HT", 
+      "startTime": 1174312
+    }, 
+    {
+      "alignment": "C", 
+      "data": "The last thing I'm going to leave you with is this.", 
+      "endTime": 1180608, 
+      "position": "HB", 
+      "startTime": 1177953
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6700\u5f8c\u8207\u5927\u5bb6\u5206\u4eab\u7684\u662f", 
+      "endTime": 1180608, 
+      "position": "HT", 
+      "startTime": 1177953
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Tiny tweaks can lead to big changes.", 
+      "endTime": 1185080, 
+      "position": "HB", 
+      "startTime": 1180608
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c0f\u8abf\u6574\uff0c\u5927\u6539\u8b8a", 
+      "endTime": 1185080, 
+      "position": "HT", 
+      "startTime": 1180608
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So this is two minutes.", 
+      "endTime": 1187577, 
+      "position": "HB", 
+      "startTime": 1185080
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5c31\u4e8c\u5206\u9418", 
+      "endTime": 1187577, 
+      "position": "HT", 
+      "startTime": 1185080
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Two minutes, two minutes, two minutes.", 
+      "endTime": 1189313, 
+      "position": "HB", 
+      "startTime": 1187577
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4e8c\u5206\u9418\uff0c\u4e8c\u5206\u9418\uff0c\u4e8c\u5206\u9418", 
+      "endTime": 1189313, 
+      "position": "HT", 
+      "startTime": 1187577
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Before you go into the next stressful evaluative situation,", 
+      "endTime": 1192559, 
+      "position": "HB", 
+      "startTime": 1189313
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u4f60\u9032\u884c\u4e0b\u4e00\u5834\u4ee4\u4eba\u7dca\u5f35\u7684\u8a55\u4f30\u60c5\u5883\u4e4b\u524d", 
+      "endTime": 1192559, 
+      "position": "HT", 
+      "startTime": 1189313
+    }, 
+    {
+      "alignment": "C", 
+      "data": "for two minutes, try doing this, in the elevator,", 
+      "endTime": 1195265, 
+      "position": "HB", 
+      "startTime": 1192559
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u62ff\u51fa\u4e8c\u5206\u9418\uff0c\u8a66\u8a66\u770b\u505a\u9019\u500b\uff0c\u96fb\u68af\u88e1\uff0c", 
+      "endTime": 1195265, 
+      "position": "HT", 
+      "startTime": 1192559
+    }, 
+    {
+      "alignment": "C", 
+      "data": "in a bathroom stall, at your desk behind closed doors.", 
+      "endTime": 1198504, 
+      "position": "HB", 
+      "startTime": 1195265
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6d17\u624b\u9593\uff0c\u95dc\u4e0a\u623f\u9580\uff0c\u5c31\u5728\u4f60\u7684\u684c\u5b50\u524d", 
+      "endTime": 1198504, 
+      "position": "HT", 
+      "startTime": 1195265
+    }, 
+    {
+      "alignment": "C", 
+      "data": "That's what you want to do. Configure your brain", 
+      "endTime": 1200944, 
+      "position": "HB", 
+      "startTime": 1198504
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u4f60\u5c31\u9019\u9ebc\u505a\uff0c\u898f\u5283\u4f60\u7684\u8166\u888b", 
+      "endTime": 1200944, 
+      "position": "HT", 
+      "startTime": 1198504
+    }, 
+    {
+      "alignment": "C", 
+      "data": "to cope the best in that situation.", 
+      "endTime": 1202766, 
+      "position": "HB", 
+      "startTime": 1200944
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u80fd\u5728\u58d3\u529b\u60c5\u5883\u4e2d\u767c\u63ee\u6700\u5927\u6548\u76ca", 
+      "endTime": 1202766, 
+      "position": "HT", 
+      "startTime": 1200944
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Get your testosterone up. Get your cortisol down.", 
+      "endTime": 1205731, 
+      "position": "HB", 
+      "startTime": 1202766
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u63d0\u5347\u4f60\u7684\u776a\u56fa\u9285\uff0c\u964d\u4f4e\u4f60\u7684\u814e\u4e0a\u817a\u76ae\u8cea\u9187", 
+      "endTime": 1205731, 
+      "position": "HT", 
+      "startTime": 1202766
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Don't leave that situation feeling like, oh, I didn't show them who I am.", 
+      "endTime": 1209697, 
+      "position": "HB", 
+      "startTime": 1205731
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5343\u842c\u5225\u4e8b\u5f8c\u624d\u6709\uff0c\u5662\uff0c\u6211\u6c92\u628a\u6700\u597d\u90a3\u9762\u8868\u73fe\u51fa\u4f86\u90a3\u7a2e\u907a\u61be", 
+      "endTime": 1209697, 
+      "position": "HT", 
+      "startTime": 1205731
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Leave that situation feeling like, oh, I really feel like", 
+      "endTime": 1212049, 
+      "position": "HB", 
+      "startTime": 1209697
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u800c\u662f\u7559\u4e0b\uff0c\u5662\uff0c\u6211\u5f97\u4ee5\u5145\u5206\u8868\u73fe\u8868\u9054\u81ea\u5df1", 
+      "endTime": 1212049, 
+      "position": "HT", 
+      "startTime": 1209697
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I got to say who I am and show who I am.", 
+      "endTime": 1213885, 
+      "position": "HB", 
+      "startTime": 1212049
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8b93\u4ed6\u5011\u77e5\u9053\u6211\u662f\u600e\u9ebc\u6a23\u7684\u4eba", 
+      "endTime": 1213885, 
+      "position": "HT", 
+      "startTime": 1212049
+    }, 
+    {
+      "alignment": "C", 
+      "data": "So I want to ask you first, you know,", 
+      "endTime": 1216427, 
+      "position": "HB", 
+      "startTime": 1213885
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5728\u9019\u88e1\u6211\u60f3\u8981\u6c42\u5927\u5bb6\uff0c\u4f60\u77e5\u9053", 
+      "endTime": 1216427, 
+      "position": "HT", 
+      "startTime": 1213885
+    }, 
+    {
+      "alignment": "C", 
+      "data": "both to try power posing,", 
+      "endTime": 1220208, 
+      "position": "HB", 
+      "startTime": 1216427
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u5617\u8a66\u9ad8\u6b0a\u52e2\u59ff\u52e2", 
+      "endTime": 1220208, 
+      "position": "HT", 
+      "startTime": 1216427
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and also I want to ask you", 
+      "endTime": 1222094, 
+      "position": "HB", 
+      "startTime": 1220208
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u540c\u6642\u4e5f\u60f3\u8acb\u6c42\u5404\u4f4d", 
+      "endTime": 1222094, 
+      "position": "HT", 
+      "startTime": 1220208
+    }, 
+    {
+      "alignment": "C", 
+      "data": "to share the science, because this is simple.", 
+      "endTime": 1225322, 
+      "position": "HB", 
+      "startTime": 1222094
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u628a\u9019\u9805\u79d1\u5b78\u5206\u4eab\u51fa\u53bb\uff0c\u56e0\u70ba\u5b83\u5f88\u7c21\u55ae", 
+      "endTime": 1225322, 
+      "position": "HT", 
+      "startTime": 1222094
+    }, 
+    {
+      "alignment": "C", 
+      "data": "I don't have ego involved in this. (Laughter)", 
+      "endTime": 1227199, 
+      "position": "HB", 
+      "startTime": 1225322
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u9019\u53ef\u4e0d\u662f\u6211\u81ea\u5927 (\u7b11\u8072)", 
+      "endTime": 1227199, 
+      "position": "HT", 
+      "startTime": 1225322
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Give it away. Share it with people,", 
+      "endTime": 1229086, 
+      "position": "HB", 
+      "startTime": 1227199
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6563\u767c\u51fa\u53bb\uff0c\u548c\u4eba\u5206\u4eab", 
+      "endTime": 1229086, 
+      "position": "HT", 
+      "startTime": 1227199
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because the people who can use it the most are the ones", 
+      "endTime": 1230947, 
+      "position": "HB", 
+      "startTime": 1229086
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u6700\u7528\u5f97\u5230\u7684\u4eba\u662f\u90a3\u4e9b", 
+      "endTime": 1230947, 
+      "position": "HT", 
+      "startTime": 1229086
+    }, 
+    {
+      "alignment": "C", 
+      "data": "with no resources and no technology", 
+      "endTime": 1235105, 
+      "position": "HB", 
+      "startTime": 1230947
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6c92\u6709\u8cc7\u6e90\u548c\u4e5f\u4e0d\u61c2\u79d1\u6280\u7684\u4eba", 
+      "endTime": 1235105, 
+      "position": "HT", 
+      "startTime": 1230947
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and no status and no power. Give it to them", 
+      "endTime": 1238231, 
+      "position": "HB", 
+      "startTime": 1235105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u6c92\u6709\u793e\u6703\u5730\u4f4d\u548c\u6b0a\u52e2\u3002\u628a\u9019\u500b\u50b3\u9054\u7d66\u4ed6\u5011", 
+      "endTime": 1238231, 
+      "position": "HT", 
+      "startTime": 1235105
+    }, 
+    {
+      "alignment": "C", 
+      "data": "because they can do it in private.", 
+      "endTime": 1239514, 
+      "position": "HB", 
+      "startTime": 1238231
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u56e0\u70ba\u4ed6\u5011\u79c1\u4e0b\u5c31\u53ef\u4ee5\u505a", 
+      "endTime": 1239514, 
+      "position": "HT", 
+      "startTime": 1238231
+    }, 
+    {
+      "alignment": "C", 
+      "data": "They need their bodies, privacy and two minutes,", 
+      "endTime": 1242343, 
+      "position": "HB", 
+      "startTime": 1239514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u53ea\u9700\u8981\u4ed6\u5011\u7684\u8eab\u9ad4\uff0c\u96b1\u79c1\u548c\u4e8c\u5206\u9418", 
+      "endTime": 1242343, 
+      "position": "HT", 
+      "startTime": 1239514
+    }, 
+    {
+      "alignment": "C", 
+      "data": "and it can significantly change the outcomes of their life.", 
+      "endTime": 1245493, 
+      "position": "HB", 
+      "startTime": 1242343
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u7136\u5f8c\u9019\u6703\u5927\u5927\u5730\u6539\u8b8a\u4ed6\u5011\u751f\u547d\u7684\u7d50\u679c", 
+      "endTime": 1245493, 
+      "position": "HT", 
+      "startTime": 1242343
+    }, 
+    {
+      "alignment": "C", 
+      "data": "Thank you. (Applause)", 
+      "endTime": 1249679, 
+      "position": "HB", 
+      "startTime": 1245493
+    }, 
+    {
+      "alignment": "C", 
+      "data": "\u8b1d\u8b1d (\u638c\u8072)", 
+      "endTime": 1249679, 
+      "position": "HT", 
+      "startTime": 1245493
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(Applause)", 
+      "endTime": 1256569, 
+      "position": "HB", 
+      "startTime": 1249679
+    }, 
+    {
+      "alignment": "C", 
+      "data": "(\u638c\u8072)", 
+      "endTime": 1256569, 
+      "position": "HT", 
+      "startTime": 1249679
+    }
+  ];

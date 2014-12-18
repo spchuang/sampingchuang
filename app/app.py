@@ -1,12 +1,14 @@
 from flask import Flask
 from .config import Config
 from .home.controllers import home
+from .home.tedDemo import tedDemo
 
 # For import *
 __all__ = ['create_app']
 
 DEFAULT_BLUEPRINTS = [
-   home
+   home,
+   tedDemo
 ]
 
 def create_app():
