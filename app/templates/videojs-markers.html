@@ -11,7 +11,7 @@
    <link href="/static/lib/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
    <link href="/static/doc/general.css" rel="stylesheet">
    <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
-   <link href="static/lib/videojs-markers/videojs.markers.min.css" rel="stylesheet">
+   <link href="static/bower_components/videojs-markers/dist/videojs.markers.min.css" rel="stylesheet">
    <link rel="stylesheet" href="/static/lib/rainbow/themes/github.css">
    <style>
       .special-blue{
@@ -204,13 +204,14 @@ player.markers({
                <button class='dynamic-demo-prev btn btn-default' type="button">Prev</button>
                <button class='dynamic-demo-next btn btn-default' type="button">Next</button>
                <button class='dynamic-demo-add-random btn btn-default' type="button">Add random</button>
+               <button class='dynamic-demo-shift btn btn-default' type="button">Shift 1 sec</button>
                <button class='dynamic-demo-remove-first btn btn-default' type="button">Remove 1st</button>
                <button class='dynamic-demo-remove-all btn btn-default' type="button">Remove all</button>
                <button class='dynamic-demo-destroy btn btn-default' type="button">Destroy</button>
             </div>
             <hr>
             <ul class="dynamic-demo-events list-group">
-              <li class="list-group-item">Marker reach events:</li>
+              <li class="list-group-item"><b>Marker events:</b></li>
               
            </ul>
          </div>
@@ -234,6 +235,9 @@ var player = videojs('demo');
 player.markers({
    breakOverlay:{
       display: true
+   },
+   onMarkerClick: function(marker){
+      $('.dynamic-demo-events').append('<li class="list-group-item">Marker click: '+marker.time+'</li>');
    },
    onMarkerReached: function(marker){
       $('.dynamic-demo-events').append('<li class="list-group-item">Marker reached: '+marker.time+'</li>');
@@ -262,6 +266,13 @@ $(".dynamic-demo-add-random").click(function(){
       text: "I'm new",
       overlayText: "I'm new"
    }]);
+});
+$(".dynamic-demo-shift"). click(function(){
+   var markers = player.markers.getMarkers();
+   for(var i = 0; i < markers.length; i++) {
+      markers[i].time += 1;
+   }
+   player.markers.updateTime();
 });
 $(".dynamic-demo-remove-first").click(function(){
    player.markers.remove([0]);
@@ -348,6 +359,9 @@ player.markers({
       display: true,
       text: function(marker) {
          return "Break: "+ marker.text;
+      },
+      time: function(marker) {
+         return marker.time;
       }
    },
    breakOverlay:{
@@ -362,8 +376,9 @@ player.markers({
       },
       text: function(marker) {
          return "Break overlay: " + marker.overlayText;
-      },
+      }
    },
+   onMarkerClick: function(marker) {},
    onMarkerReached: function(marker) {},
    markers: [{
       time: 9.5, 
@@ -422,7 +437,7 @@ player.markers.destroy();</code></pre>
             <td><code>text</code></td>
             <td>Function</td>
             <td>
-               <p>Callback function for dynamically constructing your marker tip text. Simply return a string. The argument <code>marker</code> contains information about the specific marker you are hovering over: <code>time</code>, <code>text</code>, <code>overlay text</code>, <code>position</code>, <code>class</code>, <code>div</code>, and <code>key</code>.</p>
+               <p>Callback function for dynamically constructing your marker tip text. Simply return a string. The argument <code>marker</code> is the marker object passed to the plugin.</p>
                <p>Show time of the marker (<code>hh::mm::ss</code> format): </p>
                <pre><code data-language="javascript">function(marker) {
    var seconds = marker.time % 60;
@@ -432,7 +447,14 @@ player.markers.destroy();</code></pre>
 }</code></pre>
             </td>
          </tr>
-         
+         <tr>
+            <td></td>
+            <td><code>time</code></td>
+            <td>Function</td>
+            <td>
+               <p>Callback function for dynamically getting the time for the marker. The plugin makes no assumption of where the time attribute is located in the marker object. This allows you to use existing formats to represent time (in seconds). The default function uses <code>marker.time</code>.</p>
+            </td>
+         </tr>
          <tr>
             <td colspan="2"><code>breakOverlay</code></td>
             <td>Object</td>
@@ -480,6 +502,15 @@ player.markers.destroy();</code></pre>
             </td>
          </tr>
          <tr>
+            <td colspan="2"><code>onMarkerClick</code></td>
+            <td>Function</td>
+            <td><p>This callback function is triggered when clicking on the markers. The default behavior for clicking on the marker is seeking to that point in the video. However, if <code>onMarkerClick</code> returns false, the default behavior will be prevented.
+            <pre><code data-language="javascript">function(marker) {
+   alert ("I just clicked on a marker!");
+}</code></pre>
+            </td>
+         </tr>
+         <tr>
             <td colspan="2"><code>markers</code></td>
             <td>Array</td>
             <td>
@@ -517,6 +548,12 @@ player.markers.destroy();</code></pre>
       </thead>
       <tbody>
          <tr>
+            <td colspan="2"><code>getMarkers</code></td>
+            <td>
+               <p>Returns the array of current markers in the plugin, sorted by ascending time.</p>
+            </td>
+         </tr>
+         <tr>
             <td colspan="2"><code>next</code></td>
             <td>
                <p>Go to the next marker from the current time in the video. If there's isn't a next marker, then does nothing.</p>
@@ -526,6 +563,18 @@ player.markers.destroy();</code></pre>
             <td colspan="2"><code>prev</code></td>
             <td>
                <p>Go to the pervious marker from the current time in the video. If there's isn't one, then does nothing.</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2"><code>updateTime</code></td>
+            <td>
+               <p>Starting in v0.5.0, we allow modifying the marker's time dynamically (from the original marker object passed in). Once marker times have been changed, <code>updateTime</code> should be called to immediately reflect the changes in the UI.</p>
+               <p>Add a second to all the markers</p>
+               <pre><code data-language="javascript">var markers = player.markers.getMarkers();
+for (var i = 0; i < markers.length; i++) {
+   markers[i].time += 1
+}
+player.markers.updateTime();</code></pre>
             </td>
          </tr>
          <tr>
@@ -582,7 +631,7 @@ player.markers.destroy();</code></pre>
    <script src="/static/lib/jquery.js"></script>
    <script src="/static/lib/bootstrap-3.3.1/js/bootstrap.min.js"></script>
    <script src="http://vjs.zencdn.net/4.3/video.js"></script>
-   <script src='/static/lib/videojs-markers/videojs-markers.js'></script>
+   <script src='/static/bower_components/videojs-markers/dist/videojs-markers.js'></script>
    <script src="/static/lib/rainbow/rainbow-custom.min.js"></script>
    <script>
    function loadFirstDemo() {
@@ -641,6 +690,9 @@ player.markers.destroy();</code></pre>
          breakOverlay:{
             display: true
          },
+         onMarkerClick: function(marker){
+            $('.dynamic-demo-events').append('<li class="list-group-item">Marker click: '+marker.time+'</li>');
+         },
          onMarkerReached: function(marker){
             $('.dynamic-demo-events').append('<li class="list-group-item">Marker reached: '+marker.time+'</li>');
          },
@@ -669,7 +721,14 @@ player.markers.destroy();</code></pre>
             overlayText: "I'm new"
          }]);
       });
-      $(".dynamic-demo-remove-first").click(function(){
+      $(".dynamic-demo-shift"). click(function(){
+         var markers = player.markers.getMarkers();
+         for(var i = 0; i < markers.length; i++) {
+            markers[i].time += 1;
+         }
+         player.markers.updateTime();
+      });
+      $(".dynamic-demo-remove-first").click(function( ){
          player.markers.remove([0]);
       });
       $(".dynamic-demo-remove-all").click(function(){
