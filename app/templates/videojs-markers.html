@@ -7,7 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Display customizable markers upon progress bars for videojs players.">
    <title>Videojs-markers</title>
-   
+
    <link href="/static/lib/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
    <link href="/static/doc/general.css" rel="stylesheet">
    <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
@@ -20,7 +20,7 @@
       .video-js {padding-top: 56.25%}
       .vjs-fullscreen {padding-top: 0px}
    </style>
-   
+
    <!--[if lt IE 9]><script src="/components/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
 </script>
 </head>
@@ -70,7 +70,7 @@
       </ul>
       </div>
    </header>
-   
+
 <section id="demo">
    <div class="container">
       <div class="page-header">
@@ -78,7 +78,7 @@
       </div>
       <h3>Basic</h3>
       <p>Add breakpoints on the video progress bar, hover-over tooltips and break overlays.</p>
-      
+
       <div class="row">
          <div class="col-md-6 col-xs-12">
              <video id="basic-demo" controls class="video-js vjs-default-skin" width="auto" height="auto" >
@@ -116,7 +116,7 @@ player.markers({
             </div>
          </div>
       </div>
-      
+
       <h3>Customize markers</h3>
       <p>Fully customize the styles and text for your markers, tooltip and overlays.</p>
       <div class="row">
@@ -149,7 +149,7 @@ player.markers({
 
 &lt;script&gt;
 var player = videojs('demo');
-   
+
 player.markers({
    markerStyle: {
       'width':'9px',
@@ -188,7 +188,7 @@ player.markers({
             </div>
          </div>
       </div>
-      
+
       <h3>Dynamic video</h3>
       <p>Dynamically add or remove markers on the fly.</p>
       <div class="row">
@@ -212,7 +212,7 @@ player.markers({
             <hr>
             <ul class="dynamic-demo-events list-group">
               <li class="list-group-item"><b>Marker events:</b></li>
-              
+
            </ul>
          </div>
       </div>
@@ -288,12 +288,12 @@ $(".dynamic-demo-destroy").click(function(){
             </div>
          </div>
       </div>
-    
+
    </div>
-   
+
 
 </section>
-   
+
 <section id="usage">
   <div class="container">
     <div class="page-header">
@@ -381,9 +381,9 @@ player.markers({
    onMarkerClick: function(marker) {},
    onMarkerReached: function(marker) {},
    markers: [{
-      time: 9.5, 
-      text: "marker", 
-      overlayText: 'overlay', 
+      time: 9.5,
+      text: "marker",
+      overlayText: 'overlay',
       class: 'custom-marker'
    }]
 });
@@ -397,7 +397,7 @@ player.markers.add([{ time: 40, text: "I'm added"}]);
 player.markers.reset([{ time: 23, text: "I'm reset"}]);
 player.markers.destroy();</code></pre>
    </div>
-   
+
    <h3>Documentation</h3>
    <table class="table  table-bordered">
       <thead>
@@ -486,7 +486,7 @@ player.markers.destroy();</code></pre>
             <td>Function</td>
             <td>
                <p>Same idea as markerTip's <code>text</code> callback mentioned above. This callback function is used to dynamically construct your overlay text. Simply return a string. </p>
-               
+
                <pre><code data-language="javascript">function(marker) {
    return "You can setup anything here" + marker.overlay;
 }</code></pre>
@@ -495,8 +495,8 @@ player.markers.destroy();</code></pre>
          <tr>
             <td colspan="2"><code>onMarkerReached</code></td>
             <td>Function</td>
-            <td><p>This callback function is triggered whenever playback reaches the time interval from a marker. The interval is specified in the <code>breakOverlay.displayTime</code> . This can be used to trigger certain actions at each marker, depending on your use case. Again, this function is given a <code>marker</code> instance.</p>
-            <pre><code data-language="javascript">function(marker) {
+            <td><p>This callback function is triggered whenever playback reaches the time interval from a marker. The interval is specified in the <code>breakOverlay.displayTime</code> . This can be used to trigger certain actions at each marker, depending on your use case. Again, this function is given a <code>marker</code> instance. In 0.6.0, the function also takes in a second parameter <code>index</code>.</p>
+            <pre><code data-language="javascript">function(marker, index) {
    alert ("I just reached a marker!");
 }</code></pre>
             </td>
@@ -517,12 +517,12 @@ player.markers.destroy();</code></pre>
                <p>An array of markers to display by the plugin. For each marker, you can specify the following:</p>
                <pre><code data-language="javascript">{
    time : 10,
-   text: "marker text 1", 
-   overlayText: 'overlay text 1', 
+   text: "marker text 1",
+   overlayText: 'overlay text 1',
    class: 'custom-marker-class'
 }</code></pre>
                <p>The <code>time</code> field is required, while the rest are optional. <code>text</code> and <code>overlay</code> are handy fields for setting up the markerTip and overlay text. <code>class</code> should be used when you want to have different colors for different markers which wouldn't be possible with the universal <code>markerStyle</code>.</p>
-               
+
                <pre><code data-language="javascript">[{
    time: 10,
    text: "red marker",
@@ -537,7 +537,7 @@ player.markers.destroy();</code></pre>
          </tr>
       </tbody>
    </table>
-   
+
    <h3>API Methods</h3>
    <table class="table  table-bordered">
       <thead>
@@ -617,10 +617,10 @@ player.markers.updateTime();</code></pre>
          </tr>
       </tbody>
    </table>
-   
+
    </div>
-   
-   
+
+
 </section>
 <footer class="footer">
    <div class="container">
@@ -636,7 +636,7 @@ player.markers.updateTime();</code></pre>
    <script>
    function loadFirstDemo() {
       var player = videojs('basic-demo');
-   
+
       player.markers({
          markers: [
             {time: 9.5, text: "this"},
@@ -648,7 +648,7 @@ player.markers.updateTime();</code></pre>
    }
    function loadSecondDemo() {
       var player = videojs('customize-demo');
-   
+
       player.markers({
          markerStyle: {
             'width':'9px',
@@ -683,7 +683,7 @@ player.markers.updateTime();</code></pre>
          ]
       });
    }
-   
+
    function loadThirdDemo() {
       var player = videojs('dynamic-demo');
       player.markers({
@@ -703,7 +703,7 @@ player.markers.updateTime();</code></pre>
             {time: 28,  text: "cool", overlayText: "4"}
          ]
       });
-      
+
       // setup control handlers
       $(".dynamic-demo-prev").click(function(){
          player.markers.prev();
@@ -713,7 +713,7 @@ player.markers.updateTime();</code></pre>
       });
       $(".dynamic-demo-add-random").click(function(){
          var randomTime = Math.floor((Math.random() * parseInt(player.duration())) + 1);
-      
+
          // come up with a random time
          player.markers.add([{
             time: randomTime,
@@ -737,22 +737,22 @@ player.markers.updateTime();</code></pre>
       $(".dynamic-demo-destroy").click(function(){
          player.markers.destroy();
       });
-      
+
    }
    $(document).ready(function(){
-   
+
       loadFirstDemo();
       loadSecondDemo();
       loadThirdDemo();
-      
+
       $(".see-demo").click(function(){
          $('html, body').animate({
             scrollTop: $($("#demo")).offset().top
           }, 500, 'swing');
       });
    });
-   
+
 </script>
-   
+
 </body>
 </html>
